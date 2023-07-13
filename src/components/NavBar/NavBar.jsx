@@ -26,8 +26,8 @@ const NavBar = () => {
                                 style={{ color: color === "inicio" ? "#4F6C7C" : "black"}}> Inicio </NavLink>
                         </li>
                         <li>
-                            <navLink to={`#`} className="navLink p-8 no-underline hover:underline decoration-4 decoration-[#CF8433]" onClick={() => handleClick("sobre")}
-                                style={{ color: color === "sobre" ? "#4F6C7C" : "black"}}> Sobre Nosotras </navLink>
+                            <NavLink to={`#`} className="navLink p-8 no-underline hover:underline decoration-4 decoration-[#CF8433]" onClick={() => handleClick("sobre")}
+                                style={{ color: color === "sobre" ? "#4F6C7C" : "black"}}> Sobre Nosotras </NavLink>
                         </li>
                         <li>
                             <NavLink to={`#`} className="navLink p-8 no-underline hover:underline decoration-4 decoration-[#CF8433]" onClick={() => handleClick("conocenos")}
