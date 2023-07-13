@@ -1,0 +1,84 @@
+.bg {
+    background-color: #90C2E9;
+}
+.mainContainer{
+    width: 1620px;
+    height: 1391px;
+    margin-top: 100px;
+    margin-left: 150px;
+    background-image: url(../../utilities/images/Paws\ -\ up.jpg);
+}
+
+
+.sec1container{
+    width: 1,620px;
+    height: 980px;
+    margin-top: 100px;
+   
+
+}
+.innerCont{
+    max-width: 1440px; 
+    max-height: 580px; 
+    margin-top: 241px;
+    margin-left: 150px;
+    
+    
+   
+}
+.col1 {
+    width: 513px;
+    height: 580px;
+    grid-gap: 10px;
+
+}
+
+.texto {
+    width: 513px;
+    height: 580px;
+  
+
+}
+.pText {
+   max-width: 571px;
+    max-height: 302px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+
+
+}
+h1 {
+    max-width: 327px;
+    max-height: 48px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 56px;
+    font-weight:bold;
+}
+.button {
+    width: 211px;
+    height: 58px;
+    background:#CF8433;
+    border: none;
+    color: white;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius:75px;
+    Padding: 8px, 24px, 8px, 24px;
+}
+.button:hover {
+    background-color:#E5A763;
+    ;
+  }
+  .button:active{
+    background:#CF8433;
+    transform: scale(0.98);
+ /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+/* Lowering the shadow */
+  }
+  .col2 {
+    width: 713px;
+    height: 580px;
+}
