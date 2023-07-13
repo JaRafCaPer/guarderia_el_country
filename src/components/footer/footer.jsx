@@ -1,14 +1,14 @@
 import React from 'react'
 import './footer.css';
-import logo from '../../utilities/Logo_footer.png'
+import logo from '../../utilities/images/Logo_footer.png'
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
-import logoWhatsapp from '../../utilities/WhatsApp.png'
-import logoInstagram from '../../utilities/instagram.png'
-import logoCorreo from '../../utilities/correo.png'
-import logoTiktok from '../../utilities/tiktok.png'
-import logoFacebook from '../../utilities/facebook.png'
+import logoWhatsapp from '../../utilities/images/WhatsApp.png'
+import logoInstagram from '../../utilities/images/instagram.png'
+import logoCorreo from '../../utilities/images/correo.png'
+import logoTiktok from '../../utilities/images/tiktok.png'
+import logoFacebook from '../../utilities/images/facebook.png'
 
 
 const Footer = () => {
