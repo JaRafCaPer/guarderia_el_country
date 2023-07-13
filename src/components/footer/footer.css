@@ -1,0 +1,125 @@
+footer {
+    @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+    font-size: 16px;
+    background-color: #F4DCC1;
+    width: 1920px;
+    height: 282px;
+    
+  }
+  .contRedes{
+    width: 483px;
+  height: 80px;
+  }
+  .logo{
+    width: 190.5px;
+    height: 68px;
+  margin-top: 73px;
+  margin-left: 150px;
+  }
+.redes{
+  margin-top: 99px;
+  margin-left: 378.5px;
+  text-align: center;
+}
+.listPag{
+  width: 184px;
+  height: 145.38px;
+  margin-top: 62px;
+  margin-left: 374px;
+  font-size: 18px;
+}
+.cajaRedes{
+  width: 87px;
+  height: 80px;
+}
+.iconRedes{
+  width: 48px;
+  height: 48px;
+}
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+  footer {
+    font-size: 10px;
+    width: 800px;
+    height: 172px;
+
+   }
+  .logo {
+    width: 132px;
+    height: 53px;
+    margin-top: 48px;
+    margin-left: 28px;
+  }
+  .redes{
+    margin-top: 59px;
+    margin-left: 88px;
+    text-align: center;
+  }
+  .contRedes{
+    width: 305px;
+    height: 53.33px;
+  }
+  .cajaRedes {
+    width: 56px;
+    height: 53.33px;
+    gap: 4px;
+  }
+  .iconRedes{
+    width: 29.33px;
+    height: 29.33px;
+  }
+  .listPag{
+    width: 133px;
+    height: 116px;
+    margin-top: 28px;
+    margin-left: 85px;
+    font-size: 14px;
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+  footer {
+    width: 360px;
+    height: 114px;
+   }
+  .row {
+    width: 360px;
+    height: 114px;
+  }
+  .col {
+    width: 360px;
+  }
+   .logo {
+    width: 221px;
+    height: 48px;
+    margin-top: 15px;
+    margin-left: 70px;
+   }
+  .pRedes{
+    display:none;
+  }
+
+  .listPag{
+      display: none;
+    }
+    .redes {
+      margin-top: 12px;
+      margin-left: 75px;
+    }
+    .contRedes{
+      width: 212px;
+      height: 24px;
+    }
+    .cajaRedes {
+      width: 24px;
+      height: 24px;
+      gap: 2px;
+    }
+    .iconRedes{
+      width: 24px;
+      height: 24px;
+    }
+ 
+}
