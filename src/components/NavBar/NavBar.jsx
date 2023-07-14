@@ -1,47 +1,94 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./NavBar.css";
-import { Link, NavLink } from 'react-router-dom';
+//import { Link, NavLink } from 'react-router-dom';
 import logoi from "../../assets/images/logoi.png";
 import logo from "../../assets/images/logo.png";
-import { useState } from "react";
+import WhatsApp from "../../assets/images/WhatsApp.png"
+import Facebook from "../../assets/images/Facebook.png"
+import Instagram from "../../assets/images/Instagram.png"
+import Tiktok from "../../assets/images/Tiktok.png"
+import Mail from "../../assets/images/Gmail.png"
+import Burger from "../Burger/Burger";
+
 
 const NavBar = () => {
+    const [hamburgerOpen, setHamburgerOpen] = useState(false);
     const [color, setColor] = useState(null);
+    const toggleHamburger = () => {
+        setHamburgerOpen(!hamburgerOpen)
+    };
     const handleClick = (item) => {
         setColor(item);
     };
+    useEffect(() => {
+        const handleResize = () => {
+            if (window.innerWidth > 768) { // Ajusta el valor 768 según tus necesidades
+                setHamburgerOpen(true);
+            } else {
+                setHamburgerOpen(false);
+            }
+        };
 
+        window.addEventListener('resize', handleResize);
+        handleResize(); // Asegura que el estado inicial coincida con el tamaño de la pantalla al cargar la página
 
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
     return (
-        <div className="h-27 my-4">
-            <nav className="flex justify-around items-center">
-                <Link to={"/"} className="logo flex">
-                    <img src={logoi} alt="" className="w-17 h-[72px] " />
-                    <img src={logo} alt="" className="w-47 h-9 my-5	pl-2	" />
-                </Link>
-                <div className="my-5" >
-                    <ul className="linea flex">
-                        <li>
-                            <NavLink to={`#`} className="navLink p-8 no-underline hover:underline decoration-4 decoration-[#CF8433]" onClick={() => handleClick("inicio")}
-                                style={{ color: color === "inicio" ? "#4F6C7C" : "black"}}> Inicio </NavLink>
+        <>
+
+            <div className="nav">
+                <div className="logo">
+                    <img src={logoi} alt="" className="lDog" />
+                </div>
+                <div className="logo">
+                    <img src={logo} alt="" className="logoN" />
+                </div>
+                <div className="container" >
+                    <ul style={{ display: hamburgerOpen ? "inline" : "none" }}>
+                        <li className="navLink" onClick={() => handleClick("inicio")}
+                            style={{ color: color === "inicio" ? "#4F6C7C" : "black" }}>Inicio</li>
+                        <li className="navLink" onClick={() => handleClick("sobre")}
+                            style={{ color: color === "sobre" ? "#4F6C7C" : "black" }}>Sobre Nosotras</li>
+                        <li className="navLink" onClick={() => handleClick("conocenos")}
+                            style={{ color: color === "conocenos" ? "#4F6C7C" : "black" }}>Conócenos</li>
+                        <li className="navLink" onClick={() => handleClick("contactanos")}
+                            style={{ color: color === "contactanos" ? "#4F6C7C" : "black" }}>Contáctanos</li>
+
+
+                        <li className="linkRedes">
+                            <img src={WhatsApp} alt="Descripción de la imagen" className="iconRedes " />
+                            WhatsApp
                         </li>
-                        <li>
-                            <navLink to={`#`} className="navLink p-8 no-underline hover:underline decoration-4 decoration-[#CF8433]" onClick={() => handleClick("sobre")}
-                                style={{ color: color === "sobre" ? "#4F6C7C" : "black"}}> Sobre Nosotras </navLink>
+                        <li className="linkRedes">
+                            <img src={Instagram} alt="Descripción de la imagen" className="iconRedes "/>
+                            Intagram
+                        </li> 
+                        <li className="linkRedes">
+                            <img src={Facebook} alt="Descripción de la imagen" className="iconRedes "/>
+                            Facebook
                         </li>
-                        <li>
-                            <NavLink to={`#`} className="navLink p-8 no-underline hover:underline decoration-4 decoration-[#CF8433]" onClick={() => handleClick("conocenos")}
-                                style={{ color: color === "conocenos" ? "#4F6C7C" : "black"}}> Conócenos </NavLink>
+                        <li className="linkRedes">
+                            <img src={Tiktok} alt="Descripción de la imagen" className="iconRedes "/>
+                            Tiktok
                         </li>
-                        <li>
-                            <NavLink to={`#`} className="navLink p-8 no-underline hover:underline decoration-4 decoration-[#CF8433]" onClick={() => handleClick("contactanos")}
-                                style={{ color: color === "contactanos" ? "#4F6C7C" : "black"}}> Contáctanos </NavLink>
+                        <li className="linkRedes">
+                            <img src={Mail} alt="Descripción de la imagen" className="iconRedes "/>
+                            Mail
                         </li>
                     </ul>
                 </div>
-            </nav>
-        </div>
-    );
+                <div className="hamburger" onClick={toggleHamburger}>
+                    <Burger />
+                </div>
+            </div>
+        </>
+
+
+    )
 }
 
 export default NavBar;
+
