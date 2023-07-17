@@ -9,84 +9,107 @@ import Instagram from "../../assets/images/Instagram.png"
 import Tiktok from "../../assets/images/Tiktok.png"
 import Mail from "../../assets/images/Gmail.png"
 import Burger from "../Burger/Burger";
+import { Navbar, Offcanvas, Stack, Container, Row, Col, Image } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 
 const NavBar = () => {
-    const [hamburgerOpen, setHamburgerOpen] = useState(false);
-    const [color, setColor] = useState(null);
-    const toggleHamburger = () => {
-        setHamburgerOpen(!hamburgerOpen)
-    };
-    const handleClick = (item) => {
-        setColor(item);
-    };
-    useEffect(() => {
-        const handleResize = () => {
-            if (window.innerWidth > 768) { // Ajusta el valor 768 según tus necesidades
-                setHamburgerOpen(true);
-            } else {
-                setHamburgerOpen(false);
-            }
-        };
 
-        window.addEventListener('resize', handleResize);
-        handleResize(); // Asegura que el estado inicial coincida con el tamaño de la pantalla al cargar la página
-
-        return () => {
-            window.removeEventListener('resize', handleResize);
-        };
-    }, []);
     return (
         <>
-            <div className="nav">
-                <div className="logo">
-                    <img src={logoi} alt="" className="lDog" />
-                </div>
-                <div className="logo">
-                    <img src={logo} alt="" className="logoN" />
-                </div>
-                <div className="containerDad" >
-                    <div className="container"  style={{ display: hamburgerOpen ? "inline" : "none" }}>
-                        <ul >
-                            <li className="navLink" onClick={() => handleClick("inicio")}
-                                style={{ color: color === "inicio" ? "#4F6C7C" : "black" }}>Inicio</li>
-                            <li className="navLink" onClick={() => handleClick("sobre")}
-                                style={{ color: color === "sobre" ? "#4F6C7C" : "black" }}>Sobre Nosotras</li>
-                            <li className="navLink" onClick={() => handleClick("conocenos")}
-                                style={{ color: color === "conocenos" ? "#4F6C7C" : "black" }}>Conócenos</li>
-                            <li className="navLink" onClick={() => handleClick("contactanos")}
-                                style={{ color: color === "contactanos" ? "#4F6C7C" : "black" }}>Contáctanos</li>
-                        </ul>
-                    </div>
-                    <div className="redesContainer" style={{ display: hamburgerOpen ? "inline" : "none" }}>
-                        <ul>
-                            <li className="linkRedes">
-                                <img src={WhatsApp} alt="Descripción de la imagen" className="iconRedes " />
-                                WhatsApp
-                            </li>
-                            <li className="linkRedes">
-                                <img src={Instagram} alt="Descripción de la imagen" className="iconRedes " />
-                                Intagram
-                            </li>
-                            <li className="linkRedes">
-                                <img src={Facebook} alt="Descripción de la imagen" className="iconRedes " />
-                                Facebook
-                            </li>
-                            <li className="linkRedes">
-                                <img src={Tiktok} alt="Descripción de la imagen" className="iconRedes " />
-                                Tiktok
-                            </li>
-                            <li className="linkRedes">
-                                <img src={Mail} alt="Descripción de la imagen" className="iconRedes " />
-                                Mail
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div className="hamburger" onClick={toggleHamburger}>
-                    <Burger />
-                </div>
-            </div>
+            <Stack className="container min-vh-100">
+                <Navbar expand="md" className="logo">
+                    <Row>
+                        <Col>
+                            <Navbar className="logo">
+                                <Container>
+                                    <Navbar.Brand href="#home">
+                                        <Image
+                                            src={logoi}
+                                            width="30"
+                                            height="30"
+                                            className="lDog"
+                                            alt="dog"
+                                        />
+                                    </Navbar.Brand>
+                                </Container>
+                            </Navbar>
+                        </Col>
+                        <Col>
+                            <Navbar className="logo">
+                                <Container>
+                                    <Navbar.Brand href="#home">
+                                        <Image
+                                            src={logo}
+                                            width="30"
+                                            height="30"
+                                            className="logoN"
+                                            alt="N"
+                                        />
+                                    </Navbar.Brand>
+                                </Container>
+                            </Navbar>
+                        </Col>
+                    </Row>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Offcanvas
+                        id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel"
+                        placement="start"
+                    >
+                        <Offcanvas.Header closeButton>
+                            <Offcanvas.Title id="offcanvasNavbarLabel">
+                                Title
+                            </Offcanvas.Title>
+                        </Offcanvas.Header>
+                        <Offcanvas.Body className="todo">
+                            <Row className="row">
+                                <Col className="navLink  col-12 col-md w-100">Inicio</Col>
+                                <Col className="navLink  col-12 col-md w-100">Sobre Nosotras</Col>
+                                <Col className="navLink  col-12 col-md w-100">Conócenos</Col>
+                                <Col className="navLink  col-12 col-md w-100">Contáctanos</Col>
+                            </Row>
+                            <Row>
+                                <div className="redesContainer">
+                                    <ul>
+                                        <li className="linkRedes">
+                                            <a href="#">
+                                                <img src={WhatsApp} alt="Descripción de la imagen" className="iconRedes " />
+                                                <span>WhatsApp</span>
+                                            </a>
+                                        </li>
+                                        <li className="linkRedes">
+                                            <a href="#">
+                                                <img src={Instagram} alt="Descripción de la imagen" className="iconRedes " />
+                                                <span>Instagram</span>
+                                            </a>
+                                        </li>
+                                        <li className="linkRedes">
+                                            <a href="#">
+                                                <img src={Facebook} alt="Descripción de la imagen" className="iconRedes " />
+                                                <span>Facebook</span>
+                                            </a>
+                                        </li>
+                                        <li className="linkRedes">
+                                            <a href="#">
+                                                <img src={Tiktok} alt="Descripción de la imagen" className="iconRedes " />
+                                                <span>Tiktok</span>
+                                            </a>
+                                        </li>
+                                        <li className="linkRedes">
+                                            <a href="#">
+                                                <img src={Mail} alt="Descripción de la imagen" className="iconRedes " />
+                                                <span>Mail</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </Row>
+                        </Offcanvas.Body>
+                    </Navbar.Offcanvas>
+                </Navbar>
+            </Stack>
         </>
 
 
