@@ -7,6 +7,7 @@
 
 .logo{
     display: flex;
+    justify-content: flex-start;
 }
 
 .lDog{
@@ -87,7 +88,20 @@
     height: 29px;
 }
 
-.container ul{
+.containerDad{
+    display:  flex;
+    justify-content: space-between;
+}
+
+.container{
+    order: 1;
+}
+
+.redesContainer{
+    order:  2;
+}
+
+.containerDad .container{
         display: none;
         height: 100%;
         width: 230px;
