@@ -59,16 +59,16 @@ const Footer = () => {
         </Col>
         <Col className='listPag hidden md:block'>
             <Row className='listFila' >
-            <NavLink to={`#`} className="navLink"> Inicio </NavLink>
+            <NavLink to={`#`} > Inicio </NavLink>
             </Row>
             <Row className='listFila' >
-            <NavLink to={`#`} className="navLink">Sobre Nosotras</NavLink>
+            <NavLink to={`#`} >Sobre Nosotras</NavLink>
             </Row>
             <Row className='listFila'>
-            <NavLink to={`#`} className="navLink">Conócenos</NavLink>
+            <NavLink to={`#`} >Conócenos</NavLink>
             </Row>
             <Row className='listFila'>
-            <NavLink to={`#`} className="navLink">Contáctanos</NavLink>
+            <NavLink to={`#`} ">Contáctanos</NavLink>
             </Row>
           </Col>
       </Row>
