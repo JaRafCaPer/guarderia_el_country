@@ -25,31 +25,31 @@ const Footer = () => {
         <Col className='redes'>
           <Row className='contRedes'>
                 <Col >
-                  <a className='cajaRedes' href="https://wa.me/573192516689" target="_blank">
+                  <a className='cajaRedes' href="https://wa.me/541168057707" target="_blank">
                     <Image className='iconRedes' src={logoWhatsapp} />
                     <p className= 'pRedes'> WhatsApp</p>
                   </a>
                 </Col>
                 <Col>
-                  <a className='cajaRedes' href="https://wa.me/573192516689" target="_blank">
+                  <a className='cajaRedes' href="mailto: guarderia.elcountry@gmail.com" target="_blank">
                       <Image className='iconRedes' src={logoCorreo} />
                       <p className= 'pRedes'>Correo </p>
                   </a>
                 </Col>
                 <Col className='cajaRedes' >
-                  <a href="https://wa.me/573192516689" target="_blank">
+                  <a href="https://instagram.com/guarderia.elcountry?igshid=MmIzYWVlNDQ5Yg==" target="_blank">
                     <Image className='iconRedes' src={logoInstagram} />
                     <p className= 'pRedes'>Instagram </p>
                   </a>
                 </Col>
                 <Col>
-                  <a className='cajaRedes' href="https://wa.me/573192516689" target="_blank">
+                  <a className='cajaRedes' href="https://www.facebook.com/profile.php?id=100089201654528&mibextid=LQQJ4d" target="_blank">
                       <Image className='iconRedes' src={logoFacebook} />
                       <p className= 'pRedes'>Facebook </p>
                   </a>
                 </Col>
                 <Col>
-                  <a className='cajaRedes' href="https://wa.me/573192516689" target="_blank">
+                  <a className='cajaRedes' href="https://www.tiktok.com/@guarderiacaninaelcountry" target="_blank">
                       <Image className='iconRedes' src={logoTiktok} />
                       <p className= 'pRedes'>Tiktok </p>
                   </a>

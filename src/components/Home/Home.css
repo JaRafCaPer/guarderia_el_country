@@ -83,3 +83,28 @@ h1 {
     background-color: white;
     margin-left: 0px;
 }
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+    .bg {
+        background-image: url(../../assets/images/Paws\ -\ up.jpg);
+        }
+        
+    .mainContainer{
+        width: 737px;
+        height: 640px;
+        margin-top: 128px;
+        margin-left: 32px;
+        gap: 30px;
+        display: grid flex;
+        flex-direction:  column-reverse;
+        grid-template-columns: auto;
+
+    }
+    .imgPerro {
+        width: 258px;
+        height: 280px;
+
+    }
+
+}
