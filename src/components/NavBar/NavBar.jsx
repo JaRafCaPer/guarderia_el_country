@@ -18,9 +18,9 @@ const NavBar = () => {
 
     return (
         <>
-            <Stack className="container min-vh-100">
-                <Navbar expand="md" className="logo">
-                    <Row>
+            <Stack className="container">
+                <Navbar expand="md" className="logoT h-20">
+                    <Row className="containerRow">
                         <Col>
                             <Navbar className="logo">
                                 <Container>
@@ -39,7 +39,7 @@ const NavBar = () => {
                         <Col>
                             <Navbar className="logo">
                                 <Container>
-                                    <Navbar.Brand href="#home">
+                                    <Navbar.Brand href="#home" className="d-flex align-items-center">
                                         <Image
                                             src={logo}
                                             width="30"
@@ -57,13 +57,14 @@ const NavBar = () => {
                         id="offcanvasNavbar"
                         aria-labelledby="offcanvasNavbarLabel"
                         placement="start"
+                        className="custom-offcanvas"
                     >
                         <Offcanvas.Header closeButton>
                             <Offcanvas.Title id="offcanvasNavbarLabel">
-                                Title
+                                Menú
                             </Offcanvas.Title>
                         </Offcanvas.Header>
-                        <Offcanvas.Body className="todo">
+                        <Offcanvas.Body className="todo row-md-4">
                             <Row className="row">
                                 <Col className="navLink  col-12 col-md w-100">Inicio</Col>
                                 <Col className="navLink  col-12 col-md w-100">Sobre Nosotras</Col>
