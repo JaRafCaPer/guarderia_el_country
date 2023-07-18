@@ -3,7 +3,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 import './Home.css';
-import perroNaranja from '../../utilities/images/Perro - Naranja.png'
+import perroNaranja from '../../assets/images/Perro - Naranja.png'
 import { Link, NavLink } from 'react-router-dom';
 import { Button } from 'bootstrap';
 

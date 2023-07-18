@@ -1,14 +1,14 @@
 import React from 'react'
 import './footer.css';
-import logo from '../../utilities/images/Logo_footer.png'
+import logo from '../../assets/images/Logo_footer.png'
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
-import logoWhatsapp from '../../utilities/images/WhatsApp.png'
-import logoInstagram from '../../utilities/images/instagram.png'
-import logoCorreo from '../../utilities/images/correo.png'
-import logoTiktok from '../../utilities/images/tiktok.png'
-import logoFacebook from '../../utilities/images/facebook.png'
+import logoWhatsapp from '../../assets/images/WhatsApp.png'
+import logoInstagram from '../../assets/images/Instagram.png'
+import logoCorreo from '../../assets/images/Gmail.png'
+import logoTiktok from '../../assets/images/Tiktok.png'
+import logoFacebook from '../../assets/images/Facebook.png'
 import { Link, NavLink } from 'react-router-dom';
 
 
