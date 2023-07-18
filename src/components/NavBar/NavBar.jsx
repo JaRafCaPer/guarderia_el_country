@@ -6,7 +6,6 @@ import Facebook from "../../assets/images/Facebook.png"
 import Instagram from "../../assets/images/Instagram.png"
 import Tiktok from "../../assets/images/Tiktok.png"
 import Mail from "../../assets/images/Gmail.png"
-import Burger from "../Burger/Burger";
 import { Navbar, Offcanvas, Stack, Container, Row, Col, Image } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
