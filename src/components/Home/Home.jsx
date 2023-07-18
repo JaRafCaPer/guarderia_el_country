@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <>
     <div className='bg'>
-    <div className='mainContainer'>
+        <div className='mainContainer'>
             <Row className='sec1Cont'>
                 <Row className='innerCont'>
                         <Col className='col1'>
@@ -33,8 +33,11 @@ const Home = () => {
                         </Col>
                 </Row>
             </Row>
+            <Row className='testCards'>
+                
+            </Row>
         </div>
-        </div>
+    </div>
     </>
   )
 }

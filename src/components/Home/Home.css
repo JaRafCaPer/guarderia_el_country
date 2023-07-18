@@ -1,5 +1,6 @@
 .bg {
     background-color: #90C2E9;
+ 
 }
 .mainContainer{
     width: 1620px;
@@ -22,30 +23,21 @@
     max-height: 580px; 
     margin-top: 241px;
     margin-left: 150px;
-    
-    
-   
 }
 .col1 {
     width: 513px;
     height: 580px;
     grid-gap: 10px;
-
 }
-
 .texto {
     width: 513px;
     height: 580px;
-  
-
 }
 .pText {
    max-width: 571px;
     max-height: 302px;
     font-family: 'Libre Baskerville', serif;
     font-size: 20px;
-
-
 }
 h1 {
     max-width: 327px;
@@ -81,4 +73,13 @@ h1 {
   .col2 {
     width: 713px;
     height: 580px;
+}
+
+
+
+.testCards {
+    width: 1620px;
+    height: 411px;
+    background-color: white;
+    margin-left: 0px;
 }
