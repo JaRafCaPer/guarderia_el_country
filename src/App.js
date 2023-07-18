@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from 'react-bootstrap/Navbar';
 import Footer from "./components/footer/footer.jsx";
 
 import Home from "./components/Home/Home.jsx";
