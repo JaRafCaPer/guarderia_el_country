@@ -59,7 +59,7 @@ const Footer = () => {
           </Row>
         </Col>
         <Col className='listPag hidden md:block'>
-            <Nav defaultActiveKey="/home" className="listFila flex-column">
+        <Nav defaultActiveKey="/home" className="listFila flex-column">
               <Nav.Link href="/home" disabled>Inicio</Nav.Link>
               <Nav.Link eventKey="link-1" disabled >Sobre Nosotras</Nav.Link>
               <Nav.Link eventKey="link-2" disabled>Conócenos</Nav.Link>
