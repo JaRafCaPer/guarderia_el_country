@@ -1,6 +1,6 @@
 footer {
-  @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
-  font-size: 16px;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 10px;
   background-color: #F4DCC1;
   width: 1920px;
   height: 282px;
@@ -13,32 +13,46 @@ height: 80px;
 .logo{
   width: 190.5px;
   height: 68px;
-margin-top: 73px;
+margin-top: 80px;
 margin-left: 150px;
 }
 .redes{
-margin-top: 99px;
-margin-left: 378.5px;
-text-align: center;
+max-width: fit-content;
+  text-align: center;
+
 }
-.listPag{
-width: 184px;
-height: 145.38px;
-margin-top: 62px;
-margin-left: 374px;
-font-size: 18px;
-}
-.listFila{
-  padding-top: 12px;
+.contRedes{
+  margin-top: 20px;
+  margin-left: 378.5px;
+  width: 483px;
+  height: 80px;
+  gap: 12px;
+  
 }
 .cajaRedes{
-width: 87px;
-height: 80px;
+  width: 87px;
+  height: 80px;
+  color: black;
+  text-decoration: none;
+  }
+  .iconosRedes{
+  width: 48px;
+  height: 48px;
+  position: relative; left: 10px;
+  }
+
+  
+.listPag{
+
+width: 184px;
+height: 145.38px;
+
 }
-.iconRedes{
-width: 48px;
-height: 48px;
-position: relative; left: 10px;
+.listFila{
+  margin-left: 174px;
+  margin-top: 62px;
+  font-size: 18px;
+ 
 }
 
 /* Media query for tablets */

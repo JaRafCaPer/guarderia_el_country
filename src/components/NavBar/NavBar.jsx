@@ -19,7 +19,7 @@ const NavBar = () => {
                 <Navbar expand="md" className="logoT h-20">
                     <Row className="containerRow">
                         <Col>
-                            <Navbar className="logo">
+                            <Navbar className="logo1">
                                 <Container>
                                     <Navbar.Brand href="#home">
                                         <Image
@@ -34,7 +34,7 @@ const NavBar = () => {
                             </Navbar>
                         </Col>
                         <Col>
-                            <Navbar className="logo">
+                            <Navbar className="logo1">
                                 <Container>
                                     <Navbar.Brand href="#home" className="d-flex align-items-center">
                                         <Image
