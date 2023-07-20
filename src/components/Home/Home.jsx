@@ -11,8 +11,8 @@ const Home = () => {
   return (
     <>
     <div className='bg'>
-        <div className='mainContainer'>
-            <Row className='sec1Cont'>
+        <div className='mainContainer hidden md:block'>
+            <Row className='sec1Cont '>
                 <Row className='innerCont'>
                         <Col className='col1'>
                             <Row className='texto'>
@@ -29,7 +29,7 @@ const Home = () => {
 
                         </Col>
                         <Col className='col2'>
-                            <Image className='imgPerro' src={perroNaranja}/>
+                            <Image className='imgPerro hidden md:block' src={perroNaranja}/>
                         </Col>
                 </Row>
             </Row>
