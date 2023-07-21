@@ -64,12 +64,12 @@ const NavBar = () => {
                                 Menú
                             </Offcanvas.Title>
                         </Offcanvas.Header>
-                        <Offcanvas.Body className="todo row-md-4">
+                        <Offcanvas.Body className="todo">
                             <div className="bloque">
-                                <div className="navLink  col-12 col-md w-100">Inicio</div>
-                                <div className="navLink  col-12 col-md w-100">Sobre Nosotras</div>
-                                <div className="navLink  col-12 col-md w-100">Conócenos</div>
-                                <div className="navLink  col-12 col-md w-100">Contáctanos</div>
+                                <div className="navLink"><p className="pNav">Inicio</p></div>
+                                <div className="navLink"><p className="pNav">Sobre Nosotras</p></div>
+                                <div className="navLink"><p className="pNav">Conócenos</p></div>
+                                <div className="navLink"><p className="pNav">Contáctanos</p></div>
                             </div>
                             <div>
                                 <div className="redesContainer">
