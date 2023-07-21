@@ -6,7 +6,6 @@ import Facebook from "../../assets/images/Facebook.png"
 import Instagram from "../../assets/images/Instagram.png"
 import Tiktok from "../../assets/images/Tiktok.png"
 import Mail from "../../assets/images/Gmail.png"
-import Burger from "../Burger/Burger";
 import { Navbar, Offcanvas, Stack, Container, Row, Col, Image } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -16,10 +15,11 @@ const NavBar = () => {
 
     return (
         <>
-            <Stack className="container">
+        <div className="nav">
+        <Stack className="container"> 
                 <Navbar expand="md" className="logoT h-20">
                     <Row className="containerRow">
-                        <Col>
+                        <Col className="colLogo">
                             <Navbar className="logo">
                                 <Container>
                                     <Navbar.Brand href="#home">
@@ -34,10 +34,10 @@ const NavBar = () => {
                                 </Container>
                             </Navbar>
                         </Col>
-                        <Col>
+                        <Col  className="colLogo">
                             <Navbar className="logo">
                                 <Container>
-                                    <Navbar.Brand href="#home" className="d-flex align-items-center">
+                                    <Navbar.Brand href="#home">
                                         <Image
                                             src={logo}
                                             width="30"
@@ -109,6 +109,8 @@ const NavBar = () => {
                     </Navbar.Offcanvas>
                 </Navbar>
             </Stack>
+        </div>
+            
         </>
 
 
