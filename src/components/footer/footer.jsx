@@ -17,46 +17,46 @@ const Footer = () => {
   return (
     <>
 
-      <Row className='footerContainer'>
-        <Col className='contLogo '>
+      <div className='footerContainer'>
+        <div className='contLogo '>
           <Image src={logo} alt="" className='logo' />
-        </Col>
-        <Col className='redes'>
-          <Row className='contRedes'>
-                <Col className='cajaRedes'>
-                  <a className= 'pRedes' href="https://wa.me/541168057707" target="_blank">
+        </div>
+        <div className='redes'>
+          <div className='contRedes'>
+                <div className='cajaRedes1 text-decoration-none'>
+                  <a className= 'pRedes1 text-decoration-none' href="https://wa.me/541168057707" target="_blank">
                     <Image className='iconosRedes' src={logoWhatsapp} />
                     <p className= 'nombreRedes'> WhatsApp</p>
                   </a>
-                </Col>
-                <Col className='cajaRedes'>
-                  <a className= 'pRedes' href="mailto: guarderia.elcountry@gmail.com" target="_blank">
+                </div>
+                <div className='cajaRedes2'>
+                  <a className= 'pRedes2 text-decoration-none' href="mailto: guarderia.elcountry@gmail.com" target="_blank">
                       <Image className='iconosRedes' src={logoCorreo} />
                       <p className= 'nombreRedes'>Correo </p>
                   </a>
-                </Col>
-                <Col className='cajaRedes'>
-                  <a className= 'pRedes' href="https://instagram.com/guarderia.elcountry?igshid=MmIzYWVlNDQ5Yg==" target="_blank">
+                </div>
+                <div className='cajaRedes3'>
+                  <a className= 'pRedes3 text-decoration-none' href="https://instagram.com/guarderia.elcountry?igshid=MmIzYWVlNDQ5Yg==" target="_blank">
                     <Image className='iconosRedes' src={logoInstagram} />
                     <p className= 'nombreRedes'>Instagram </p>
                   </a>
-                </Col>
-                <Col className='cajaRedes'>
-                  <a className= 'pRedes' href="https://www.facebook.com/profile.php?id=100089201654528&mibextid=LQQJ4d" target="_blank">
+                </div>
+                <div className='cajaRedes4 text-decoration-none'>
+                  <a className= 'pRedes4 text-decoration-none' href="https://www.facebook.com/profile.php?id=100089201654528&mibextid=LQQJ4d" target="_blank">
                       <Image className='iconosRedes' src={logoFacebook} />
                       <p className= 'nombreRedes'>Facebook </p>
                   </a>
-                </Col>
-                <Col className='cajaRedes'>
-                  <a className= 'pRedes' href="https://www.tiktok.com/@guarderiacaninaelcountry" target="_blank">
+                </div>
+                <div className='cajaRedes5'>
+                  <a className= 'pRedes text-decoration-none' href="https://www.tiktok.com/@guarderiacaninaelcountry" target="_blank">
                       <Image className='iconosRedes' src={logoTiktok} />
                       <p className= 'nombreRedes'>Tiktok </p>
                   </a>
-                </Col>
+                </div>
                
-          </Row>
-        </Col>
-        <Col className='listPag hidden sm:block'>
+          </div>
+        </div>
+        <Col className='listPag'>
         <Nav defaultActiveKey="/home" className="listFila flex-column">
               <Nav.Link className='listNav text-dark' href="/home" >Inicio</Nav.Link>
               <Nav.Link className='listNav text-dark' eventKey="link-1"  >Sobre Nosotras</Nav.Link>
@@ -64,7 +64,7 @@ const Footer = () => {
               <Nav.Link className='listNav text-dark' eventKey="link-3" >Contáctanos</Nav.Link>
             </Nav>
           </Col>
-      </Row>
+      </div>
     
        
 

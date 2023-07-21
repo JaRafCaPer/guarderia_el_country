@@ -11,7 +11,9 @@ const Home = () => {
   return (
     <>
     <div className='bg'>
+    
         <div className='mainContainer hidden md:block'>
+        
             <Row className='sec1Cont '>
                 <Row className='innerCont'>
                         <Col className='col1'>

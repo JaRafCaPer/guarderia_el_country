@@ -1,49 +1,59 @@
 /* Default styles for desktop */
+/* Estilos para el contenedor principal */
 .footerContainer {
-  width: 100%;
-  max-width: 1920px; /* Set a maximum width for large screens */
-  height: 282px;
+  width: 1920px;
+  max-width: 1920px;
+  height: 100%;
+  max-height: 282px;
   background: rgba(244, 220, 193, 1);
   font-family: 'Libre Baskerville', serif;
   font-size: 16px;
-  display: flex;
-  /* justify-content: space-between; */
-  align-items: center;
-  padding: 0 30px; /* Add some padding to adjust the content on larger screens */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Sistema de grids con una fila y 3 columnas */
+  grid-template-rows: 1fr;
+  align-items: center; /* Centrar verticalmente los elementos dentro del contenedor */
+   text-decoration: none;
 }
 
+/* Estilos para la columna de contLogo */
 .contLogo {
-  width: max-content;
-  height: max-content;
+  width: 100%;
+  height: 282px;
 }
-
-.logo {
-  width: 190.4993133544922px;
+.logo{
+  margin-top: 73px;
+  margin-left: 150px;
+  width: 190.5px;
   height: 68px;
 }
-
-.contRedes {
-  display: flex;
-  gap: 8px;
-  justify-content: center;
-  
-}
-
-.cajaRedes {
+.redes{
   width: max-content;
-  height: max-content;
+  height: 282px;
+}
+.contRedes {
+  width: 483px;
+  height: 80px;
+  margin-top: 99px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px; /* Espacio entre las cajasRedes */
+  align-items: center;
+  
   
 }
-
-.iconosRedes {
-  width: 48px;
-  height: 48px;
-  margin: 0px 18.33px 4px 18.33px;
+.cajaRedes{
+  width: 87px;
+  height: 80px;
+  
 }
 .pRedes{
   color: black;
-  text-decoration: none;
-  text-align: center;
+  
+}
+.iconosRedes {
+  width: 48px;
+  height: 48px;
+  margin: 0px 19.5px 8px 19.5px;
 }
 .nombreRedes{
   width: 87px;
@@ -52,26 +62,33 @@
   line-height: 20px;
   letter-spacing: 0.10000000149011612px;
   text-align: center;
+  color: black;
+  text-decoration: none;
 }
 
 .listPag {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1; /* Allow the navigation links to take up the remaining space */
+  flex-direction: column;
+  height: 282px;
+  
 }
 
 .listFila {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content:flex-start;
   align-items: left;
   margin-top: 62px;
   font-size: 18px;
- 
+  width: 184px;
+  height: 282px;
+  margin-left: 180px;
 }
 
 .listNav {
+  width: 184px;
+  height: 23.38px;
+  padding: 0px;
   margin-bottom: 16.63px;
   font-weight: 400;
   line-height: 17px;
@@ -82,90 +99,174 @@
 /* Media query for tablet devices */
 @media (max-width: 768px) {
   .footerContainer {
-    width: 800px;
-    height: 172px;
+    width: 100%;
+    max-width: 900px;
+    height: 100%;
+    max-height: 172px;
+    background: rgba(244, 220, 193, 1);
+    font-family: 'Libre Baskerville', serif;
     font-size: 12px;
-    flex-direction: row;
   }
-  .logo {
+  
+  /* Estilos para la columna de contLogo */
+  .contLogo {
+    
+    height: 172px;
+  }
+  .logo{
+    margin-top: 48px;
+    margin-left: 28px;
     width: 132px;
     height: 53px;
-    margin-left: 28px;
-    margin-top: 48px;
+  }
+  .redes{
+    width: max-content;
+    height: 172px;
   }
   .contRedes {
-    width: 305px;
-    height: 53.33px;
-    gap: 0px;
+    width: 340px;
+    height: 54px;
+    margin: 0px;
+    margin-top: 59px;
+    padding-top: 0px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Sistema de grids con una fila y 5 columnas */
+    gap: 1px; /* Espacio entre las cajasRedes */
+    align-items: center;
+    
     
   }
   .cajaRedes{
-    flex-direction: row;
-    width: min-content;
+    width: 66px;
+    height: 54px;
+    
   }
   .pRedes{
-    width: 76px;
-    height: 53.33px;
+    color: black;
+    
   }
-  .iconosRedes{
+  .iconosRedes {
     width: 29.333332061767578px;
     height: 29.333332061767578px;
-    margin: 0px 18.33px 4px 18.33px;
-    border-radius: 61.11111068725586px;
-
+    margin: 0px 19.5px 8px 19.5px;
   }
   .nombreRedes{
     width: 66px;
     height: 20px;
-    font-size: 12px;
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 0.10000000149011612px;
     text-align: center;
-
+    color: black;
+    text-decoration: none;
   }
-  .listPag{
-    width: max-content;
+  
+  .listPag {
+    display: flex;
+    flex-direction: column;
     height: 172px;
-  }
-  .listFila{
-    width: 133px;
-    height: 116px;
-    /* flex-direction:column; */
-    font-size: 12px;
-    margin: 10px;
-    justify-content: flex-start;
-  }
-  .listNav{
-    width: 133px;
-    height: 20px;
-    font-weight: 400;
-    white-space: nowrap;
-    line-height: 20px;
-    letter-spacing: 0.10000000149011612px;
-    text-align: left;
-    margin-bottom: 5px;
     
   }
+  
+  .listFila {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: left;
+    margin-top: 28px;
+    font-size: 12px;
+    width: 133px;
+    height: 150px;
+    margin-left: 45px;
+  }
+  
+  .listNav {
+    width: 113px;
+    height: 20px;
+    padding: 0px;
+    margin-bottom: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    white-space: nowrap;
 
+  }
 }
-
 /* Media query for mobile devices */
 @media (max-width: 576px) {
+  .footerContainer {
+    width: 100%;
+    max-width: 577px;
+    height: 100%;
+    max-height: 114px;
+    background: rgba(244, 220, 193, 1);
+    font-family: 'Libre Baskerville', serif;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 57px); 
+    align-items: center; /* Centrar verticalmente los elementos dentro del contenedor */
+  }
+  
+  /* Estilos para la columna de contLogo */
+  .contLogo {
+    width: 360px;
+    height: 57px;
+  }
+  .logo{
+    margin-top: 15px;
+    margin-left: 70px;
+    width: 221px;
+    height: 48px;
+  }
+  .redes{
+    width: 360px;
+    height: 57px;
+  }
   .contRedes {
-    flex-wrap: wrap; /* Allow social media icons to wrap on smaller screens */
-    justify-content: center;
+    width: 212px;
+    height: 24px;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 12px;
+    margin-left: 75px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Sistema de grids con una fila y 5 columnas */
+    gap: 1px; /* Espacio entre las cajasRedes */
+    align-items: center;
+    
+    
   }
-
-  .cajaRedes {
-    margin: 8px 16px;
+  .cajaRedes{
+    width: 24px;
+    height: 24px;
+    
   }
-
+  .pRedes{
+    color: black;
+    
+  }
+  .iconosRedes {
+    width: 24px;
+    height: 24px;
+    margin: 0px;
+  }
+  .nombreRedes{
+  display: none;
+  }
+  
+  .listPag {
+    display: none !important;
+    
+  }
+  
   .listFila {
-    margin-top: 20px;
+  display: none;
   }
-
+  
   .listNav {
-    text-align: center;
+    display: none;
+
   }
 }
