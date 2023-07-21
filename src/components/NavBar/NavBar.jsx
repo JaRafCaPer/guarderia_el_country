@@ -6,7 +6,7 @@ import Facebook from "../../assets/images/Facebook.png"
 import Instagram from "../../assets/images/Instagram.png"
 import Tiktok from "../../assets/images/Tiktok.png"
 import Mail from "../../assets/images/Gmail.png"
-import { Navbar, Offcanvas, Stack, Container, Row, Col, Image } from "react-bootstrap";
+import { Navbar, Offcanvas, Image } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 
@@ -16,40 +16,42 @@ const NavBar = () => {
     return (
         <>
         <div className="nav">
-        <Stack className="container"> 
                 <Navbar expand="md" className="logoT h-20">
-                    <Row className="containerRow">
-                        <Col className="colLogo">
-                            <Navbar className="logo">
-                                <Container>
-                                    <Navbar.Brand href="#home">
-                                        <Image
-                                            src={logoi}
-                                            width="30"
-                                            height="30"
-                                            className="lDog"
-                                            alt="dog"
-                                        />
-                                    </Navbar.Brand>
-                                </Container>
-                            </Navbar>
-                        </Col>
-                        <Col  className="colLogo">
-                            <Navbar className="logo">
-                                <Container>
-                                    <Navbar.Brand href="#home">
-                                        <Image
-                                            src={logo}
-                                            width="30"
-                                            height="30"
-                                            className="logoN"
-                                            alt="N"
-                                        />
-                                    </Navbar.Brand>
-                                </Container>
-                            </Navbar>
-                        </Col>
-                    </Row>
+                    <div className="containerRow">
+                    <div className="logos">
+                            <div className="colLogo1">
+                                <div>
+                                    <div>
+                                        <Navbar.Brand href="#home">
+                                            <Image
+                                                src={logoi}
+                                                width="30"
+                                                height="30"
+                                                className="lDog"
+                                                alt="dog"
+                                            />
+                                        </Navbar.Brand>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div  className="colLogo2">
+                                <Navbar>
+                                    <div>
+                                        <Navbar.Brand href="#home">
+                                            <Image
+                                                src={logo}
+                                                width="30"
+                                                height="30"
+                                                className="logoN"
+                                                alt="N"
+                                            />
+                                        </Navbar.Brand>
+                                    </div>
+                                </Navbar>
+                            </div>
+                        </div>
+                    </div>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Offcanvas
                         id="offcanvasNavbar"
@@ -63,13 +65,13 @@ const NavBar = () => {
                             </Offcanvas.Title>
                         </Offcanvas.Header>
                         <Offcanvas.Body className="todo row-md-4">
-                            <Row className="row">
-                                <Col className="navLink  col-12 col-md w-100">Inicio</Col>
-                                <Col className="navLink  col-12 col-md w-100">Sobre Nosotras</Col>
-                                <Col className="navLink  col-12 col-md w-100">Conócenos</Col>
-                                <Col className="navLink  col-12 col-md w-100">Contáctanos</Col>
-                            </Row>
-                            <Row>
+                            <div className="bloque">
+                                <div className="navLink  col-12 col-md w-100">Inicio</div>
+                                <div className="navLink  col-12 col-md w-100">Sobre Nosotras</div>
+                                <div className="navLink  col-12 col-md w-100">Conócenos</div>
+                                <div className="navLink  col-12 col-md w-100">Contáctanos</div>
+                            </div>
+                            <div>
                                 <div className="redesContainer">
                                     <ul>
                                         <li className="linkRedes">
@@ -104,11 +106,11 @@ const NavBar = () => {
                                         </li>
                                     </ul>
                                 </div>
-                            </Row>
+                            </div>
                         </Offcanvas.Body>
                     </Navbar.Offcanvas>
                 </Navbar>
-            </Stack>
+            
         </div>
             
         </>

@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from 'react-bootstrap/Navbar';
-import Footer from "./components/footer/footer.jsx";
 import NavBar from "./components/NavBar/NavBar.jsx"
 
 import Home from "./components/Home/Home.jsx";
@@ -15,7 +14,7 @@ function App() {
         </Routes>
         <NavBar/>
         <Home/>
-        <Footer/>
+        
       </BrowserRouter>
     
   
