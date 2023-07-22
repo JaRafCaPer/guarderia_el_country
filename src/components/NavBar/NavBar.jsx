@@ -15,7 +15,7 @@ const NavBar = () => {
 
     return (
         <>
-        <div className="nav">
+        <div className="nav1">
                 <Navbar expand="md" className="logoT h-20">
                     <div className="containerRow">
                     <div className="logos">
