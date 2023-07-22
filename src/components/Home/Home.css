@@ -71,9 +71,40 @@ h1 {
 /* Lowering the shadow */
   }
   .col2 {
-    width: 713px;
+    width: 813px;
     height: 580px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
+.background {
+    width: 480px;
+    height: 470px;
+    background-color: #CF8433;
+    border-radius: 100%; /* Establecemos el punto de transformación en la esquina superior izquierda */
+    transform-origin: center;
+    transition: transform 0.5s; /* Agregamos una transición para animar el efecto */
+}
+
+.imgPerro{
+
+    width: 486px;
+    height: 600px;
+    object-fit: cover; /* Ajusta el tamaño de la imagen para que cubra el contenedor */
+    position: absolute;
+    top: 42%; /* Alineamos verticalmente en el centro del contenedor */
+    left: 55%; /* Alineamos horizontalmente en el centro del contenedor */
+    transform: translate(-50%, -50%); /*Centramos la imagen en el contenedor */
+    transition: transform 0.5s;
+
+}
+
+.col2:hover .background {
+    transform: scale(1.2); /* Escalamos el fondo en un 20% al hacer hover */
+}
+
 
 
 

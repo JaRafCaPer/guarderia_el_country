@@ -3,7 +3,9 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 import './Home.css';
-import perroNaranja from '../../assets/images/Perro - Naranja.png'
+import perroNaranja from '../../assets/images/Perro - Naranja.png';
+import Azul from '../../assets/images/Azul.png';
+import perro from '../../assets/images/perro.png'
 import { Link, NavLink } from 'react-router-dom';
 import { Button } from 'bootstrap';
 
@@ -28,9 +30,10 @@ const Home = () => {
                             </Row>
 
                         </Col>
-                        <Col className='col2'>
-                            <Image className='imgPerro' src={perroNaranja}/>
-                        </Col>
+                        <div className='col2'>
+                            <div class="background"></div>
+                            <Image className='imgPerro' src={perro}/>
+                        </div>
                 </Row>
             </Row>
             <Row className='testCards'>
