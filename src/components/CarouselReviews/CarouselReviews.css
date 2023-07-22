@@ -1,0 +1,139 @@
+.carrusel{
+    display: flex;
+    justify-content: center;
+}
+
+.slide{
+    width: 1200px;
+    height: 300px;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+div .col3 {
+    width: 113px !important;
+    height: 300px;
+    grid-gap: 10px;
+}
+
+.colCard{
+    width: 290px;
+}
+.card{
+    width: 350px;
+    height: 290px;
+    border-radius: 30px ;
+}
+
+.image-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.cardTitle{
+    margin: 10px;
+    margin-top: 32px;
+}
+
+.edad{
+    color: #CF8433;
+    margin: 10px;
+    height: 21px;
+    font-weight: 700;
+}
+
+.img {
+    width: 73px;
+    height: auto;
+    margin: 15px;
+}
+
+.cardText{
+    width: 310px;
+    height: 185px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 30px;
+    height: 30px;
+    color: black;
+}
+
+/* Media query for tablets */
+@media (max-width: 768px){
+.carrusel{
+    width: 870px;
+}
+.colCard{
+    width: 250px;
+    height: 300px;
+}
+.card{
+    width: 260px;
+    height: 300px;
+}
+.cardText{
+    width: 232px;
+    height: 171px;
+    font-size: 15px;
+}
+.image-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.cardTitle{
+    font-size: 15px;
+}
+.edad{
+    margin: 8px;
+    height: 20px;
+    font-size: 14px;
+}
+.carousel-indicators{
+    display: none;
+}
+}
+
+@media (max-width: 480px){
+    .carrusel{
+        width: 634px;
+        height: 250px;
+    }
+    .colCard{
+        width: 224px;
+        height: 220px;
+    }
+    .card{
+        width: 224px;
+        height: 220px;
+    }
+    .cardText{
+        width: 148px;
+        height: 108px;
+        font-size: 10px;
+    }
+    .image-container {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .img {
+        width: 48px;
+        height: auto;
+        margin: 48px;
+    }
+    .cardTitle{
+        font-size: 12px;
+    }
+    .edad{
+        margin: 8px;
+        height: 20px;
+        font-size: 10px;
+    }
+    .carousel-indicators{
+        display: none;
+    }
+}
