@@ -69,19 +69,21 @@
 .listPag {
   display: flex;
   flex-direction: column;
+  
+  width: 700px;
   height: 282px;
   
 }
 
 .listFila {
+  width: 184px;
+  height: 180px;
   display: flex;
   flex-direction: column;
-  justify-content:flex-start;
-  align-items: left;
+  justify-content:center;
   margin-top: 62px;
   font-size: 18px;
-  width: 184px;
-  height: 282px;
+  padding-bottom: 17px;
   margin-left: 180px;
 }
 
@@ -89,7 +91,8 @@
   width: 184px;
   height: 23.38px;
   padding: 0px;
-  margin-bottom: 16.63px;
+  margin: 0px;
+  margin-bottom: 16px;
   font-weight: 400;
   line-height: 17px;
   letter-spacing: 0em;
