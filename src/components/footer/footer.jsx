@@ -1,8 +1,6 @@
 import React from 'react'
 import './footer.css';
 import logo from '../../assets/images/Logo_footer.png'
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 import Nav from 'react-bootstrap/Nav';
 import logoWhatsapp from '../../assets/images/WhatsApp.png'
@@ -10,7 +8,7 @@ import logoInstagram from '../../assets/images/Instagram.png'
 import logoCorreo from '../../assets/images/Gmail.png'
 import logoTiktok from '../../assets/images/Tiktok.png'
 import logoFacebook from '../../assets/images/Facebook.png'
-import { Link } from 'react-router-dom';
+
 
 
 const Footer = () => {
@@ -56,14 +54,14 @@ const Footer = () => {
                
           </div>
         </div>
-        <Col className='listPag'>
-        <Nav defaultActiveKey="/home" className="listFila flex-column">
+        <div className='listPag'>
+        <Nav defaultActiveKey="/home" className="listFila ">
               <Nav.Link className='listNav text-dark' href="/home" >Inicio</Nav.Link>
               <Nav.Link className='listNav text-dark' eventKey="link-1"  >Sobre Nosotras</Nav.Link>
               <Nav.Link className='listNav text-dark' eventKey="link-2" >Conócenos</Nav.Link>
               <Nav.Link className='listNav text-dark' eventKey="link-3" >Contáctanos</Nav.Link>
             </Nav>
-          </Col>
+          </div>
       </div>
     
        
