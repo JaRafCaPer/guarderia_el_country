@@ -72,7 +72,7 @@ h1 {
   }
   .col2 {
     width: 813px;
-    height: 580px;
+    height: 670px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -80,29 +80,33 @@ h1 {
     overflow: hidden;
 }
 .background {
-    width: 480px;
-    height: 470px;
+    width: 460px;
+    height: 467px;
     background-color: #CF8433;
+    opacity:initial;
     border-radius: 100%; /* Establecemos el punto de transformación en la esquina superior izquierda */
     transform-origin: center;
     transition: transform 0.5s; /* Agregamos una transición para animar el efecto */
+    box-shadow: -1px 12px 21px 3px rgba(0,0,0,0.36);
+-webkit-box-shadow: -1px 12px 21px 3px rgba(0,0,0,0.36);
+-moz-box-shadow: -1px 12px 21px 3px rgba(0,0,0,0.36);
 }
 
 .imgPerro{
 
-    width: 486px;
+    width: 520px;
     height: 600px;
     object-fit: cover; /* Ajusta el tamaño de la imagen para que cubra el contenedor */
     position: absolute;
     top: 42%; /* Alineamos verticalmente en el centro del contenedor */
-    left: 55%; /* Alineamos horizontalmente en el centro del contenedor */
+    left: 57%; /* Alineamos horizontalmente en el centro del contenedor */
     transform: translate(-50%, -50%); /*Centramos la imagen en el contenedor */
-    transition: transform 0.5s;
+    transition: transform 0.5s ease;
 
 }
 
 .col2:hover .background {
-    transform: scale(1.2); /* Escalamos el fondo en un 20% al hacer hover */
+    transform: scale(1.2) translateY(-40px);; /* Escalamos el fondo en un 20% al hacer hover */
 }
 
 
