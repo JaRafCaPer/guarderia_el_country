@@ -32,14 +32,14 @@ const Home = () => {
                         </Row>
                     </Row>
                     <Row className='testCards justify-content-center'>
-                        <CarouselReviews />
+                        {/* <CarouselReviews /> */}
                     </Row>
                 </div>
                 <div className='col2'>
                     <div class="background"></div>
                     <Image className='imgPerro' src={perro} />
                 </div>
-            </div >
+            </div>
         </>
     )
 };
