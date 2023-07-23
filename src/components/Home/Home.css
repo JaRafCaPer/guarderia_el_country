@@ -66,11 +66,9 @@ h1 {
   .button:active{
     background:#CF8433;
     transform: scale(0.98);
- /* Scaling button to 0.98 to its original size */
     box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
-/* Lowering the shadow */
-  }
-  .col2 {
+}
+.col2 {
     width: 813px;
     height: 670px;
     position: relative;
@@ -84,7 +82,7 @@ h1 {
     height: 467px;
     background-color: #CF8433;
     opacity:initial;
-    border-radius: 100%; /* Establecemos el punto de transformación en la esquina superior izquierda */
+    border-radius: 100%;
     transform-origin: center;
     transition: transform 0.5s; /* Agregamos una transición para animar el efecto */
     box-shadow: -1px 12px 21px 3px rgba(0,0,0,0.36);
@@ -98,8 +96,8 @@ h1 {
     height: 600px;
     object-fit: cover; /* Ajusta el tamaño de la imagen para que cubra el contenedor */
     position: absolute;
-    top: 42%; /* Alineamos verticalmente en el centro del contenedor */
-    left: 57%; /* Alineamos horizontalmente en el centro del contenedor */
+    top: 42%; 
+    left: 57%; 
     transform: translate(-50%, -50%); /*Centramos la imagen en el contenedor */
     transition: transform 0.5s ease;
 
