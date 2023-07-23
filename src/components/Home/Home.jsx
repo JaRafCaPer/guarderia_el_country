@@ -3,46 +3,45 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 import './Home.css';
-import perroNaranja from '../../assets/images/Perro - Naranja.png';
-import Azul from '../../assets/images/Azul.png';
 import perro from '../../assets/images/perro.png'
 import { Link, NavLink } from 'react-router-dom';
 import { Button } from 'bootstrap';
 
 const Home = () => {
-  return (
-    <>
-    <div className='bg'>
-        <div className='mainContainer'>
-            <Row className='sec1Cont'>
-                <Row className='innerCont'>
-                        <Col className='col1'>
-                            <Row className='texto'>
-                                
+    return (
+        <>
+            <div className='bg'>
+                <div className='mainContainer hidden md:block'>
+                    <Row className='sec1Cont'>
+                        <Row className='innerCont'>
+                            <Col className='col1'>
+                                <Row className='texto'>
+
                                     <h1> El Country </h1>
                                     <p className='pText'>Alojamiento para perros compuesto por dos educadoras caninas y tres perritas las cuales acompañarán a tu pequeño mientras debas ausentarte.
-                                    Conocenos e infórmate sobre nuestro servicio brindado con la mejor calidad y cuidado para tu perro, ¡se sentirá como en casa en todo momento!</p>
-                            </Row>
-                            <Row>
-                                <button className="button">
-                                    Contactanos
-                                </button>
-                            </Row>
+                                        Conocenos e infórmate sobre nuestro servicio brindado con la mejor calidad y cuidado para tu perro, ¡se sentirá como en casa en todo momento!</p>
+                                </Row>
+                                <Row>
+                                    <button className="button">
+                                        Contactanos
+                                    </button>
+                                </Row>
 
-                        </Col>
-                        <div className='col2'>
-                            <div class="background"></div>
-                            <Image className='imgPerro' src={perro}/>
-                        </div>
-                </Row>
-            </Row>
-            <Row className='testCards'>
-                
-            </Row>
-        </div>
-    </div>
-    </>
-  )
-}
+                            </Col>
+
+                        </Row>
+                    </Row>
+                    <Row className='testCards justify-content-center'>
+                        <CarouselReviews />
+                    </Row>
+                </div>
+                <div className='col2'>
+                    <div class="background"></div>
+                    <Image className='imgPerro' src={perro} />
+                </div>
+            </div >
+        </>
+    )
+};
 
 export default Home
