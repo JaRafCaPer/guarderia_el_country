@@ -127,22 +127,25 @@ div .col3 {
         justify-content: flex-start;
     }
     .img {
-        width: 48px;
-        height: 48px;
-        margin: 17px 13px 6px 20px;
+        width: 45px;
+        height: 45px;
+        margin: 13px 10px 6px 13px;
     }
     .nameTag{
         width: 68px;
         height: 68px;
     }
     .cardTitle{
-        font-size: 12px;
+        font-size: 10px;
+        margin: 5px;
+        margin-top: 13px;
     }
-    
+
     .edad{
         margin: 8px;
         height: 20px;
         font-size: 10px;
+        margin: 5px
     }
     .carousel-indicators{
         display: none;
