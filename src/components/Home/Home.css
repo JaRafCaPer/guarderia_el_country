@@ -5,7 +5,6 @@
 .mainContainer{
     width: 1620px;
     height: 1391px;
-    margin-top: 100px;
     margin-left: 150px;
     background-image: url(../../assets/images/Paws\ -\ up.jpg);
     display: grid;
@@ -22,8 +21,8 @@
     
 }
 .innerCont{
-    max-width: 1440px; 
-    max-height: 580px; 
+    width: 1440px; 
+    height: 580px; 
     margin-top: 241px;
     margin-left: 150px;
     display: grid;
@@ -129,34 +128,167 @@
     margin-left: 90px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Media query for tablets */
 @media (max-width: 768px) {
     .bg {
         background-image: url(../../assets/images/Paws\ -\ up.jpg);
-        }
-        
-    .mainContainer{
-        width: 737px;
-        height: 640px;
-        margin-top: 128px;
-        margin-left: 32px;
-        gap: 30px;
-        display: grid flex;
-        flex-direction:  column-reverse;
-        grid-template-columns: auto;
-
+        width: 800px;
+        height: 1340;
+     
     }
-    .imgPerro {
+    .mainContainer{
+        width: 800px;
+        height: 1070px;        
+        display: grid;
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+        margin: 0px;
+    }
+    
+    
+    .sec1container{
+        width: 800px;
+        height: 930px;
+        margin: 0px;
+       
+    }
+    .innerCont{
+        width: 737px; 
+        height: 930px; 
+        margin: 0px;
+        margin-top: 32px;
+        margin-left: 32px;
+        margin-bottom: 8px;
+        display: grid;
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 1fr;
+    }
+    .col1 {
+        width: 800px;
+        height: 580px;
+        grid-gap: 10px;
+        flex-direction: row-reverse;
+    }
+    .texto {
+        width: 661px;
+        height: 292px;
+        margin: 30px 38px 20px;
+        align-items: center;
+    }
+    .pText {
+       max-width: 661px;
+        max-height: 156px;
+        font-family: Libre Baskerville;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin: 0px;
+    }
+    .titulo {
+        max-width: 215px;
+        max-height: 32px;
+        margin: 0px 226px 30px;
+        font-family: Libre Baskerville;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: center;
+        white-space: nowrap;
+        
+    }
+    .contButton{
+        align-items: center;
+        margin: 30px 169.5px;
+    }
+    .button {
+        width: 322px;
+        height: 44px;
+        background:#CF8433;
+        border: none;
+        color: white;
+        text-align: center;
+        font-family: Libre Baskerville;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 17px;
+        letter-spacing: 0em;
+        border-radius:75px;
+        align-items: center;
+    }
+    .button:hover {
+        background-color:#E5A763;
+        ;
+      }
+      .button:active{
+        background:#CF8433;
+        transform: scale(0.98);
+     /* Scaling button to 0.98 to its original size */
+        box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+    }
+    .col2 {
+        width: 800px;
+        max-height: 349px;
+        margin: 0px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    .background {
+        display: none;
+    }
+    
+    .imgPerro{
         width: 258px;
         height: 280px;
-
+        object-fit: cover; /* Ajusta el tamaño de la imagen para que cubra el contenedor */
+        position: absolute;
+      top: 40%; /* Alineamos verticalmente en el centro del contenedor */
+      left: 57%; /* Alineamos horizontalmente en el centro del contenedor */
+      transform: translate(-50%, -50%); /* Centramos la imagen en el contenedor */
+    
     }
-
+    
+    .col2:hover .background {
+        transform: scale(1.2); /* Escalamos el fondo en un 20% al hacer hover */
+      }
+    .sec2Cont {
+        width: 800px;
+        height: 383px;
+        background-color: white;
+       
+    }
+    
+    .testCards{
+        width: 800px;
+        height: 383px;
+        margin-top: 66px;
+        margin-left: 0px;
+    }
 }
 
 @media (max-width: 480px){
     .testCards{
-        width: 650px;
-        margin: 90px;
+       
     }
 }

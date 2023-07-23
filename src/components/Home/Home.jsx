@@ -25,16 +25,14 @@ const Home = () => {
                                         </button>
                                     </div>
                                 </div>
-                                
-
                             </div>
-                        <div className='col2'>
-                            <div class="background"></div>
-                                <Image className='imgPerro' src={perroNaranja}/>
+                            <div className='col2'>
+                                <div class="background "></div>
+                                    <Image className='imgPerro' src={perroNaranja}/>
+                                </div>
                             </div>
-                        </div>
                     </div>
-                    <div className='sec2Cont'>
+                    <div className='sec2Cont hidden md:block'>
                         <div className='testCards'>
                         <CarouselReviews/>
                         </div>

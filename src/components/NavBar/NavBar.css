@@ -4,14 +4,14 @@
     display: grid;
     font-family: 'Libre Baskerville', serif;
     font-size: 24px;
-    /* box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); */
+    
 }
 
 
 .logoT{
     width: 1920px;
     height: 110px;
-   
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
 .containerRow{
     width: 700px;
@@ -110,7 +110,7 @@
 @media (max-width: 767px) {
 
 
-.nav{
+.nav1{
     width: 800px;
     height: 96px;
     display: grid;
