@@ -8,6 +8,10 @@
     margin-top: 100px;
     margin-left: 150px;
     background-image: url(../../assets/images/Paws\ -\ up.jpg);
+    display: grid;
+  grid-template-columns: 1fr; 
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
 }
 
 
@@ -15,13 +19,16 @@
     width: 1,620px;
     height: 980px;
     margin-top: 100px;
-
+    
 }
 .innerCont{
     max-width: 1440px; 
     max-height: 580px; 
     margin-top: 241px;
     margin-left: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
 }
 .col1 {
     width: 513px;
@@ -29,7 +36,7 @@
     grid-gap: 10px;
 }
 .texto {
-    width: 513px;
+    width: 571px;
     height: 580px;
 }
 .pText {
@@ -37,13 +44,20 @@
     max-height: 302px;
     font-family: 'Libre Baskerville', serif;
     font-size: 20px;
+    margin: 0px;
+    text-align: justify;
 }
-h1 {
+.titulo {
     max-width: 327px;
-    max-height: 48px;
+    max-height: 302px;
     font-family: 'Libre Baskerville', serif;
     font-size: 56px;
     font-weight:bold;
+    margin-bottom: 50px;
+}
+.contButton{
+    align-items: start;
+    margin-top: 60px;
 }
 .button {
     width: 211px;
@@ -56,7 +70,6 @@ h1 {
     font-weight: bold;
     font-size: 18px;
     border-radius:75px;
-    Padding: 8px, 24px, 8px, 24px;
 }
 .button:hover {
     background-color:#E5A763;
@@ -70,7 +83,7 @@ h1 {
 /* Lowering the shadow */
 }
 .col2 {
-    width: 813px;
+    width: 927px;
     height: 580px;
     position: relative;
     display: flex;
@@ -102,16 +115,18 @@ h1 {
 .col2:hover .background {
     transform: scale(1.2); /* Escalamos el fondo en un 20% al hacer hover */
   }
-.testCards {
+.sec2Cont {
     width: 1620px;
     height: 411px;
     background-color: white;
-    margin-left: 0px;
+   
 }
 
 .testCards{
-    width: 1200px;
-    margin: 90px;
+    width: 1335px;
+    height: 360px;
+    margin-top: 66px;
+    margin-left: 90px;
 }
 
 /* Media query for tablets */

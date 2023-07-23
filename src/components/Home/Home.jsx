@@ -10,32 +10,35 @@ const Home = () => {
     return (
         <>
             <div className='bg'>
-                <div className='mainContainer hidden md:block'>
-                    <Row className='sec1Cont'>
-                        <Row className='innerCont'>
-                            <Col className='col1'>
-                                <Row className='texto'>
+                <div className='mainContainer'>
+                    <div className='sec1Cont'>
+                        <div className='innerCont'>
+                            <div className='col1'>
+                                <div className='texto'>
 
-                                    <h1> El Country </h1>
+                                    <h1 className='titulo'> El Country </h1>
                                     <p className='pText'>Alojamiento para perros compuesto por dos educadoras caninas y tres perritas las cuales acompañarán a tu pequeño mientras debas ausentarte.
                                         Conocenos e infórmate sobre nuestro servicio brindado con la mejor calidad y cuidado para tu perro, ¡se sentirá como en casa en todo momento!</p>
-                                </Row>
-                                <Row>
-                                    <button className="button">
-                                        Contactanos
-                                    </button>
-                                </Row>
+                                    <div className='contButton'>
+                                        <button className="button">
+                                            Contactanos
+                                        </button>
+                                    </div>
+                                </div>
+                                
 
-                            </Col>
-                            <div className='col2'>
+                            </div>
+                        <div className='col2'>
                             <div class="background"></div>
-                            <Image className='imgPerro' src={perroNaranja}/>
+                                <Image className='imgPerro' src={perroNaranja}/>
+                            </div>
                         </div>
-                        </Row>
-                    </Row>
-                    <Row className='testCards justify-content-center'>
-                    <CarouselReviews/>
-                    </Row>
+                    </div>
+                    <div className='sec2Cont'>
+                        <div className='testCards'>
+                        <CarouselReviews/>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>
