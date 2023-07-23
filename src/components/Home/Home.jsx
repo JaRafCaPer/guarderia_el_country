@@ -1,47 +1,46 @@
 import React from 'react'
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
-import Image from 'react-bootstrap/Image';
 import './Home.css';
-import perro from '../../assets/images/perro.png'
+import perroNaranja from '../../assets/images/Perro - Naranja.png'
 import { Link, NavLink } from 'react-router-dom';
 import { Button } from 'bootstrap';
+import { Row, Col, Image } from 'react-bootstrap';
+import CarouselReviews from '../CarouselReviews/CarouselReviews';
 
 const Home = () => {
     return (
         <>
             <div className='bg'>
-                <div className='mainContainer hidden md:block'>
-                    <Row className='sec1Cont'>
-                        <Row className='innerCont'>
-                            <Col className='col1'>
-                                <Row className='texto'>
+                <div className='mainContainer'>
+                    <div className='sec1Cont'>
+                        <div className='innerCont'>
+                            <div className='col1'>
+                                <div className='texto'>
 
-                                    <h1> El Country </h1>
+                                    <h1 className='titulo'> El Country </h1>
                                     <p className='pText'>Alojamiento para perros compuesto por dos educadoras caninas y tres perritas las cuales acompañarán a tu pequeño mientras debas ausentarte.
                                         Conocenos e infórmate sobre nuestro servicio brindado con la mejor calidad y cuidado para tu perro, ¡se sentirá como en casa en todo momento!</p>
-                                </Row>
-                                <Row>
-                                    <button className="button">
-                                        Contactanos
-                                    </button>
-                                </Row>
-
-                            </Col>
-
-                        </Row>
-                    </Row>
-                    <Row className='testCards justify-content-center'>
-                        {/* <CarouselReviews /> */}
-                    </Row>
-                </div>
-                <div className='col2'>
-                    <div class="background"></div>
-                    <Image className='imgPerro' src={perro} />
+                                    <div className='contButton'>
+                                        <button className="button">
+                                            Contactanos
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='col2'>
+                                <div class="background "></div>
+                                    <Image className='imgPerro' src={perroNaranja}/>
+                                </div>
+                            </div>
+                    </div>
+                    <div className='sec2Cont hidden md:block'>
+                        <div className='testCards'>
+                        <CarouselReviews/>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>
     )
-};
+}
 
 export default Home
