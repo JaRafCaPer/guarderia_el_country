@@ -8,10 +8,16 @@ import Tiktok from "../../assets/images/Tiktok.png"
 import Mail from "../../assets/images/Gmail.png"
 import { Navbar, Offcanvas, Image } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Link } from "react-router-dom";
+import { useState } from "react";
 
 
 
 const NavBar = () => {
+    const [color, setColor] = useState(null);
+    const handleClick = (item) => {
+        setColor(item);
+    };
 
     return (
         <>
@@ -38,7 +44,7 @@ const NavBar = () => {
                             <div  className="colLogo2">
                                 <Navbar>
                                     <div>
-                                        <Navbar.Brand href="#home">
+                                        <Link to="/">
                                             <Image
                                                 src={logo}
                                                 width="30"
@@ -46,7 +52,7 @@ const NavBar = () => {
                                                 className="logoN"
                                                 alt="N"
                                             />
-                                        </Navbar.Brand>
+                                        </Link>
                                     </div>
                                 </Navbar>
                             </div>
@@ -66,10 +72,14 @@ const NavBar = () => {
                         </Offcanvas.Header>
                         <Offcanvas.Body className="todo">
                             <div className="bloque">
-                                <div className="navLink"><p className="pNav">Inicio</p></div>
-                                <div className="navLink"><p className="pNav">Sobre Nosotras</p></div>
-                                <div className="navLink"><p className="pNav">Conócenos</p></div>
-                                <div className="navLink"><p className="pNav">Contáctanos</p></div>
+                                <div className="navLink"><Link className="pNav" to="/" onClick={() => handleClick("inicio")}
+                                style={{ color: color === "inicio" ? "#4F6C7C" : "black" }}>Inicio</Link></div>
+                                <div className="navLink"><Link className="pNav" to="nosotras" onClick={() => handleClick("sobre")}
+                                style={{ color: color === "sobre" ? "#4F6C7C" : "black" }}>Sobre Nosotras</Link></div>
+                                <div className="navLink"><Link className="pNav" to="conocenos" onClick={() => handleClick("conocenos")}
+                                style={{ color: color === "conocenos" ? "#4F6C7C" : "black" }}>Conócenos</Link></div>
+                                <div className="navLink"><Link className="pNav"to="contactanos" onClick={() => handleClick("contactanos")}
+                                style={{ color: color === "contactanos" ? "#4F6C7C" : "black" }}>Contáctanos</Link></div>
                             </div>
                             <div>
                                 <div className="redesContainer">
