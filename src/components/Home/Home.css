@@ -70,19 +70,38 @@ h1 {
 /* Lowering the shadow */
 }
 .col2 {
-    width: 713px;
+    width: 813px;
     height: 580px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.background {
+    width: 480px;
+    height: 470px;
+    background-color: #CF8433;
+    border-radius: 100%; /* Establecemos el punto de transformación en la esquina superior izquierda */
+    transform-origin: center;
+    transition: transform 0.5s; /* Agregamos una transición para animar el efecto */
 }
 
 .imgPerro{
-    transition: .5s ease-in;
+
+    width: 580px;
+    height: 600px;
+    object-fit: cover; /* Ajusta el tamaño de la imagen para que cubra el contenedor */
+    position: absolute;
+  top: 40%; /* Alineamos verticalmente en el centro del contenedor */
+  left: 57%; /* Alineamos horizontalmente en el centro del contenedor */
+  transform: translate(-50%, -50%); /* Centramos la imagen en el contenedor */
+
 }
 
-.imgPerro:hover{
-    transform: scale(1.1);
-}
-
-
+.col2:hover .background {
+    transform: scale(1.2); /* Escalamos el fondo en un 20% al hacer hover */
+  }
 .testCards {
     width: 1620px;
     height: 411px;

@@ -27,16 +27,17 @@ const Home = () => {
                                 </Row>
 
                             </Col>
-                            <Col className='col2'>
-                                <Image className='imgPerro' src={perroNaranja} />
-                            </Col>
+                            <div className='col2'>
+                            <div class="background"></div>
+                            <Image className='imgPerro' src={perroNaranja}/>
+                        </div>
                         </Row>
                     </Row>
                     <Row className='testCards justify-content-center'>
                     <CarouselReviews/>
                     </Row>
                 </div>
-            </div >
+            </div>
         </>
     )
 }

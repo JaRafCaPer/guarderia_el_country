@@ -16,7 +16,7 @@ const NavBar = () => {
     return (
         <>
         <div className="nav1">
-                <Navbar expand="md" className="logoT h-20">
+                <Navbar expand="xl" className="logoT h-20">
                     <div className="containerRow">
                     <div className="logos">
                             <div className="colLogo1">
