@@ -95,7 +95,7 @@ const CarouselReviews = () => {
                                 <Card className='card'>
                                     <div className="image-container">
                                         <Card.Img variant="top" src={pic5} className='img' />
-                                        <div>
+                                        <div className="nameTag">
                                             <Card.Title className="cardTitle">Paula Rodriguez</Card.Title>
                                             <p className="edad">27 años</p>
                                         </div>

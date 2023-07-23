@@ -41,8 +41,9 @@
    max-width: 571px;
     max-height: 302px;
     font-family: 'Libre Baskerville', serif;
-    font-size: 20px;
-    margin: 0px;
+    letter-spacing: 0.1px;
+    font-size: 24px;
+    margin: 30px 50px 30px 0px;
     text-align: justify;
 }
 .titulo {
@@ -92,7 +93,8 @@
 .background {
     width: 460px;
     height: 467px;
-    background-color: #CF8433;
+    /* background-color: #CF8433; */
+    background-image: radial-gradient(#CF8433, #E5A763 60%, black);
     opacity:initial;
     border-radius: 100%;
     transform-origin: center;
@@ -199,6 +201,8 @@
         letter-spacing: 0em;
         text-align: center;
         margin: 0px;
+        letter-spacing: 0.1px;
+        margin: 20px 20px;
     }
     .titulo {
         max-width: 215px;
@@ -259,9 +263,11 @@
         margin-left: 60px;
     }
     .background {
-        width: 228.2px;
-        height: 228.2px;
+        width: 208.2px;
+        height: 208.2px;
         margin: 0px;
+        margin-top: 15px;
+        margin-left: 20px;
     }
     
     .imgPerro{
@@ -293,7 +299,152 @@
 }
 
 @media (max-width: 480px){
-    .testCards{
+    .bg {
+        background-image: url(../../assets/images/Paws\ -\ up.jpg);
+        width: 480px;
+        height: 744px;
+     
+    }
+    .mainContainer{
+        width: 480px;
+        height: 1070px;        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+    }
+    
+    
+    .sec1container{
+        width: 480px;
+        height: 495px;
+        margin-top: 33px;
+        margin-left: 16px;
+        gap: 12px;
+        align-items: center;
        
+    }
+    .innerCont{
+        width: 480px; 
+        height: 495px; 
+        margin: 0px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .col1 {
+        width: 480px;
+        height: 275px;
+        grid-gap: 16px;
+    }
+    .texto {
+        width: 480px;
+        height: 275px;
+        margin: 0px;
+        margin-top: 12px;
+        align-items: center;
+    }
+    .pText {
+       max-width: 448px;
+        max-height: 166px;
+        font-family: Libre Baskerville;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.1px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin: 0px;
+        margin: 20px 46px;
+    }
+    .titulo {
+        max-width: 140px;
+        max-height: 23px;
+        margin: 10.73px 174px 16px;
+        font-family: Libre Baskerville;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 22.4px;
+        letter-spacing: 0em;
+        text-align: center;
+        white-space: nowrap;
+        
+    }
+    .contButton{
+        align-items: center;
+        margin: 16px 0px 10.73px;
+    }
+    .button {
+        width: 480px;
+        height: 32px;
+        background:#CF8433;
+        border: none;
+        color: white;
+        text-align: center;
+        font-family: Libre Baskerville;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16.5px;
+        letter-spacing: 0em;
+        border-radius:75px;
+        align-items: center;
+    }
+    .button:hover {
+        background-color:#E5A763;
+        ;
+      }
+      .button:active{
+        background:#CF8433;
+        transform: scale(0.98);
+     /* Scaling button to 0.98 to its original size */
+        box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+    }
+    .col2 {
+        width: 480px;
+        max-height: 226.27px;
+        margin: 0px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        margin-left: 0px;
+      
+    }
+    .imgGroup{
+        display: flex;
+        
+    }
+    .background {
+        width: 158.6px;
+        height: 158.6px;
+        margin: 0px;
+        margin-left: 20px;
+        margin-top: 25px;
+    }
+    
+    .imgPerro{
+        width: 202px;
+        height: 220px;
+        margin: 0px;
+        object-fit: cover; /* Ajusta el tamaño de la imagen para que cubra el contenedor */
+        position: absolute;
+        align-items: center;
+    
+    }
+    
+    .col2:hover .background {
+        pointer-events: none;
+      }
+    .sec2Cont {
+        width: 480px;
+        height: 250px;
+        background-color: white;
+       
+    }
+    
+    .testCards{
+        width: 480px;
+        height: 250px;
+        margin: 0px;
     }
 }

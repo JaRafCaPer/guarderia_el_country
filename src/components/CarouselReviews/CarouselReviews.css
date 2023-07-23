@@ -1,6 +1,9 @@
 .carrusel{
     display: flex;
     justify-content: center;
+    font-family: 'Belleza';
+    text-align: left;
+
 }
 
 .slide{
@@ -100,7 +103,7 @@ div .col3 {
 
 @media (max-width: 480px){
     .carrusel{
-        width: 634px;
+        width: 480px;
         height: 250px;
     }
     .colCard{
@@ -108,26 +111,34 @@ div .col3 {
         height: 220px;
     }
     .card{
-        width: 224px;
-        height: 220px;
+        width: 138px;
+        height: 186px;
     }
     .cardText{
-        width: 148px;
+        width: 106px;
         height: 108px;
-        font-size: 10px;
+        font-size: 8px;
+       
     }
     .image-container {
+        width: 48px;
+        height: 48px;
         display: flex;
         justify-content: flex-start;
     }
     .img {
         width: 48px;
-        height: auto;
-        margin: 48px;
+        height: 48px;
+        margin: 17px 13px 6px 20px;
+    }
+    .nameTag{
+        width: 68px;
+        height: 68px;
     }
     .cardTitle{
         font-size: 12px;
     }
+    
     .edad{
         margin: 8px;
         height: 20px;
