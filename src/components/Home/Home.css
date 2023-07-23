@@ -159,7 +159,7 @@
         width: 800px;
         height: 1070px;        
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         margin: 0px;
     }
@@ -167,13 +167,13 @@
     
     .sec1container{
         width: 800px;
-        height: 930px;
+        height: 640px;
         margin: 0px;
        
     }
     .innerCont{
         width: 737px; 
-        height: 930px; 
+        height: 672px; 
         margin: 0px;
         display: flex;
         flex-direction: column-reverse;
@@ -185,7 +185,7 @@
     }
     .texto {
         width: 661px;
-        height: 292px;
+        height: 341px;
         margin: 30px 38px 20px;
         align-items: center;
     }
@@ -244,33 +244,38 @@
     /* Lowering the shadow */
     }
     .col2 {
-        width: 800px;
-        max-height: 349px;
+        width: 600px;
+        max-height: 292px;
         margin: 0px;
         position: relative;
         display: flex;
-        justify-content: center;
         align-items: center;
+        margin-left: 60px;
       
     }
+    .imgGroup{
+       
+        display: flex;
+        margin-left: 60px;
+    }
     .background {
-        display: none;
+        width: 228.2px;
+        height: 228.2px;
+        margin: 0px;
     }
     
     .imgPerro{
         width: 258px;
         height: 280px;
         margin: 0px;
-        margin-left: 20px;
         object-fit: cover; /* Ajusta el tamaño de la imagen para que cubra el contenedor */
         position: absolute;
-    
-        transform: translate(-50%, -50%); /* Centramos la imagen en el contenedor */
+        align-items: center;
     
     }
     
     .col2:hover .background {
-        transform: scale(1.2); /* Escalamos el fondo en un 20% al hacer hover */
+        pointer-events: none;
       }
     .sec2Cont {
         width: 800px;
