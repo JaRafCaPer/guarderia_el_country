@@ -7,6 +7,7 @@ import Instagram from "../../assets/images/Instagram.png"
 import Tiktok from "../../assets/images/Tiktok.png"
 import Mail from "../../assets/images/Gmail.png"
 import { Navbar, Offcanvas, Image } from "react-bootstrap";
+import Nav from 'react-bootstrap/Nav';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 
@@ -66,10 +67,10 @@ const NavBar = () => {
                         </Offcanvas.Header>
                         <Offcanvas.Body className="todo">
                             <div className="bloque">
-                                <div className="navLink"><p className="pNav">Inicio</p></div>
-                                <div className="navLink"><p className="pNav">Sobre Nosotras</p></div>
-                                <div className="navLink"><p className="pNav">Conócenos</p></div>
-                                <div className="navLink"><p className="pNav">Contáctanos</p></div>
+                                <Nav.Link className="navLink" href="/" ><p className="pNav">Inicio</p></Nav.Link>
+                                <Nav.Link className="navLink" href="/nosotras"><p className="pNav">Sobre Nosotras</p></Nav.Link>
+                                <Nav.Link className="navLink" href="/conocenos"><p className="pNav">Conócenos</p></Nav.Link>
+                                <Nav.Link className="navLink" href="/contactanos"><p className="pNav">Contáctanos</p></Nav.Link>
                             </div>
                             <div>
                                 <div className="redesContainer">

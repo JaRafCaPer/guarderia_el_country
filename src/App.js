@@ -5,6 +5,9 @@ import NavBar from "./components/NavBar/NavBar.jsx"
 
 import Home from "./components/Home/Home.jsx";
 import Conocenos from "./components/Conocenos/Conocenos.jsx";
+import SobreNosotras from './components/SobreNosotras/SobreNosotras.jsx'
+import Contactanos from './components/Contactanos/Contactanos.jsx'
+
 function App() {
   return (
     <div className='App'>
