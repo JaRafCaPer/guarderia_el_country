@@ -208,7 +208,7 @@
 }
 }
 @media (max-width: 480px) {
-    .nav{
+    .nav1{
         width: 480px;
         height: 56px;
         display: grid;
