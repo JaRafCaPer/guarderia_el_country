@@ -75,7 +75,10 @@
     cursor: pointer;
     transition: all 0.1s ease;
 }
-
+.pNav{
+    text-decoration: none;
+    color: black;
+}
 .pNav:hover{
     /* text-decoration: overline #CF8433; */
     border-bottom: 3px solid #CF8433;
@@ -85,26 +88,6 @@
 .linkRedes{
     display: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media (max-width: 767px) {
@@ -123,15 +106,25 @@
 .logoT{
     width: 800px;
     height: 96px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
 }
 .containerRow{
     width: 500px;
     height: 96px;
     align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
 }
 .lDog{
     width: 59px;
     height: 65px;
+}
+
+.logos{
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .logoN{
@@ -300,9 +293,6 @@
     }
     .redesContainer{
         margin-top: 270px;
-    }
-    .redesContainer ul{
-       
     }
     .linkRedes a{
         display: flex;
