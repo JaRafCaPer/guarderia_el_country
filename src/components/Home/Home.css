@@ -24,14 +24,15 @@
     height: 580px; 
     margin-top: 241px;
     margin-left: 150px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    display: flex;
+    flex-direction: row;
 }
 .col1 {
     width: 513px;
     height: 580px;
-    grid-gap: 10px;
+    margin: 0px;
+    padding: 0px;
+   
 }
 .texto {
     width: 571px;
@@ -41,8 +42,9 @@
    max-width: 571px;
     max-height: 302px;
     font-family: 'Libre Baskerville', serif;
-    font-size: 20px;
-    margin: 0px;
+    letter-spacing: 0.1px;
+    font-size: 24px;
+    margin: 30px 50px 30px 0px;
     text-align: justify;
 }
 .titulo {
@@ -92,7 +94,8 @@
 .background {
     width: 460px;
     height: 467px;
-    background-color: #CF8433;
+    /* background-color: #CF8433; */
+    background-image: radial-gradient(#CF8433, #E5A763 60%, black);
     opacity:initial;
     border-radius: 100%;
     transform-origin: center;
@@ -159,7 +162,7 @@
         width: 800px;
         height: 1070px;        
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         margin: 0px;
     }
@@ -167,25 +170,25 @@
     
     .sec1container{
         width: 800px;
-        height: 930px;
+        height: 640px;
         margin: 0px;
        
     }
     .innerCont{
         width: 737px; 
-        height: 930px; 
+        height: 672px; 
         margin: 0px;
         display: flex;
         flex-direction: column-reverse;
     }
     .col1 {
-        width: 800px;
+        width: 770px;
         height: 380px;
-        grid-gap: 10px;
+       
     }
     .texto {
         width: 661px;
-        height: 292px;
+        height: 341px;
         margin: 30px 38px 20px;
         align-items: center;
     }
@@ -199,6 +202,8 @@
         letter-spacing: 0em;
         text-align: center;
         margin: 0px;
+        letter-spacing: 0.1px;
+        margin: 20px 20px;
     }
     .titulo {
         max-width: 215px;
@@ -244,33 +249,40 @@
     /* Lowering the shadow */
     }
     .col2 {
-        width: 800px;
-        max-height: 349px;
+        width: 600px;
+        max-height: 292px;
         margin: 0px;
         position: relative;
         display: flex;
-        justify-content: center;
         align-items: center;
+        margin-left: 60px;
       
     }
+    .imgGroup{
+       
+        display: flex;
+        margin-left: 60px;
+    }
     .background {
-        display: none;
+        width: 208.2px;
+        height: 208.2px;
+        margin: 0px;
+        margin-top: 15px;
+        margin-left: 20px;
     }
     
     .imgPerro{
         width: 258px;
         height: 280px;
         margin: 0px;
-        margin-left: 20px;
         object-fit: cover; /* Ajusta el tamaño de la imagen para que cubra el contenedor */
         position: absolute;
-    
-        transform: translate(-50%, -50%); /* Centramos la imagen en el contenedor */
+        align-items: center;
     
     }
     
     .col2:hover .background {
-        transform: scale(1.2); /* Escalamos el fondo en un 20% al hacer hover */
+        pointer-events: none;
       }
     .sec2Cont {
         width: 800px;
@@ -282,13 +294,159 @@
     .testCards{
         width: 800px;
         height: 383px;
+        margin: 0px;
         margin-top: 66px;
-        margin-left: 0px;
+        
     }
 }
 
 @media (max-width: 480px){
-    .testCards{
+    .bg {
+        background-image: url(../../assets/images/Paws\ -\ up.jpg);
+        width: 480px;
+        height: 744px;
+     
+    }
+    .mainContainer{
+        width: 480px;
+        height: 1070px;        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+    }
+    
+    
+    .sec1container{
+        width: 480px;
+        height: 495px;
+        margin-top: 33px;
+        margin-left: 16px;
+        gap: 12px;
+        align-items: center;
        
+    }
+    .innerCont{
+        width: 480px; 
+        height: 495px; 
+        margin: 0px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .col1 {
+        width: 480px;
+        height: 275px;
+        grid-gap: 16px;
+    }
+    .texto {
+        width: 480px;
+        height: 275px;
+        margin: 0px;
+        margin-top: 12px;
+        align-items: center;
+    }
+    .pText {
+       max-width: 448px;
+        max-height: 166px;
+        font-family: Libre Baskerville;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.1px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin: 0px;
+        margin: 20px 46px;
+    }
+    .titulo {
+        max-width: 140px;
+        max-height: 23px;
+        margin: 10.73px 174px 16px;
+        font-family: Libre Baskerville;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 22.4px;
+        letter-spacing: 0em;
+        text-align: center;
+        white-space: nowrap;
+        
+    }
+    .contButton{
+        align-items: center;
+        margin: 16px 0px 10.73px;
+    }
+    .button {
+        width: 480px;
+        height: 32px;
+        background:#CF8433;
+        border: none;
+        color: white;
+        text-align: center;
+        font-family: Libre Baskerville;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16.5px;
+        letter-spacing: 0em;
+        border-radius:75px;
+        align-items: center;
+    }
+    .button:hover {
+        background-color:#E5A763;
+        ;
+      }
+      .button:active{
+        background:#CF8433;
+        transform: scale(0.98);
+     /* Scaling button to 0.98 to its original size */
+        box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+    }
+    .col2 {
+        width: 480px;
+        max-height: 226.27px;
+        margin: 0px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        margin-left: 0px;
+      
+    }
+    .imgGroup{
+        display: flex;
+        
+    }
+    .background {
+        width: 158.6px;
+        height: 158.6px;
+        margin: 0px;
+        margin-left: 20px;
+        margin-top: 25px;
+    }
+    
+    .imgPerro{
+        width: 202px;
+        height: 220px;
+        margin: 0px;
+        object-fit: cover; /* Ajusta el tamaño de la imagen para que cubra el contenedor */
+        position: absolute;
+        align-items: center;
+    
+    }
+    
+    .col2:hover .background {
+        pointer-events: none;
+      }
+    .sec2Cont {
+        width: 480px;
+        height: 250px;
+        background-color: white;
+       
+    }
+    
+    .testCards{
+        width: 480px;
+        height: 250px;
+        margin: 0px;
     }
 }
