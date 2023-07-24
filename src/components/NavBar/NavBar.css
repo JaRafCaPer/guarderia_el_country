@@ -96,42 +96,46 @@
 .nav1{
     width: 800px;
     height: 96px;
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 2fr;
-    
-    
-}
-
-.logoT{
-    width: 800px;
-    height: 96px;
     display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
+    
+    
+    
 }
 .containerRow{
     width: 500px;
     height: 96px;
     align-items: center;
     display: flex;
+    
+}
+.logos{
+    margin: 0px;
+    width: 500px;
+    align-items: start;
+    display: flex;
     flex-direction: row-reverse;
 }
+.logoT{
+    width: 800px;
+    height: 96px;
+    display: flex;
+    align-items: start;
+    flex-direction: row-reverse;
+}
+
 .lDog{
     width: 59px;
     height: 65px;
 }
 
-.logos{
-    display: flex;
-    flex-direction: row-reverse;
-}
 
 .logoN{
     width: 156px;
     height: 29px;
 }
-
+.colLogo2{
+    margin-right: 200px;
+}
 .todo{
    
     justify-content: end;
@@ -197,10 +201,12 @@
     align-items: center;
     text-decoration: none;
     color: black;
+    border-bottom: 1px solid rgb(224, 224, 224);
 }
 
 .linkRedes span{
     padding-left: 10px;
+    
 }
 .iconRedes{
     width: 38.51px;
@@ -230,13 +236,16 @@
     .lDog{
         width: 37px;
         height: 40px;
+        margin-top: 10px;
     }
     
     .logoN{
         width: 110px;
         height: 21px;
     }
-    
+    .colLogo2{
+        margin-right: 30px;
+    }
     .todo{
        
         justify-content: end;
