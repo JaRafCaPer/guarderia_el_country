@@ -7,18 +7,18 @@ import Home from "./components/Home/Home.jsx";
 import Conocenos from "./components/Conocenos/Conocenos.jsx";
 function App() {
   return (
-  <div className='App'>
-    <BrowserRouter>
-        <Routes>
-
-        </Routes>
-        <NavBar/>
-        <Conocenos/>
-        <Footer/>
-      </BrowserRouter>
-    
-  
-  </div>
+    <div className='App'>
+        <BrowserRouter>
+          <NavBar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/nosotras" element={<SobreNosotras />} />
+            <Route path="/conocenos" element={<Conocenos />} />
+            <Route path="/contactanos" element={<Contactanos />} />
+          </Routes>
+          <Footer />
+        </BrowserRouter>
+    </div>
   );
 }
 
