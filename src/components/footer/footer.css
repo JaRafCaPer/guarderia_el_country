@@ -206,17 +206,16 @@
     max-height: 114px;
     background: rgba(244, 220, 193, 1);
     font-family: 'Libre Baskerville', serif;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, 57px); 
+    display: flex;
+    flex-direction: column; 
     align-items: center; /* Centrar verticalmente los elementos dentro del contenedor */
   }
   
   /* Estilos para la columna de contLogo */
   .contLogo {
-    width: 480px;
+    width: 380px;
     height: 57px;
-    margin-left: 100px;
+    
   }
   .logo{
     margin-top: 15px;
@@ -225,9 +224,9 @@
     height: 48px;
   }
   .redes{
-    width: 480px;
+    width: 380px;
     height: 57px;
-    margin-left: 100px;
+    
   }
   .contRedes {
     width: 212px;

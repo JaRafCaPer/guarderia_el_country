@@ -24,14 +24,15 @@
     height: 580px; 
     margin-top: 241px;
     margin-left: 150px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    display: flex;
+    flex-direction: row;
 }
 .col1 {
     width: 513px;
     height: 580px;
-    grid-gap: 10px;
+    margin: 0px;
+    padding: 0px;
+   
 }
 .texto {
     width: 571px;
@@ -181,9 +182,9 @@
         flex-direction: column-reverse;
     }
     .col1 {
-        width: 800px;
+        width: 770px;
         height: 380px;
-        grid-gap: 10px;
+       
     }
     .texto {
         width: 661px;
@@ -293,8 +294,9 @@
     .testCards{
         width: 800px;
         height: 383px;
+        margin: 0px;
         margin-top: 66px;
-        margin-left: 0px;
+        
     }
 }
 
