@@ -8,20 +8,22 @@ import CarouselReviews from '../CarouselReviews/CarouselReviews'
 const Conocenos = () => {
     return (
         <>
-            <div>
-                <Image className='perroAzul' src={perroAzul}/>
-                <h1 className='nosotrasTitle'> Nosotras</h1>
-            </div>
-            <div>
-                <div className='carrouselFotos'>
-                    <Image/>
-                    <Image/>
-                    <Image/>
-                    <Image/>
+            <div className='contPrinc'>
+                <div className='cabeza'>
+                    <Image className='perroAzul' src={perroAzul}/>
+                    <h1 className='nosotrasTitle'> Nosotras</h1>
                 </div>
-            </div>
-            <div className='carrouselReviews'>
-                    <CarouselReviews/>
+                <div className='carrouselFotosContainer'>
+                    <div className='carrouselFotos'>
+                        <Image/>
+                        <Image/>
+                        <Image/>
+                        <Image/>
+                    </div>
+                </div>
+                <div className='carrouselReviews'>
+                        <CarouselReviews/>
+                </div>
             </div>
         </>
     )

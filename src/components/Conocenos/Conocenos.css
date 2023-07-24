@@ -1,0 +1,46 @@
+html{
+    margin: 0px;
+    padding: 0px;
+}
+
+.contPrinc {
+    width: 1620px;
+    height: 980px;
+    display: flex;
+    flex-direction: column;
+}
+.cabeza{
+    width: 375px;
+    height: 68px;
+    margin-top: 82px;
+    margin-left: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+.perroAzul{
+    width: 107px;
+    height: 68px;
+   
+}
+.nosotrasTitle{
+    width: 264px;
+    height: 47px;
+    margin-top: 8px;
+    font-family: 'Libre Baskerville';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.carrouselFotosContainer{
+
+}
+.carrouselFotos{
+
+}
+.carrouselReviews{
+    
+}
