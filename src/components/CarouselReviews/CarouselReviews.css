@@ -104,7 +104,7 @@ div .col3 {
 
 @media (max-width: 360px){
     .carrusel{
-        width: 480px;
+        width: 360px;
         height: 250px;
     }
     .colCard{

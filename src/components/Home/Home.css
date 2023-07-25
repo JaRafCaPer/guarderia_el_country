@@ -154,12 +154,12 @@
 @media (max-width: 768px) {
     .bg {
         background-image: url(../../assets/images/Paws\ -\ up.jpg);
-        width: 800px;
+        width: 768px;
         height: 1340;
      
     }
     .mainContainer{
-        width: 800px;
+        width: 768px;
         height: 1070px;        
         display: flex;
         flex-direction: column;
@@ -169,7 +169,7 @@
     
     
     .sec1container{
-        width: 800px;
+        width: 768px;
         height: 640px;
         margin: 0px;
        
@@ -300,15 +300,15 @@
     }
 }
 
-@media (max-width: 480px){
+@media (max-width: 360px){
     .bg {
         background-image: url(../../assets/images/Paws\ -\ up.jpg);
-        width: 480px;
+        width: 360px;
         height: 744px;
      
     }
     .mainContainer{
-        width: 480px;
+        width: 360px;
         height: 1070px;        
         display: flex;
         flex-direction: column;
@@ -318,7 +318,7 @@
     
     
     .sec1container{
-        width: 480px;
+        width: 360px;
         height: 495px;
         margin-top: 33px;
         margin-left: 16px;
@@ -327,7 +327,7 @@
        
     }
     .innerCont{
-        width: 480px; 
+        width: 360px; 
         height: 495px; 
         margin: 0px;
         display: flex;
@@ -335,19 +335,19 @@
         align-items: center;
     }
     .col1 {
-        width: 480px;
+        width: 360px;
         height: 275px;
         grid-gap: 16px;
     }
     .texto {
-        width: 480px;
+        width: 360px;
         height: 275px;
         margin: 0px;
         margin-top: 12px;
         align-items: center;
     }
     .pText {
-       max-width: 448px;
+       max-width: 348px;
         max-height: 166px;
         font-family: Libre Baskerville;
         font-size: 12px;
@@ -377,7 +377,7 @@
         margin: 16px 0px 10.73px;
     }
     .button {
-        width: 480px;
+        width: 360px;
         height: 32px;
         background:#CF8433;
         border: none;
@@ -403,7 +403,7 @@
     /* Lowering the shadow */
     }
     .col2 {
-        width: 480px;
+        width: 360px;
         max-height: 226.27px;
         margin: 0px;
         position: relative;
@@ -438,14 +438,14 @@
         pointer-events: none;
       }
     .sec2Cont {
-        width: 480px;
+        width: 360px;
         height: 250px;
         background-color: white;
        
     }
     
     .testCards{
-        width: 480px;
+        width: 360px;
         height: 250px;
         margin: 0px;
     }
