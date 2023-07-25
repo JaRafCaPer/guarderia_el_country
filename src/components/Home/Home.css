@@ -343,7 +343,7 @@
         width: 360px;
         height: 275px;
         margin: 0px;
-        margin-top: 12px;
+        margin-top: 0px;
         align-items: center;
     }
     .pText {
@@ -362,7 +362,7 @@
     .titulo {
         max-width: 140px;
         max-height: 23px;
-        margin: 10.73px 174px 16px;
+        margin: 10.73px 110px 6px;
         font-family: Libre Baskerville;
         font-size: 24px;
         font-weight: 700;
@@ -374,7 +374,7 @@
     }
     .contButton{
         align-items: center;
-        margin: 16px 0px 10.73px;
+        margin: 0px 0px 10.73px;
     }
     .button {
         width: 360px;
@@ -383,7 +383,7 @@
         border: none;
         color: white;
         text-align: center;
-        font-family: Libre Baskerville;
+        font-family: 'Libre Baskerville';
         font-size: 14px;
         font-weight: 700;
         line-height: 16.5px;
@@ -448,5 +448,6 @@
         width: 360px;
         height: 250px;
         margin: 0px;
+        margin-top: 20px;
     }
 }
