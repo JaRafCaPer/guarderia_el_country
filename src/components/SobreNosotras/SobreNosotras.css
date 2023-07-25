@@ -23,7 +23,7 @@
 }
 
 .cColBri{
-    height: 500px;
+    height: 520px;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
@@ -152,58 +152,53 @@
     margin-top: 88px;
 }
 .fondoAzul{
-    width: 420px;
-    height: 418px;
+    width: 422px;
+    height: 405px;
     background-image: radial-gradient( #90C2E9, #90C2E9 60%, black);
     opacity:initial;
     border-radius: 100%;
     transform-origin: center;
-    transition: transform 0.5s; /* Agregamos una transición para animar el efecto */
+    transition: transform 0.1s; /* Agregamos una transición para animar el efecto */
     box-shadow: -1px 12px 21px 3px rgba(0,0,0,0.36);
     -webkit-box-shadow: -1px 12px 21px 3px rgba(0,0,0,0.36);
     -moz-box-shadow: -1px 12px 21px 3px rgba(0,0,0,0.36);
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .fondoNaranja{
-        width: 420px;
-        height: 418px;
+        width: 412px;
+        height: 400px;
         background-image: radial-gradient(#CF8433, #E5A763 60%, black);
         opacity:initial;
         border-radius: 100%;
         transform-origin: center;
-        transition: transform 0.5s; /* Agregamos una transición para animar el efecto */
+        transition: transform 0.2s ease; /* Agregamos una transición para animar el efecto */
         box-shadow: -1px 12px 21px 3px rgba(0,0,0,0.36);
         -webkit-box-shadow: -1px 12px 21px 3px rgba(0,0,0,0.36);
         -moz-box-shadow: -1px 12px 21px 3px rgba(0,0,0,0.36);
-}
-
-.fondoBeige{
-    width: 460px;
-    height: 467px;
-    background-image: radial-gradient( #F4DCC1 60%, black);
-    opacity:initial;
-    border-radius: 100%;
-    transform-origin: center;
-    transition: transform 0.5s; /* Agregamos una transición para animar el efecto */
-    box-shadow: -1px 12px 21px 3px rgba(0,0,0,0.36);
-    -webkit-box-shadow: -1px 12px 21px 3px rgba(0,0,0,0.36);
-    -moz-box-shadow: -1px 12px 21px 3px rgba(0,0,0,0.36);
+        margin-top: 30px;
 }
 
 .perroAzul {
-    width: 300px;
-    height: 400px;
+    width: 435px;
+    height: 515px;
     object-fit: cover; 
     position: absolute;
-    top: 53%; 
-    left: 58%; 
+    top: 44%; 
+    left: 54%; 
     transform: translate(-50%, -50%); 
-    transition: transform 0.5s ease;
+    transition: transform 5s, 
+                border-radius 0s;
+    object-fit: cover; 
+    border-radius: 63% 40%;
 }
 .containerImag:hover .fondoAzul{
-    transform: scale(1.2) translateX(30px);
+    transform: scale(1.1) translateX(10px);
 }
-
+.containerImag:hover .perroAzul{
+    border-radius: 0%;
+} 
 
 .containerImagNaranja{
         width: 612px;
@@ -217,35 +212,36 @@
 }
 
 .perroNaranja2{
-    width: 400px;
-    height: 400px;
+    width: 435px;
+    height: 445px;
     object-fit: cover; 
     position: absolute;
-    top: 40%; 
-    left: 55%; 
+    top: 42%; 
+    left: 53%; 
     transform: translate(-50%, -50%); 
     transition: transform 0.5s ease;
+    border-radius: 10% 38%;
 }
 
 .containerImagNaranja:hover .fondoNaranja{
-    transform: scale(1.2) translateX(-20px);
+    transform: scale(1.1) translateX(-20px);
 }
 
 .containerImagBeige{
-    width: 545px;
-    height: 750px;
+    width: 565px;
+    height: 720px;
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: start;
     overflow: hidden;
     margin-right: 50px;
     margin-left: 40px;
 }
 
 .fondoBeige{
-    width: 460px;
-    height: 467px;
+    width: 430px;
+    height: 447px;
     background-image: radial-gradient( #F4DCC1 60%, black);
     opacity:initial;
     border-radius: 100%;
@@ -254,21 +250,22 @@
     box-shadow: -1px 12px 21px 3px rgba(0,0,0,0.36);
     -webkit-box-shadow: -1px 12px 21px 3px rgba(0,0,0,0.36);
     -moz-box-shadow: -1px 12px 21px 3px rgba(0,0,0,0.36);
+    margin-top: 30px;
 }
 
 .perroBeige{
-    width: 400px;
-    height: 510px;
+    width: 430px;
+    height: 530px;
     object-fit: cover; 
     position: absolute;
-    top: 45%; 
-    left: 50%; 
+    top: 51%; 
+    left: 46%; 
     transform: translate(-50%, -50%); 
     transition: transform 0.5s ease;
 }
 
 .containerImagBeige:hover .fondoBeige{
-    transform: scale(1.2) translateX(20px);
+    transform: scale(1.1) translateX(20px);
 }
 
 .containerImagAzul{
@@ -277,7 +274,7 @@
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: self-start;
+    align-items: start;
     overflow: hidden;
     margin-right:  50px;
 }
@@ -294,32 +291,32 @@
 }
 
 .containerImagAzul:hover .fondoAzul{
-    transform: scale(1.2) translateX(-30px);
+    transform: scale(1.1) translateX(-30px);
 }
 
 .containerImagTrioN{
     width: 585px;
-    height: 675px;
+    height: 635px;
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: start;
     overflow: hidden;
 }
 
 .perrosNaranjas{
-    width: 550px;
+    width: 625px;
     height: 560px;
     object-fit: cover; 
     position: absolute;
-    top: 38%; 
-    left: 53%; 
+    top: 35%; 
+    left: 54%; 
     transform: translate(-50%, -50%); 
     transition: transform 0.5s ease;
 }
 
 .containerImagTrioN:hover .fondoNaranja{
-    transform: scale(1.2) translateX(30px);
+    transform: scale(1.1) translateX(30px);
 }
 
 .containerImagTrioB{
@@ -338,14 +335,14 @@
     height: 500px;
     object-fit: cover; 
     position: absolute;
-    top: 45%; 
-    left: 50%; 
+    top: 47%; 
+    left: 45%; 
     transform: translate(-50%, -50%); 
     transition: transform 0.5s ease;
 }
 
 .containerImagTrioB:hover .fondoBeige{
-    transform: scale(1.2) translateX(-20px);
+    transform: scale(1.1) translateX(-20px);
 }
 
 .infoUl{
@@ -372,4 +369,354 @@
     text-align: center;
     margin-bottom: 20px;
     margin-left: 60px;
+}
+
+@media (max-width: 767px){
+.containerNosotras {
+        grid-auto-columns: 200px; 
+        grid-template-columns: 360px 360px; 
+        margin-left: 0;
+    }
+.cCol {
+    width: 360px ;
+    flex-direction: column;
+}
+
+.cColRer{
+    width: 360px;
+    flex-direction: column;
+}
+
+.cColBri{
+    width: 360px;
+    height: 520px;
+    flex-direction: column;
+}
+
+.cColEsp{
+    width: 360px;
+    height: 500px;
+    flex-direction: column;
+}
+
+
+.info {
+    width: 300px;
+    height: 483px;
+    background-color: #f0f0f0;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 0px;
+}
+
+.info p{
+    width: 260px;
+    height: 207px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.info h2{
+    width: 194px;
+    height: 30px;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+}
+
+.info2 {
+    width: 360px;
+    height: 100px;
+    background-color: #f0f0f0;
+    margin-left: 0px;
+    padding: 0px;
+}
+
+.info2 p{
+    width: 260px;
+    height: 100px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.info2 h2{
+    width: 194px;
+    height: 45px;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+}
+
+.info3 {
+    width: 370px;
+    height: 483px;
+    background-color: #f0f0f0;
+    margin-left: 50px;
+    margin-top: 60px;
+    padding: 90px, 0px, 90px, 0px;
+}
+
+.info3 p{
+    width: 260px;
+    height: 100px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.info3 h2{
+    width: 100px;
+    height: 30px;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+}
+
+.info4 {
+    width: 360px;
+    height: 483px;
+    background-color: #f0f0f0;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.info4 p{
+    width: 340px;
+    height: 207px;
+    font-size: 14px;
+}
+
+.info4 h2{
+    width: 190px;
+    height: 30px;
+    font-size: 22px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+}
+
+.containerImag{
+    width: 251px;
+    height: 237px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+.fondoAzul{
+    width: 200px;
+    height: 200px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.fondoNaranja{
+        width: 412px;
+        height: 400px;
+        background-image: radial-gradient(#CF8433, #E5A763 60%, black);
+        opacity:initial;
+        border-radius: 100%;
+        transform-origin: center;
+        transition: transform 0.2s ease; /* Agregamos una transición para animar el efecto */
+        box-shadow: -1px 12px 21px 3px rgba(0,0,0,0.36);
+        -webkit-box-shadow: -1px 12px 21px 3px rgba(0,0,0,0.36);
+        -moz-box-shadow: -1px 12px 21px 3px rgba(0,0,0,0.36);
+        margin-top: 30px;
+}
+
+.perroAzul {
+    width: 190px;
+    height: 190px;
+    object-fit: cover; 
+    position: absolute;
+    top: 44%; 
+    left: 54%; 
+    transform: translate(-50%, -50%); 
+    transition: transform 5s, 
+                border-radius 0s;
+    object-fit: cover; 
+    border-radius: 63% 40%;
+}
+.containerImag:hover .fondoAzul{
+    transform: scale(1.1) translateX(10px);
+}
+.containerImag:hover .perroAzul{
+    border-radius: 0%;
+} 
+
+.containerImagNaranja{
+        width: 612px;
+        height: 545px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        overflow: hidden;
+        margin-right: 70px;
+}
+
+.perroNaranja2{
+    width: 435px;
+    height: 445px;
+    object-fit: cover; 
+    position: absolute;
+    top: 42%; 
+    left: 53%; 
+    transform: translate(-50%, -50%); 
+    transition: transform 0.5s ease;
+    border-radius: 10% 38%;
+}
+
+.containerImagNaranja:hover .fondoNaranja{
+    transform: scale(1.1) translateX(-20px);
+}
+
+.containerImagBeige{
+    width: 565px;
+    height: 720px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    overflow: hidden;
+    margin-right: 50px;
+    margin-left: 40px;
+}
+
+.fondoBeige{
+    width: 430px;
+    height: 447px;
+    background-image: radial-gradient( #F4DCC1 60%, black);
+    opacity:initial;
+    border-radius: 100%;
+    transform-origin: center;
+    transition: transform 0.5s; /* Agregamos una transición para animar el efecto */
+    box-shadow: -1px 12px 21px 3px rgba(0,0,0,0.36);
+    -webkit-box-shadow: -1px 12px 21px 3px rgba(0,0,0,0.36);
+    -moz-box-shadow: -1px 12px 21px 3px rgba(0,0,0,0.36);
+    margin-top: 30px;
+}
+
+.perroBeige{
+    width: 430px;
+    height: 530px;
+    object-fit: cover; 
+    position: absolute;
+    top: 51%; 
+    left: 46%; 
+    transform: translate(-50%, -50%); 
+    transition: transform 0.5s ease;
+}
+
+.containerImagBeige:hover .fondoBeige{
+    transform: scale(1.1) translateX(20px);
+}
+
+.containerImagAzul{
+    width: 545px;
+    height: 690px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    overflow: hidden;
+    margin-right:  50px;
+}
+
+.perrosAzules{
+    width: 400px;
+    height: 600px;
+    object-fit: cover; 
+    position: absolute;
+    top: 35%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    transition: transform 0.5s ease;
+}
+
+.containerImagAzul:hover .fondoAzul{
+    transform: scale(1.1) translateX(-30px);
+}
+
+.containerImagTrioN{
+    width: 585px;
+    height: 635px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    overflow: hidden;
+}
+
+.perrosNaranjas{
+    width: 625px;
+    height: 560px;
+    object-fit: cover; 
+    position: absolute;
+    top: 35%; 
+    left: 54%; 
+    transform: translate(-50%, -50%); 
+    transition: transform 0.5s ease;
+}
+
+.containerImagTrioN:hover .fondoNaranja{
+    transform: scale(1.1) translateX(30px);
+}
+
+.containerImagTrioB{
+    width: 582px;
+    height: 610px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-right: 70px;
+}
+
+.perrosBeige{
+    width: 520px;
+    height: 500px;
+    object-fit: cover; 
+    position: absolute;
+    top: 47%; 
+    left: 45%; 
+    transform: translate(-50%, -50%); 
+    transition: transform 0.5s ease;
+}
+
+.containerImagTrioB:hover .fondoBeige{
+    transform: scale(1.1) translateX(-20px);
+}
+
+.infoUl{
+    width: 785px;
+    height: 483px;
+    background-color: #f0f0f0;
+    margin-left: 20px;
+    padding: 90px, 0px, 90px, 0px;
+    list-style-type: disc;
+}
+
+.infoUl .divUl ul{
+    width: 750px;
+    height: 207px;
+    font-size: 26px;
+    list-style-type: disc;
+
+}
+
+.infoUl h2{
+    width: 500px;
+    height: 45px;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 60px;
+}
+    
 }
