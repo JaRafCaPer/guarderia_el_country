@@ -58,13 +58,25 @@ gap: 17px;
     flex-shrink: 0;
     border-radius: 75px;
     background: #FFF;
-    
+    overflow: hidden;
 }
 .imgCar{
     width: fixed 125px;
     height: 350px;
     border-radius: 75px;
-    
+}
+.colCar1{
+    width: 185px; 
+    height: 350px;
+    flex-shrink: 0;
+    border-radius: 55px;
+    background: #FFF;
+    overflow: hidden;
+}
+.imgCar1{
+    width: fixed 180px;
+    height: 350px;
+    border-radius: 55px;
 }
 .image-container1{
     

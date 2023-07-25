@@ -30,26 +30,26 @@ const Conocenos = () => {
                                             </div>
                                         </Card>
                                 </div>
-                                <div className='colCar'>
+                                <div className='colCar1'>
                                         <Card className='card'>
                                             <div className="image-container">
-                                                <Card.Img  src={CarouselSec} className='imgCar' />
+                                                <Card.Img  src={CarouselSec} className='imgCar1' />
                                             </div>
                                         </Card>
                                 </div>
-                                <div className='colCar'>
+                                <div className='colCar1'>
                                         <Card className='card1'>
                                             <div className="image-container">
-                                                <Card.Img  src={CarouselMid} className='imgCar' />
+                                                <Card.Img  src={CarouselMid} className='imgCar1' />
                                             
                                             </div>
 
                                         </Card>
                                 </div>
-                                <div className='colCar'>
+                                <div className='colCar1'>
                                         <Card className='card'>
                                             <div className="image-container">
-                                                <Card.Img  src={CarouselCua} className='imgCar' />
+                                                <Card.Img  src={CarouselCua} className='imgCar1' />
                                             
                                             </div>
 
