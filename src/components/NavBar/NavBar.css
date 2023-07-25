@@ -213,9 +213,9 @@
     height: 38.51px;
 }
 }
-@media (max-width: 480px) {
+@media (max-width: 360px) {
     .nav1{
-        width: 480px;
+        width: 360px;
         height: 56px;
         display: grid;
         grid-template-rows: 1fr;
@@ -225,11 +225,11 @@
     }
     
     .logoT{
-        width: 480px;
+        width: 360px;
         height: 56px;
     }
     .containerRow{
-        width: 350px;
+        width: 360px;
         height: 56px;
         align-items: center;
     }
