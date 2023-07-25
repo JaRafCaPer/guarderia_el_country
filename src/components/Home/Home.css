@@ -1,6 +1,5 @@
 .bg {
     background-color: #90C2E9;
- 
 }
 .mainContainer{
     width: 1620px;
@@ -116,14 +115,13 @@
 }
 
 .col2:hover .background {
-    transform: scale(1.2) translateY(-40px);; /* Escalamos el fondo en un 20% al hacer hover */
+    transform: scale(1.2) translateY(-40px);;/* Escalamos el fondo en un 20% al hacer hover */
 }
 
 .sec2Cont {
     width: 1620px;
     height: 411px;
     background-color: white;
-   
 }
 
 .testCards{
