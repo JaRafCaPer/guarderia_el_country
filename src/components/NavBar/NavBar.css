@@ -213,9 +213,11 @@
     height: 38.51px;
 }
 }
+
 @media (max-width: 360px) {
     .nav1{
         width: 360px;
+
         height: 56px;
         display: grid;
         grid-template-rows: 1fr;

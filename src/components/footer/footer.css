@@ -204,6 +204,7 @@
   }
 }
 /* Media query for mobile devices */
+
 @media (max-width:360px) {
   * {
     margin:0;
@@ -213,6 +214,7 @@
   .footerContainer {
     width: 360px;
     height: 114px;
+
     background: rgba(244, 220, 193, 1);
     font-family: 'Libre Baskerville', serif;
     display: flex;
@@ -222,7 +224,7 @@
   
   /* Estilos para la columna de contLogo */
   .contLogo {
-    width: 360px;
+    width: 380px;
     height: 57px;
     
   }
@@ -233,7 +235,7 @@
     height: 48px;
   }
   .redes{
-    width: 360px;
+    width: 380px;
     height: 57px;
     
   }
