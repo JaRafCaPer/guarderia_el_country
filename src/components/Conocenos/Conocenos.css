@@ -1,0 +1,432 @@
+* {
+	margin:0;
+	padding:0;
+	border:0;
+}
+.sec3{
+    width: 1620px;
+    height: 980px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+
+}
+
+.contPrinc {
+    width: 1323px;
+    height: 480px;
+    margin: 10px 149px 52px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.cabeza{
+    width: 375px;
+    height: 68px;
+    margin-top: 82px;
+    margin-left: 420px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+.perroAzul{
+    width: 107px;
+    height: 68px;
+   
+}
+.nosotrasTitle{
+    width: 264px;
+    height: 47px;
+    margin-top: 8px;
+    font-family: 'Libre Baskerville';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.carrouselFotosContainer{
+    width: 1323px;
+    height: 389px;
+    margin-top: 40px;
+   
+}
+.carrouselFotos{
+ display: flex;
+ gap: 8px;
+}
+.slide2{
+    margin: 0px;
+    width: 1323px;
+    height: 350px;
+}
+
+.imgCar{
+    max-width: 525px;
+    height: 350px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.colCar{
+    width: 125px; 
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 75px;
+    background: #FFF;
+    transition: all 0.7s ease; 
+}
+
+.colCar1{
+    width: 185px; 
+    height: 350px;
+    flex-shrink: 0;
+    border-radius: 55px;
+    background: #FFF;
+    overflow: hidden;
+    transition: all 0.7s ease; 
+}
+.colCar2{
+    width: 185px; 
+    height: 350px;
+    flex-shrink: 0;
+    border-radius: 55px;
+    background: #FFF;
+    overflow: hidden;
+    transition: all 0.7s ease; 
+}
+.colCar3{
+    width: 185px; 
+    height: 350px;
+    flex-shrink: 0;
+    border-radius: 55px;
+    background: #FFF;
+    overflow: hidden;
+    transition: all 0.7s ease; 
+}
+.colCar4{
+    width: 125px; 
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 75px;
+    background: #FFF;
+    transition: all 0.7s ease; 
+}
+.colCarT {
+    width: 525px;
+    height: 350px;
+    border-radius: 55px;
+    background: #FFF;
+    transition: all 0.7s ease; 
+}
+.subTitulo{
+    display: none;
+}
+.carrouselReviews{
+    display: flex;
+    width: 1335px;
+    height: 360px;
+    padding: 90px 0px 39px 7px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
+@media (max-width: 768px) {
+    * {
+        margin:0;
+        padding:0;
+        border:0;
+    }
+    .sec3{
+        width: 800px;
+        height: 1087px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    
+    }
+    
+    .contPrinc {
+        width: 800px;
+        height: 425px;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+    .cabeza{
+        width: 165px;
+        height: 40px;
+        margin-top: 60px;
+        margin-left: 317px;
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+    }
+    .perroAzul{
+        width: 63px;
+        height: 40px;
+       
+    }
+    .nosotrasTitle{
+        width: 102px;
+        height: 30px;
+        margin-top: 5px;
+        font-family: 'Libre Baskerville';
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .carrouselFotosContainer{
+        display: flex;
+        width: 737.033px;
+        height: 272.1px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        margin-top: 100px;
+        margin-left: 50px;
+        
+    }
+    .carrouselFotos{
+     display: flex;
+     gap: 8px;
+    }
+    .slide2{
+        margin: 0px;
+        width: 737.033px;
+        height: 349px;
+    }
+    
+    .imgCar{
+        width: 352.444091796875px;
+        height: 239.9375px;
+        border-radius: 35.93764877319336px;
+        overflow: hidden;
+    }
+    
+    .colCar{
+        width: 84.95394134521484px;
+        height: 239.9375px;
+        border-radius: 49.005882263183594px;
+        background: #FFF;
+        overflow: hidden;
+        transition: all 0.7s ease;  
+    }
+    
+    .colCar1{
+        width: 119.39473724365234px;
+        height: 239.9375px;
+        border-radius: 35.93764877319336px;
+        background: #FFF;
+        overflow: hidden;
+        transition: all 0.7s ease; 
+    }
+    .colCar2{
+        width: 119.39473724365234px;
+        height: 239.9375px;
+        border-radius: 35.93764877319336px;
+        background: #FFF;
+        overflow: hidden;
+        transition: all 0.7s ease; 
+    }
+    .colCar3{
+        width: 119.39473724365234px;
+        height: 239.9375px;
+        border-radius: 35.93764877319336px;
+        background: #FFF;
+        overflow: hidden;
+        transition: all 0.7s ease;  
+    }
+    .colCar4{
+        display: none; 
+    }
+    .colCarT {
+        width: 352.444091796875px;
+        height: 239.9375px;
+        border-radius: 35.93764877319336px;
+        background: #FFF;
+        transition: all 0.7s ease; 
+    }
+    .subTitulo{
+        display: flex;
+      width: 93px;
+      height: 30px;
+      margin: 100px 353px 40px;
+    }
+    .subtitulo h2{
+        color: var(--texto-dark, #101619);
+        text-align: center;
+        font-family: 'Libre Baskerville';
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+    }
+    .carrouselReviews{
+        display: flex;
+        width: 800px;
+        height: 360px;
+        padding: 111px 0px 0px 55px;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
+@media (max-width: 360px){
+    * {
+        margin:0;
+        padding:0;
+        border:0;
+    }
+    .sec3{
+        width: 360px;
+        height: 615px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    
+    }
+    
+    .contPrinc {
+        width: 328px;
+        height: 267px;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+    .cabeza{
+        width: 124px;
+        height: 25px;
+        margin-top: 40px;
+        margin-left: 118px;
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+    }
+    .perroAzul{
+        width: 39.4px;
+        height: 25px;
+       
+    }
+    .nosotrasTitle{
+        width: 84px;
+        height: 23px;
+        margin-top: 5px;
+        font-family: 'Libre Baskerville';
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22.4px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .carrouselFotosContainer{
+        display: flex;
+        width: 360px;
+        height: 178.3px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        margin-top: 23px;
+        margin-left: 0pxpx;
+        
+    }
+    .carrouselFotos{
+     display: flex;
+     gap: 8px;
+    }
+    .slide2{
+        margin: 0px;
+        width: 328px;
+        height: 130px;
+    }
+    
+    .imgCar{
+        width: 193.327px;
+        height: 129px;
+        flex-shrink: 0;
+        border-radius: 20.253px;
+        border-radius: 35.93764877319336px;
+        overflow: hidden;
+    }
+    
+    .colCar{
+        width: 46.03px;
+        height: 129px;
+        flex-shrink: 0;
+        border-radius: 27.618px;
+        background: #FFF;
+        box-shadow: 0px 1.4729667901992798px 7.364834785461426px 0px rgba(0, 0, 0, 0.07);
+        overflow: hidden;
+        transition: all 0.7s ease;  
+    }
+    
+    .colCar1{
+        width: 66.283px;
+        height: 129px;
+        flex-shrink: 0;
+        border-radius: 20.253px;
+        background: #FFF;
+        box-shadow: 0px 1.4729667901992798px 7.364834785461426px 0px rgba(0, 0, 0, 0.07);
+        overflow: hidden;
+        transition: all 0.7s ease; 
+    }
+    .colCar2{
+        width: 66.283px;
+        height: 129px;
+        flex-shrink: 0;
+        border-radius: 20.253px;
+        background: #FFF;
+        box-shadow: 0px 1.4729667901992798px 7.364834785461426px 0px rgba(0, 0, 0, 0.07);
+        overflow: hidden;
+        transition: all 0.7s ease;
+    }
+    .colCar3{
+        display: none; 
+    }
+    .colCar4{
+        display: none; 
+    }
+    .colCarT {
+        width: 193.327px;
+        height: 129px;
+        flex-shrink: 0;
+        border-radius: 20.253px;
+        background: #DCDCDC;
+        box-shadow: 0px 1.4729667901992798px 7.364834785461426px 0px rgba(0, 0, 0, 0.07);
+        transition: all 0.7s ease; 
+    }
+    .subTitulo{
+        display: flex;
+        width: 166px;
+        height: 24px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+      margin: 27px 100px 27px;
+    }
+    .subtitulo h2{
+        color: var(--texto-dark, #101619);
+        text-align: center;
+        font-family: 'Libre Baskerville';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22.4px;
+    }
+    .carrouselReviews{
+        display: flex;
+        width: 360px;
+        height: 188px;
+        padding-bottom: 56px;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
