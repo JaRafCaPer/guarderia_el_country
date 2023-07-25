@@ -1,7 +1,9 @@
-html{
-    margin: 0px;
-    padding: 0px;
+* {
+	margin:0;
+	padding:0;
+	border:0;
 }
+
 
 .contPrinc {
     width: 1620px;
@@ -39,8 +41,39 @@ html{
 
 }
 .carrouselFotos{
+ width: 1323px;
+ height: 389px;
+ display: inline-flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 17px;
+}
+.slide2{
 
 }
-.carrouselReviews{
+.colCar{
+    width: 125px; 
+    height: 350px;
+    flex-shrink: 0;
+    border-radius: 75px;
+    background: #FFF;
     
+}
+.imgCar{
+    width: fixed 125px;
+    height: 350px;
+    border-radius: 75px;
+    
+}
+.image-container1{
+    
+}
+.carrouselReviews{
+    display: flex;
+    width: 1335px;
+    height: 360px;
+    padding: 38px 0px 39px 7px;
+    justify-content: flex-end;
+    align-items: center;
 }
