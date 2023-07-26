@@ -6,6 +6,10 @@ import perroBeige from '../../assets/images/perroBeige.png';
 import perrosAzules from '../../assets/images/perrosAzules.png';
 import perrosNaranjas from '../../assets/images/perrosNaranjas.png';
 import perrosBeige from '../../assets/images/perrosBeige.png';
+import perroAzulTablet from '../../assets/images/perroAzulTablet.png';
+import perroNaranjaTablet from '../../assets/images/perroNaranjaTablet.png';
+import dosAzulTablet from '../../assets/images/dosAzulTablet.png';
+import tresNaranjaTablet from '../../assets/images/tresNaranjaTablet.png';
 
 const SobreNosotras = () => {
     return (
@@ -15,8 +19,9 @@ const SobreNosotras = () => {
                     <div className="cCol">
                         <div className="info">
                             <h2>¿Quiénes somos?</h2>
+                            <div><img src={perroAzulTablet} alt="" className="perroTablet"/></div>
                             <p>Somos una familia compuesta por dos educadoras caninas, y tres perras sociables que abren las puertas
-                                de su casa para todos aquellos perritos que lo necesiten mientras sus tutores
+                                de su casa pra todos aquellos perritos que lo necesiten mientras sus tutores
                                 responsables están de viaje.</p>
                         </div>
                         <div className="containerImag">
@@ -27,6 +32,7 @@ const SobreNosotras = () => {
                     <div className="cColRer">
                         <div className="info2">
                             <h2>¿Por qué elegirnos?</h2>
+                            <div><img src={perroNaranjaTablet} alt="" className="perroTablet"/></div>
                             <p>Porque tu perro va a estar en las mejores manos, le brindaremos amor para que se sienta como en su hogar, respeto, estará en un entorno familiar,
                                 y mantendremos su rutina diaria. Le brindaremos nuestro espacio, y será su segunda casa.</p>
                         </div>
@@ -60,6 +66,7 @@ const SobreNosotras = () => {
                     <div className="cColEsp">
                         <div className="info3">
                             <h2>¿Cómo es el espacio?</h2>
+                            <div><img src={dosAzulTablet} alt="" className="perroTablet"/></div>
                             <p>Contamos con una casa de 170 metros cuadrados y un lote de 700 metros, servicio de seguridad las 24 hs,
                                 aire acondicionado y pileta cercada en verano (tu perrito contará con salvavidas).</p>
                         </div>
@@ -68,9 +75,10 @@ const SobreNosotras = () => {
                             <img src={perrosAzules} alt="" className="perrosAzules" />
                         </div>
                     </div>
-                    <div className="cColBri">
+                    <div className="cColTraer">
                         <div className="info4">
                             <h2>¿Qué debo traer?</h2>
+                            <div><img src={tresNaranjaTablet} alt="" className="perroTablet"/></div>
                             <p>Para seguridad y salud de los perritos, tu mascota debe tener todas las vacunas y desparasitaciones al día, incluida la vacuna de la tos de las perreras. Traer su comida balanceada, vasito medidor y su camita para no perder la costumbre y se sienta siempre como en casa. En cuanto a higiene, trae
                                 su pipeta contra pulgas para que se la coloquemos ni bien entre a la casa para garantizar sanidad y cuidado.
                             </p>
@@ -80,8 +88,8 @@ const SobreNosotras = () => {
                             <img src={perrosNaranjas} alt="" className="perrosNaranjas" />
                         </div>
                     </div>
-                    <div className="cColRer">
-                        <div className="info2">
+                    <div className="cColAdapT">
+                        <div className="info5">
                             <h2>Día de adaptación</h2>
                             <p>Este día será importante para que tu retoño pueda adquirir el servicio de guardería; se observará si puede
                                 adaptarse a nuestra rutina, a la compañía de nuestras perras y su comportamiento ante este nuevo hogar en el
