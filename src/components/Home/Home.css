@@ -59,6 +59,7 @@
     align-items: start;
     margin-top: 60px;
 }
+
 .button {
     width: 211px;
     height: 58px;
@@ -304,12 +305,12 @@
     .bg {
         background-image: url(../../assets/images/Paws\ -\ up.jpg);
         width: 360px;
-        height: 744px;
+        height: 811px;
      
     }
     .mainContainer{
         width: 360px;
-        height: 1070px;        
+        height: 811px;        
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -375,6 +376,7 @@
     .contButton{
         align-items: center;
         margin: 0px 0px 10.73px;
+        
     }
     .button {
         width: 360px;
@@ -441,6 +443,7 @@
         width: 360px;
         height: 250px;
         background-color: white;
+        margin-top: 33px;
        
     }
     

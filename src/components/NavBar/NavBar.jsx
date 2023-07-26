@@ -56,9 +56,9 @@ const NavBar = () => {
                                     </div>
                                 </Navbar>
                             </div>
+                            <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         </div>
                     </div>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Offcanvas
                         id="offcanvasNavbar"
                         aria-labelledby="offcanvasNavbarLabel"

@@ -75,7 +75,6 @@
 .listPag {
   display: flex;
   flex-direction: column;
-  
   width: 700px;
   height: 282px;
   
@@ -90,7 +89,7 @@
   margin-top: 62px;
   font-size: 18px;
   padding-bottom: 17px;
-  margin-left: 180px;
+  margin-left: 290px;
 }
 
 .listNav {
