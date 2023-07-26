@@ -10,6 +10,8 @@ import perroAzulTablet from '../../assets/images/perroAzulTablet.png';
 import perroNaranjaTablet from '../../assets/images/perroNaranjaTablet.png';
 import dosAzulTablet from '../../assets/images/dosAzulTablet.png';
 import tresNaranjaTablet from '../../assets/images/tresNaranjaTablet.png';
+import perroBeigeTlf from '../../assets/images/perroBeigeTlf.png';
+import perrosBeigeTlf from '../../assets/images/perrosBeigeTlf.png';
 
 const SobreNosotras = () => {
     return (
@@ -44,6 +46,7 @@ const SobreNosotras = () => {
                     <div className="cColBri">
                         <div className="infoUl">
                             <h2>¿Qué brindamos?</h2>
+                            <div><img src={perroBeigeTlf} alt="" className="perroPhoneBeige"/></div>
                             <div className="divUl">
                                 <ul>
                                     <li>Responsabilidad: al ser educadoras, tenemos mucho conocimiento sobre las necesidades básicas
@@ -91,6 +94,7 @@ const SobreNosotras = () => {
                     <div className="cColAdapT">
                         <div className="info5">
                             <h2>Día de adaptación</h2>
+                            <div><img src={perrosBeigeTlf} alt="" className="perroPhone"/></div>
                             <p>Este día será importante para que tu retoño pueda adquirir el servicio de guardería; se observará si puede
                                 adaptarse a nuestra rutina, a la compañía de nuestras perras y su comportamiento ante este nuevo hogar en el
                                 cual permanecerá unos días. Es un requisito que tu perrito esté castrado y tenga un excelente comportamiento

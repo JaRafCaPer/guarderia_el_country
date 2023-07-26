@@ -413,6 +413,12 @@
     display: none;
 }
 
+.perroPhone{
+    display: none;
+}
+.perroPhoneBeige{
+    display: none;
+}
 @media (max-width: 767px){
 .containerNosotras {
         grid-auto-columns: 400px; 
@@ -696,4 +702,250 @@
 .perroTablet{
     display: block;
 }
+.perroPhone{
+    display: none;
+}
+.perroPhoneBeige{
+    display: none;
+}
+}
+
+@media (max-width: 480px){
+    .containerNosotras {
+        align-content: center;
+        justify-items: center;
+        grid-auto-columns: 480px; 
+        grid-template-columns: 480px ; 
+        grid-template-rows: 450px 450px 550px 450px 450px 450px;
+        grid-gap: 10px;
+        grid-template-areas: 
+        "cCol"
+        "cColRer"
+        "cColBri"
+        "cColEsp"
+        "cColTraer"
+        "cColAdapT";
+    }
+    .cCol,
+    .cColRer,
+    .cColBri,
+    .cColEsp,
+    .cColTraer,
+    .cColAdapT {
+        width: 100%;
+        grid-column: 1;
+    }
+    .cCol {
+        width: 340px ;
+        flex-direction: column;
+        justify-content: center;
+        grid-area: cCol;
+    }
+    
+    .cColRer{
+        width: 340px;
+        flex-direction: column;
+        justify-content: center;
+        grid-area: cColRer;
+    }
+    
+    .cColBri{
+        width: 340px;
+        height: 420px;
+        flex-direction: column;
+        grid-area: cColBri;
+    }
+
+    .containerImagBeige{
+        display: none;
+    }
+    
+    .cColEsp{
+        width: 340px;
+        height: 500px;
+        flex-direction: column;
+        grid-area: cColEsp;
+    }
+    
+    .cColTraer{
+        width: 340px;
+        height: 500px;
+        display: flex;
+        flex-direction: column; 
+        grid-area: cColTraer;
+    }
+    
+    .cColAdapT{
+        width: 340px;
+        height: 420px;
+        flex-direction: column;
+        grid-area: cColAdapT;
+    }
+    .containerImagTrioB{
+        display: none;
+    }
+
+    .perroTablet{
+        width: 230px;
+        height: 219px;
+    }
+
+    .perroPhone{
+        display: block;
+        width: 230px;
+        height: 219px;
+    }
+    .perroPhoneBeige{
+        display: block;
+        width: 230px;
+        height: 300px;
+        margin: 0;
+    }
+    .info {
+        width: 350px;
+        height: 400px;
+        margin-bottom: 10px;
+    }
+    
+    .info p{
+        width: 328px;
+        height: 120px;
+        font-size: 12px;
+        text-align: center;
+        margin: 0;
+        margin-top: 8px;
+    }
+    
+    .info h2{
+        width: 194px;
+        height: 30px;
+        font-size: 18px;
+        margin-bottom: 20px;
+        margin-top: 25px;
+    }
+    .info2 {
+        width: 350px;
+        height: 450px;
+        margin-left: 0px;
+        margin-bottom: 10px;  
+    }
+    
+    .info2 p{
+        width: 260px;
+        height: 120px;
+        font-size: 12px;
+        margin-top: 8px;
+    }
+    
+    .info2 h2{
+        width: 200px;
+        height: 30px;
+        font-size: 18px;
+        margin-bottom: 20px;
+        margin-top: 25px;
+        padding-left: 0px;
+    }
+    .info3 {
+        width: 360px;
+        height: 483px;
+        background-color: #f0f0f0;
+        margin-left: 0px;
+        margin-top: 0px;
+        padding: 0px, 0px, 0px, 0px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;   
+    }
+    
+    .info3 p{
+        width: 328px;
+        height: 100px;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .info3 h2{
+        width: 250px;
+        height: 30px;
+        font-size: 22px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 0px;
+        padding-left: 0px;
+    }
+    
+    .info4 {
+        width: 360px;
+        height: 483px;
+        background-color: #f0f0f0;
+        margin-left: 0px;
+        margin-top: 0px;
+        padding: 0px;
+        display: flex;
+        align-items: center;
+        flex-direction: column; 
+    }
+    
+    .info4 p{
+        width: 340px;
+        height: 220px;
+        font-size: 12px;
+        margin: 0;
+        margin-top: 10px;
+    }
+    
+    .info4 h2{
+        width: 190px;
+        height: 30px;
+        font-size: 18px;
+        margin-bottom: 20px;
+        margin-top: 0px;
+        padding-left: 0px;
+    }
+    
+    .infoUl{
+        width: 360px;
+        height: 530px;
+    }
+    
+    .infoUl .divUl ul{
+        width: 340px;
+        height: 200px;
+        font-size: 12px;
+        list-style-type: disc;
+        margin: 5px;
+    }
+    
+    .infoUl h2{
+        width: 194px;
+        height: 30px;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 25px;
+    }
+    
+    .info5 {
+        width: 360px;
+        height: 400px;
+        display: flex;
+    }
+    
+    .info5 p{
+        width: 340px;
+        height: 207px;
+        font-size: 12px;
+        margin: 0;
+        margin-top: 10px;
+    }
+    
+    .info5 h2{
+        width: 190px;
+        height: 30px;
+        font-size: 18px;
+        margin-bottom: 30px;
+        margin-top: 0px;
+        padding-left: 0px;
+    }
 }
