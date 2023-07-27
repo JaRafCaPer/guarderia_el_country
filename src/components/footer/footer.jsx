@@ -56,10 +56,10 @@ const Footer = () => {
         </div>
         <div className='listPag'>
         <Nav defaultActiveKey="/home" className="listFila ">
-              <Nav.Link className='listNav text-dark' href="/home" >Inicio</Nav.Link>
-              <Nav.Link className='listNav text-dark' eventKey="link-1"  >Sobre Nosotras</Nav.Link>
-              <Nav.Link className='listNav text-dark' eventKey="link-2" >Conócenos</Nav.Link>
-              <Nav.Link className='listNav text-dark' eventKey="link-3" >Contáctanos</Nav.Link>
+              <Nav.Link className='listNav text-dark' href="/" >Inicio</Nav.Link>
+              <Nav.Link className='listNav text-dark' href="/nosotras"  >Sobre Nosotras</Nav.Link>
+              <Nav.Link className='listNav text-dark' href="/conocenos" >Conócenos</Nav.Link>
+              <Nav.Link className='listNav text-dark' href="/contactanos" >Contáctanos</Nav.Link>
             </Nav>
           </div>
       </div>
