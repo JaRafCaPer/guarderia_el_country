@@ -250,28 +250,30 @@
 }
 
 .perroNaranja2{
-    width: 435px;
+    width: 450px;
     height: 445px;
     object-fit: cover; 
     position: absolute;
     top: 42%; 
-    left: 53%; 
+    left: 52%; 
     transform: translate(-50%, -50%); 
     transition: transform 0.5s ease;
-    border-radius: 10% 38%;
+    border-radius: 60% 70%;
 }
 
 .containerImagNaranja:hover .fondoNaranja{
     transform: scale(1.1) translateX(-20px);
 }
-
+.containerImagNaranja:hover .perroNaranja2{
+    border-radius: 60% 35%;
+} 
 .containerImagBeige{
     width: 565px;
     height: 720px;
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: flex-start;
     overflow: hidden;
     margin-right: 50px;
     margin-left: 40px;
@@ -312,7 +314,7 @@
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: flex-start;
     overflow: hidden;
     margin-right:  50px;
 }
@@ -338,7 +340,7 @@
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: flex-start;
     overflow: hidden;
 }
 
@@ -716,7 +718,7 @@
         justify-items: center;
         grid-auto-columns: 480px; 
         grid-template-columns: 480px ; 
-        grid-template-rows: 450px 450px 550px 450px 450px 450px;
+        grid-template-rows: 420px 450px 550px 450px 450px 450px;
         grid-gap: 10px;
         grid-template-areas: 
         "cCol"
@@ -797,9 +799,9 @@
     }
     .perroPhoneBeige{
         display: block;
-        width: 230px;
+        width: 240px;
         height: 300px;
-        margin: 0;
+        margin-left: 40px ;
     }
     .info {
         width: 350px;

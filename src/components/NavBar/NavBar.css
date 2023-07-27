@@ -188,9 +188,7 @@
 .redesContainer{
     margin-top: 433px;
 }
-.redesContainer ul{
-   
-}
+
 .linkRedes a{
     display: flex;
     flex-direction: row;
@@ -230,11 +228,14 @@
     .lDog{
         width: 37px;
         height: 40px;
+        margin-top: 8px;
     }
     
     .logoN{
-        width: 110px;
+        width: 120px;
         height: 21px;
+        margin: 15px 20px 0px 3px;
+        padding-right: 10px;
     }
     
     .todo{
