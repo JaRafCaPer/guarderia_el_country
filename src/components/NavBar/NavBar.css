@@ -102,7 +102,7 @@
     
 }
 .containerRow{
-    width: 500px;
+    width: 800px;
     height: 96px;
     align-items: center;
     display: flex;
@@ -110,10 +110,12 @@
 }
 .logos{
     margin: 0px;
-    width: 500px;
+    padding: 0px;
+    width: 800px;
     align-items: start;
     display: flex;
     flex-direction: row-reverse;
+    
 }
 .logoT{
     width: 800px;
@@ -137,7 +139,6 @@
     margin-right: 200px;
 }
 .todo{
-   
     justify-content: end;
     max-width: 432px;
     max-height: 1340px;
@@ -157,8 +158,6 @@
         height: 309px;
         margin: 0px;
         margin-top: 50px;
-        
-    
     }
 .navLink{
     width: 315.49px;
