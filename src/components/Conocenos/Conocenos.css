@@ -2,6 +2,10 @@
 	margin:0;
 	padding:0;
 	border:0;
+    
+}
+.bg {
+    background-color: #90C2E9;
 }
 .sec3{
     width: 1620px;
@@ -9,7 +13,7 @@
     display: flex;
     flex-direction: column;
     margin-left: 150px;
-
+    background-color: #f0f0f0;
 }
 
 .contPrinc {
@@ -29,7 +33,7 @@
     flex-direction: row;
     align-items: start;
 }
-.perroAzul{
+.lperroAzul{
     width: 107px;
     height: 68px;
    
@@ -167,7 +171,7 @@
         flex-direction: row;
         align-items: start;
     }
-    .perroAzul{
+    .lperroAzul{
         width: 63px;
         height: 40px;
        
@@ -310,7 +314,7 @@
         flex-direction: row;
         align-items: start;
     }
-    .perroAzul{
+    .lperroAzul{
         width: 39.4px;
         height: 25px;
        

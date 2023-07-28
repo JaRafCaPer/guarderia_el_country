@@ -5,7 +5,7 @@
     width: 1620px;
     height: 100%;
     margin-left: 150px;
-    background-image: url(../../assets/images/Paws\ -\ up.jpg);
+    background-color: white;
     display: grid;
     grid-template-columns: 1fr; 
 }
@@ -53,7 +53,7 @@
 .info {
     width: 723px;
     height: 483px;
-    background-color: #f0f0f0;
+    background-color: white;
     margin-top: 102px;
     margin-left: 20px;
     padding: 90px, 0px, 90px, 0px;
@@ -79,7 +79,7 @@
 .info2 {
     width: 723px;
     height: 483px;
-    background-color: #f0f0f0;
+    background-color: white;
     margin-left: 50px;
     padding: 90px, 0px, 90px, 0px;
 }
@@ -104,7 +104,7 @@
 .info3 {
     width: 723px;
     height: 483px;
-    background-color: #f0f0f0;
+    background-color: white;
     margin-left: 50px;
     margin-top: 60px;
     padding: 90px, 0px, 90px, 0px;
@@ -130,7 +130,7 @@
 .info4 {
     width: 723px;
     height: 483px;
-    background-color: #f0f0f0;
+    background-color: white;
     margin-left: 50px;
     margin-top: 60px;
     padding: 90px, 0px, 90px, 0px;
@@ -156,7 +156,7 @@
 .info5 {
     width: 723px;
     height: 483px;
-    background-color: #f0f0f0;
+    background-color: white;
     margin-left: 50px;
     padding: 90px, 0px, 90px, 0px;
 }
@@ -388,7 +388,7 @@
 .infoUl{
     width: 785px;
     height: 483px;
-    background-color: #f0f0f0;
+    background-color: white;
     margin-left: 20px;
     padding: 90px, 0px, 90px, 0px;
     list-style-type: disc;
@@ -421,8 +421,16 @@
 .perroPhoneBeige{
     display: none;
 }
-@media (max-width: 767px){
+@media (max-width: 768px){
+    .bg {
+        background-color:white;
+        width: 768px;
+        height: 100%;
+     
+    }
 .containerNosotras {
+        width: 768px;
+        height: 100%;
         grid-auto-columns: 400px; 
         grid-template-columns: 400px 400px; 
         grid-template-rows: auto auto auto auto;
@@ -480,7 +488,7 @@
 .info {
     width: 350px;
     height: 450px;
-    background-color: #f0f0f0;
+    background-color: white;
     margin-top: 0px;
     margin-left: 0px;
     margin-bottom: 10px;
@@ -512,7 +520,7 @@
 .info2 {
     width: 350px;
     height: 450px;
-    background-color: #f0f0f0;
+    background-color: white;
     margin-left: 0px;
     margin-bottom: 10px;
     padding: 0px;
@@ -543,7 +551,7 @@
 .info3 {
     width: 360px;
     height: 483px;
-    background-color: #f0f0f0;
+    background-color: white;
     margin-left: 0px;
     margin-top: 0px;
     padding: 0px, 0px, 0px, 0px;
@@ -573,7 +581,7 @@
 .info4 {
     width: 360px;
     height: 483px;
-    background-color: #f0f0f0;
+    background-color: white;
     margin-left: 0px;
     margin-top: 0px;
     padding: 0px;
@@ -602,7 +610,7 @@
 .infoUl{
     width: 360px;
     height: 420px;
-    background-color: #f0f0f0;
+    background-color: white;
     margin-left: 2px;
     padding: 0px, 0px, 0px, 0px;
     list-style-type: disc;
@@ -629,7 +637,7 @@
 .info5 {
     width: 360px;
     height: 400px;
-    background-color: #f0f0f0;
+    background-color: white;
     margin-left: 0px;
     margin-top: 0px;
     padding: 0px;
@@ -712,10 +720,18 @@
 }
 }
 
-@media (max-width: 480px){
+@media (max-width: 360px){
+    .bg {
+        background-color: white;
+        width: 360px;
+        height: 100%;
+     
+    }
     .containerNosotras {
-        align-content: center;
-        justify-items: center;
+        width: 360px;
+        height: 100%;
+        align-content: start;
+        justify-items: start;
         grid-auto-columns: 480px; 
         grid-template-columns: 480px ; 
         grid-template-rows: 420px 450px 550px 450px 450px 450px;
@@ -850,7 +866,7 @@
     .info3 {
         width: 360px;
         height: 483px;
-        background-color: #f0f0f0;
+        background-color: white;
         margin-left: 0px;
         margin-top: 0px;
         padding: 0px, 0px, 0px, 0px;
@@ -880,7 +896,7 @@
     .info4 {
         width: 360px;
         height: 483px;
-        background-color: #f0f0f0;
+        background-color: white;
         margin-left: 0px;
         margin-top: 0px;
         padding: 0px;

@@ -7,7 +7,7 @@ import CarouselReviews from '../CarouselReviews/CarouselReviews';
 const Home = () => {
     return (
         <>
-            <div className='bg'>
+            <div className='bgh'>
                 <div className='mainContainer'>
                     <div className='sec1Cont'>
                         <div className='innerCont'>

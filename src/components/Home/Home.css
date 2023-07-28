@@ -1,4 +1,4 @@
-.bg {
+.bgh {
     background-color: #90C2E9;
 }
 .mainContainer{
@@ -151,10 +151,10 @@
 
 /* Media query for tablets */
 @media (max-width: 768px) {
-    .bg {
+    .bgh {
         background-image: url(../../assets/images/Paws\ -\ up.jpg);
         width: 768px;
-        height: 1340;
+        height: 1340px;
      
     }
     .mainContainer{
@@ -300,7 +300,7 @@
 }
 
 @media (max-width: 360px){
-    .bg {
+    .bgh {
         background-image: url(../../assets/images/Paws\ -\ up.jpg);
         width: 360px;
         height: 811px;
