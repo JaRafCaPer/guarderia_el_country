@@ -1,7 +1,7 @@
 import React from 'react';
 import './Conocenos.css'
 import { Image } from 'react-bootstrap'
-import perroAzul from '../../assets/images/Perro - azul.svg'
+import lperroAzul from '../../assets/images/Perro - azul.svg'
 import CarouselReviews from '../CarouselReviews/CarouselReviews'
 import CarouselMid from '../../assets/images/Pampa-Bubba-Petit (42) 1.jpg'
 import CarouselIni from '../../assets/images/Pampa-Bubba-Petit (34) 1.jpg'
@@ -17,10 +17,11 @@ const Conocenos = () => {
 
     return (
         <>
+        <div className='bg'>
         <div className='sec3'>
             <div className='contPrinc'>
                 <div className='cabeza'>
-                    <Image className='perroAzul' src={perroAzul}/>
+                    <Image className='lperroAzul' src={lperroAzul}/>
                     <h1 className='nosotrasTitle'> Nosotras</h1>
                 </div>
                 <div className='carrouselFotosContainer'>
@@ -73,6 +74,7 @@ const Conocenos = () => {
             <div className='carrouselReviews'>
                         <CarouselReviews/>
             </div>
+        </div>
         </div>
         </>
     )
