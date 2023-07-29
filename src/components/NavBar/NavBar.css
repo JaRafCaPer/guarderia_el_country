@@ -94,15 +94,12 @@
 
 
 .nav1{
-    width: 800px;
+    width: 770px;
     height: 96px;
     display: flex;
-    
-    
-    
 }
 .containerRow{
-    width: 800px;
+    width: 770px;
     height: 96px;
     align-items: center;
     display: flex;
@@ -110,17 +107,17 @@
 .logos{
     margin: 0px;
     padding: 0px;
-    width: 800px;
-    align-items: start;
+    width: 770px;
+    align-items:center;
     display: flex;
     flex-direction: row-reverse;
-    
+    justify-content: space-between;
 }
 .logoT{
     width: 800px;
     height: 96px;
     display: flex;
-    align-items: start;
+    align-items: flex-start;
     flex-direction: row-reverse;
 }
 
@@ -135,7 +132,7 @@
     height: 29px;
 }
 .colLogo2{
-    margin-right: 200px;
+    margin-right: 5px;
 }
 .todo{
     justify-content: end;
@@ -217,8 +214,6 @@
         display: grid;
         grid-template-rows: 1fr;
         grid-template-columns: 1fr 2fr;
-        
-        
     }
     
     .logoT{
@@ -238,7 +233,16 @@
         width: 37px;
         height: 40px;
         margin-top: 0px;
+    }
+    
+    .navbar-toggler{
+        margin-bottom: 35px;
+    }
 
+    button .navbar-toggler-icon{
+        width: 20px;
+        height: 20px;
+        font-size: 20px;
     }
     
     .logoN{
@@ -252,7 +256,6 @@
 
     }
     .todo{
-       
         justify-content: end;
         max-width: 258px;
         max-height: 800px;

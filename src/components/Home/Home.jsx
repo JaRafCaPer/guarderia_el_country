@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css';
 import perroNaranja from '../../assets/images/Perro - Naranja.png'
-import {Link, Image } from 'react-bootstrap';
+import { Image } from 'react-bootstrap';
 import CarouselReviews from '../CarouselReviews/CarouselReviews';
 
 const Home = () => {

@@ -7,7 +7,7 @@ import pic4 from '../../assets/images/pic4.png';
 import pic5 from '../../assets/images/pic5.png';
 import pic6 from '../../assets/images/pic6.png';
 import Card from 'react-bootstrap/Card';
-import { Carousel, Container, Row, Col, Image } from 'react-bootstrap';
+import { Carousel, Row, Col} from 'react-bootstrap';
 
 const CarouselReviews = () => {
     return (

@@ -31,7 +31,7 @@
     margin-left: 420px;
     display: flex;
     flex-direction: row;
-    align-items: start;
+    align-items: flex-start;
 }
 .lperroAzul{
     width: 107px;
@@ -169,7 +169,7 @@
         margin-left: 317px;
         display: flex;
         flex-direction: row;
-        align-items: start;
+        align-items: flex-start;
     }
     .lperroAzul{
         width: 63px;
@@ -312,7 +312,7 @@
         margin-left: 118px;
         display: flex;
         flex-direction: row;
-        align-items: start;
+        align-items: flex-start;
     }
     .lperroAzul{
         width: 39.4px;
