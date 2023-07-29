@@ -149,12 +149,13 @@
 
 .custom-offcanvas {
     width: 432px !important;
+    height: 1340px;
 }
 .bloque {
         display: grid;
         grid-template-rows: repeat(4, 77.02px);
         grid-template-columns: 1fr;
-        width: 376px;
+        width: 375.5px;
         height: 309px;
         margin: 0px;
         margin-top: 50px;
@@ -178,7 +179,8 @@
 .navLink:hover{
     /* text-decoration: overline #CF8433; */
     border-bottom: none;
-    background-color: #90C2E9;
+    background: rgba(144, 194, 233, 0.4);
+
     color: black;
     border-radius: 160px;
     width: 315px ;
@@ -264,6 +266,7 @@
     
     .custom-offcanvas {
         width: 258px !important;
+        height: 800px;
     }
     .bloque {
             display: grid;
@@ -280,7 +283,7 @@
         width: 234px;
         height: 48px;
         margin: 0px;
-        margin-left: 36px;
+        margin-left: 0px;
         gap: 10px;
     
     }
@@ -296,7 +299,8 @@
     .navLink:hover{
         /* text-decoration: overline #CF8433; */
         border-bottom: none;
-        background-color: #90C2E9;
+        background: rgba(144, 194, 233, 0.4);
+
         color: black;
         border-radius: 160px;
         width: 234px ;
