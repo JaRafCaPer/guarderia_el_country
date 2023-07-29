@@ -102,7 +102,7 @@ div .col3 {
 }
 }
 
-@media (max-width: 360px){
+@media (max-width: 480px){
     .carrusel{
         width: 360px;
         height: 250px;

@@ -31,14 +31,13 @@
     height: 580px;
     margin: 0px;
     padding: 0px;
-   
 }
 .texto {
     width: 571px;
     height: 580px;
 }
 .pText {
-   max-width: 571px;
+    max-width: 571px;
     max-height: 302px;
     font-family: 'Libre Baskerville', serif;
     letter-spacing: 0.1px;
@@ -74,8 +73,9 @@
 .button:hover {
     background-color:#E5A763;
     ;
-  }
-  .button:active{
+}
+
+.button:active{
     background:#CF8433;
     transform: scale(0.98);
  /* Scaling button to 0.98 to its original size */
@@ -155,7 +155,6 @@
         background-image: url(../../assets/images/Paws\ -\ up.jpg);
         width: 768px;
         height: 1340px;
-     
     }
     .mainContainer{
         width: 768px;
@@ -171,7 +170,6 @@
         width: 768px;
         height: 640px;
         margin: 0px;
-       
     }
     .innerCont{
         width: 737px; 
@@ -183,7 +181,6 @@
     .col1 {
         width: 770px;
         height: 380px;
-       
     }
     .texto {
         width: 661px;
@@ -192,7 +189,7 @@
         align-items: center;
     }
     .pText {
-       max-width: 661px;
+        max-width: 661px;
         max-height: 156px;
         font-family: Libre Baskerville;
         font-size: 18px;
@@ -239,8 +236,8 @@
     .button:hover {
         background-color:#E5A763;
         ;
-      }
-      .button:active{
+    }
+    .button:active{
         background:#CF8433;
         transform: scale(0.98);
      /* Scaling button to 0.98 to its original size */
@@ -255,10 +252,9 @@
         display: flex;
         align-items: center;
         margin-left: 60px;
-      
+
     }
     .imgGroup{
-       
         display: flex;
         margin-left: 60px;
     }
@@ -282,12 +278,11 @@
     
     .col2:hover .background {
         pointer-events: none;
-      }
+    }
     .sec2Cont {
         width: 800px;
         height: 383px;
         background-color: white;
-       
     }
     
     .testCards{
@@ -299,12 +294,11 @@
     }
 }
 
-@media (max-width: 360px){
+@media (max-width: 480px){
     .bgh {
         background-image: url(../../assets/images/Paws\ -\ up.jpg);
         width: 360px;
         height: 811px;
-     
     }
     .mainContainer{
         width: 360px;
@@ -323,7 +317,6 @@
         margin-left: 16px;
         gap: 12px;
         align-items: center;
-       
     }
     .innerCont{
         width: 360px; 
@@ -346,7 +339,7 @@
         align-items: center;
     }
     .pText {
-       max-width: 348px;
+        max-width: 348px;
         max-height: 166px;
         font-family: Libre Baskerville;
         font-size: 12px;
@@ -394,8 +387,8 @@
     .button:hover {
         background-color:#E5A763;
         ;
-      }
-      .button:active{
+    }
+    .button:active{
         background:#CF8433;
         transform: scale(0.98);
      /* Scaling button to 0.98 to its original size */
@@ -410,7 +403,7 @@
         display: flex;
         align-items: center;
         margin-left: 0px;
-      
+
     }
     .imgGroup{
         display: flex;
@@ -436,13 +429,12 @@
     
     .col2:hover .background {
         pointer-events: none;
-      }
+    }
     .sec2Cont {
         width: 360px;
         height: 250px;
         background-color: white;
         margin-top: 33px;
-       
     }
     
     .testCards{

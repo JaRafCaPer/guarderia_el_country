@@ -1,0 +1,115 @@
+.bg {
+    background-color: #90C2E9;
+}
+.containerContacto{
+    width: 1620px;
+    height: 100%;
+    margin-left: 150px;
+    background-image: url(../../assets/images/Paws\ -\ up.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cTitulo{
+    font-size: 48px;
+    margin-top: 80px
+}
+.imgAzul{
+    width: 100px;
+    height: 100px;
+}
+
+.rs{
+    background-color: #fef2e6 ;
+    width: 848px;
+    height: 631px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10%;
+}
+
+.rs h2{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.escribinos{
+    width: 360px;
+    height: 132px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.wsp{
+    margin-right: 30px;
+    display: flex;
+    align-items:  center;
+    flex-direction: column;
+}
+
+.wsp h3{
+    font-size: 24px;
+    margin-top: 15px
+}
+
+.gmail{
+    margin-left: 30px;
+    display: flex;
+    align-items:  center;
+    flex-direction: column;
+}
+
+.gmail h3{
+    font-size: 24px;
+    margin-top: 15px
+}
+
+.redesSociales{
+    width: 524px;
+    height: 132px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.rSociales{
+    width: 100px;
+    height: 132px;
+    margin-left: 40px;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items:  center;
+    flex-direction: column;
+}
+
+.rSociales h3{
+    font-size: 24px;
+    margin-top: 15px
+}
+
+.ubicacion{
+    width: 848px;
+    height: 631px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #fef2e6;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10%;
+}
+
+.ubicacion h2{
+    font-size: 36px;
+    margin-top: 30px;
+}
+
+.ubicacion h3{
+    font-size: 20px;
+}
