@@ -85,31 +85,31 @@ const NavBar = () => {
                                 <div className="redesContainer">
                                     <ul>
                                         <li className="linkRedes">
-                                            <a href="#">
+                                            <a href="https://wa.me/541168057707">
                                                 <img src={WhatsApp} alt="Descripción de la imagen" className="iconRedes " />
                                                 <span>WhatsApp</span>
                                             </a>
                                         </li>
                                         <li className="linkRedes">
-                                            <a href="#">
+                                            <a href="https://instagram.com/guarderia.elcountry?igshid=MmIzYWVlNDQ5Yg==">
                                                 <img src={Instagram} alt="Descripción de la imagen" className="iconRedes " />
                                                 <span>Instagram</span>
                                             </a>
                                         </li>
                                         <li className="linkRedes">
-                                            <a href="#">
+                                            <a href="https://www.facebook.com/profile.php?id=100089201654528&mibextid=LQQJ4d">
                                                 <img src={Facebook} alt="Descripción de la imagen" className="iconRedes " />
                                                 <span>Facebook</span>
                                             </a>
                                         </li>
                                         <li className="linkRedes">
-                                            <a href="#">
+                                            <a href="https://www.tiktok.com/@guarderiacaninaelcountry">
                                                 <img src={Tiktok} alt="Descripción de la imagen" className="iconRedes " />
                                                 <span>Tiktok</span>
                                             </a>
                                         </li>
                                         <li className="linkRedes">
-                                            <a href="#">
+                                            <a href="mailto: guarderia.elcountry@gmail.com">
                                                 <img src={Mail} alt="Descripción de la imagen" className="iconRedes " />
                                                 <span>Mail</span>
                                             </a>
