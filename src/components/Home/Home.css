@@ -1,5 +1,6 @@
 .bgh {
-    background-color: #90C2E9;
+    background: rgba(144, 194, 233, 1);
+
 }
 .mainContainer{
     width: 1620px;

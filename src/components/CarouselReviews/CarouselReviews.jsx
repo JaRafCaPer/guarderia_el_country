@@ -21,7 +21,7 @@ const CarouselReviews = () => {
                                     <div className="image-container">
                                         <Card.Img variant="top" src={pic1} className='img' />
                                         <div>
-                                            <Card.Title className="cardTitle">Mónica Zimemermann</Card.Title>
+                                            <Card.Title className="cardTitle">Mónica Zimmermann</Card.Title>
                                             <p className="edad">56 años</p>
                                         </div>
                                     </div>
