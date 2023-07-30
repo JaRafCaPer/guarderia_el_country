@@ -213,7 +213,6 @@
   .footerContainer {
     width: 480px;
     height: 114px;
-
     background: rgba(244, 220, 193, 1);
     font-family: 'Libre Baskerville', serif;
     display: flex;
@@ -225,26 +224,31 @@
   .contLogo {
     width: 480px;
     height: 57px;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .logo{
-    margin-top: 15px;
-    margin-left: 70px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    
     width: 221px;
     height: 48px;
   }
   .redes{
     width: 480px;
     height: 57px;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
   }
   .contRedes {
     width: 212px;
     height: 24px;
     padding: 0px;
     margin: 0px;
-    margin-top: 12px;
-    margin-left: 75px;
     display: grid;
     grid-template-columns: repeat(5, 1fr); /* Sistema de grids con una fila y 5 columnas */
     gap: 1px; /* Espacio entre las cajasRedes */
