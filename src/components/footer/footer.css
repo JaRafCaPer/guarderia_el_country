@@ -211,7 +211,7 @@
     border:0;
 }
   .footerContainer {
-    width: 360px;
+    width: 480px;
     height: 114px;
 
     background: rgba(244, 220, 193, 1);
@@ -223,7 +223,7 @@
   
   /* Estilos para la columna de contLogo */
   .contLogo {
-    width: 360px;
+    width: 480px;
     height: 57px;
     
   }
@@ -234,7 +234,7 @@
     height: 48px;
   }
   .redes{
-    width: 360px;
+    width: 480px;
     height: 57px;
     
   }
