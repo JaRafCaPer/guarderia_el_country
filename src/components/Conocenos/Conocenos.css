@@ -290,7 +290,7 @@
         border:0;
     }
     .sec3{
-        width: 360px;
+        width: 480px;
         height: 630px;
         display: flex;
         flex-direction: column;
@@ -299,7 +299,7 @@
     }
     
     .contPrinc {
-        width: 360px;
+        width: 480px;
         height: 267px;
         display: flex;
         flex-direction: column;
@@ -332,7 +332,7 @@
     }
     .carrouselFotosContainer{
         display: flex;
-        width: 360px;
+        width: 480px;
         height: 178.3px;
         flex-direction: column;
         justify-content: center;
@@ -428,10 +428,10 @@
     }
     .carrouselReviews{
         display: flex;
-        width: 360px;
+        width: 480px;
         height: 188px;
         padding-bottom: 56px;
-        justify-content: flex-end;
+        justify-content: flex-start;
         align-items: center;
         
     }

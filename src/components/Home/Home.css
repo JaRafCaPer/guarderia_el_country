@@ -298,21 +298,26 @@
 @media (max-width: 480px){
     .bgh {
         background-image: url(../../assets/images/Paws\ -\ up.jpg);
-        width: 360px;
+        width: 480px;
         height: 811px;
-    }
+        display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+    
     .mainContainer{
-        width: 360px;
+        width: 480px;
         height: 811px;        
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         margin: 0px;
     }
     
     
     .sec1container{
-        width: 360px;
+        width: 480px;
         height: 495px;
         margin-top: 33px;
         margin-left: 16px;
@@ -320,7 +325,7 @@
         align-items: center;
     }
     .innerCont{
-        width: 360px; 
+        width: 480px; 
         height: 495px; 
         margin: 0px;
         display: flex;
@@ -397,7 +402,7 @@
     /* Lowering the shadow */
     }
     .col2 {
-        width: 360px;
+        width: 480px;
         max-height: 226.27px;
         margin: 0px;
         position: relative;
