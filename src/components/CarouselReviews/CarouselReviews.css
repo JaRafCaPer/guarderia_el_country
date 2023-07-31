@@ -104,14 +104,14 @@ div .col3 {
 
 @media (max-width: 480px){
     .carrusel{
-        width: 100%;
-        height: 250px;
+        width: 65.5vw;
+        height: 100%;
         overflow: hidden;
     }
     .colCard{
-        width: max-content;
+        width: 100vw;
         height: 180px;
-        overflow: hidden;
+        
     }
     .card{
         width: fit-content;

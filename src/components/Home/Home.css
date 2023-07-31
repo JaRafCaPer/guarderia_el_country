@@ -313,6 +313,7 @@
         align-items: center;
         justify-content: center;
         margin: 0px;
+        padding: 0px;
     }
     .sec1container{
         width: 100%;
@@ -331,16 +332,18 @@
         align-items: center;
     }
     .col1 {
-        width: 322px;
+        width: 100vw;
         height: 275px;
         grid-gap: 16px;
     }
     .texto {
-        width: auto;
+        width: 100vw;
         height: 275px;
         margin: 0px;
         margin-top: 0px;
         align-items: center;
+        flex-direction: column;
+        justify-content: center;
     }
     .pText {
         max-width: 100%;
@@ -353,12 +356,12 @@
         letter-spacing: 0em;
         text-align: center;
         margin: 0px;
-        margin: 20px 46px;
+        margin: 20px 16px;
     }
     .titulo {
         max-width: 100%;
         max-height: 23px;
-        margin: 10.73px 110px 6px;
+        margin: 0px;
         font-family: Libre Baskerville;
         font-size: 24px;
         font-weight: 700;
@@ -422,7 +425,7 @@
     }
     
     .imgPerro{
-        width: 202px;
+        width: auto;
         height: 220px;
         margin: 0px;
         object-fit: cover; /* Ajusta el tamaño de la imagen para que cubra el contenedor */

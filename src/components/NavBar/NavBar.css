@@ -211,23 +211,23 @@
 
 @media (max-width: 480px) {
     .nav1{
-        width:100%;
+        width:100vw;
         height: 56px;
         display: flex;
         flex-direction: row;
     }
     
     .logoT{
-        width: 100%;
+        width: 100vw;
         height: 56px;
     }
     .containerRow{
-        width: auto;
+        width: 100vw;
         height: 56px;
         align-items: center;
     }
     .logos {
-        width: max-content;
+        width: 100vw;
         margin-top: 20px;
     }
     .lDog{
@@ -247,44 +247,46 @@
     }
     
     .logoN{
-        width: 120px;
+        width: 100%;
         height: 21px;
         margin: 0px;
-        margin-left: 70px;
+        align-content: center;
     }
     .colLogo2{
-        margin-right: 30px;
-
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
     }
     .todo{
-        justify-content: end;
-        max-width: 258px;
-        max-height: 800px;
+        justify-content: flex-start;
+        max-width: 100%;
+        max-height: 100vh;
         margin: 0px;
         font-family: 'Libre Baskerville', serif;
-        font-size: 22px;
+        font-size: 14px;
     }
     
     .custom-offcanvas {
-        width: 258px !important;
-        height: 800px;
+        width: 70vw !important;
+        height: 100vh;
     }
     .bloque {
             display: grid;
             grid-template-rows: repeat(4, 48px);
             grid-template-columns: 1fr;
-            width: 376px;
-            height: 192px;
-            margin: 0px;
+            width: 40vw;
+            height: 120px;
+            margin: 34px 20px;
             margin-top: 34px;
             
         
         }
     .navLink{
-        width: 234px;
-        height: 48px;
+        width: 40vw;
+        height: 30px;
         margin: 0px;
-        margin-left: 0px;
         gap: 10px;
     
     }
@@ -294,7 +296,7 @@
         margin: 0;
         padding-top: 15px;
         transition: all 0.3s ease;
-        margin-right: 10px;
+        
         
     }
     .navLink:hover{
@@ -304,8 +306,8 @@
 
         color: black;
         border-radius: 160px;
-        width: 234px ;
-        height: 48px;
+        width: 100%;
+        height: 30px;
         padding-top: 5px;
         padding-bottom: 5px;
         padding-left: 10px;
@@ -326,7 +328,7 @@
         padding-left: 10px;
     }
     .iconRedes{
-        width: 24px;
-        height: 24px;
+        width: 15px;
+        height: 15px;
     }
 }

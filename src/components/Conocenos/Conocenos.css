@@ -295,7 +295,7 @@
         width: 100%;
     }
     .sec3{
-        width: auto;
+        width: 100vw;
         height: 630px;
         display: flex;
         flex-direction: column;
@@ -305,20 +305,20 @@
     }
     
     .contPrinc {
-        width: auto;
+        width: 100vw;
         height: 267px;
         display: flex;
         flex-direction: column;
         margin: 0px;
     }
     .cabeza{
-        width: 124px;
+        width: 100vw;
         height: 25px;
-        margin-top: 40px;
-        margin-left: 100px;
+        margin: 40px 0px;
         display: flex;
         flex-direction: row;
         align-items: center;
+        justify-content: center;
     }
     .lperroAzul{
         width: 39.4px;
@@ -338,7 +338,7 @@
     }
     .carrouselFotosContainer{
         display: flex;
-        width: auto;
+        width: 100vw;
         height: 178.3px;
         flex-direction: column;
         justify-content: center;
@@ -352,15 +352,18 @@
      display: flex;
      gap: 8px;
      margin-left: 5px;
+     width: 60vw;
     }
     .slide2{
         margin: 0px;
-        width: 328px;
+        width: 100vw;
         height: 130px;
     }
-    
+    .image-container2{
+        
+    }
     .imgCar{
-        width: 193.327px;
+        width: 58vw;
         height: 129px;
         flex-shrink: 0;
         border-radius: 20.253px;
@@ -369,21 +372,21 @@
     }
     
     .colCar{
-        width: 46.03px;
+        width: 24.82%;
         height: 129px;
         flex-shrink: 0;
         border-radius: 27.618px;
         background: #FFF;
         box-shadow: 0px 1.4729667901992798px 7.364834785461426px 0px rgba(0, 0, 0, 0.07);
         overflow: hidden;
-        transition: all 0.7s ease;  
+        transition: all 0.9s ease;  
     }
     
     .colCar1{
        display: none;
     }
     .colCar2{
-        width: 66.283px;
+        width: 30.285%;
         height: 129px;
         flex-shrink: 0;
         border-radius: 20.253px;
@@ -393,7 +396,7 @@
         transition: all 0.7s ease;
     }
     .colCar3{
-        width: 66.283px;
+        width: 34.285%;
         height: 129px;
         flex-shrink: 0;
         border-radius: 20.253px;
@@ -406,7 +409,7 @@
         display: none; 
     }
     .colCarT {
-        width: 193.327px;
+        width: fit-content;
         height: 129px;
         flex-shrink: 0;
         border-radius: 20.253px;
@@ -434,7 +437,7 @@
     }
     .carrouselReviews{
         display: flex;
-        width:  auto;
+        width:  100vw;
         height: 188px;
         flex-direction: row;
         align-items: center;
