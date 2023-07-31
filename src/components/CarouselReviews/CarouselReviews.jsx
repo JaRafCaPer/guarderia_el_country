@@ -15,12 +15,12 @@ const CarouselReviews = () => {
             <div className='carrusel'>
                 <Carousel data-bs-theme="while" className="slide" data-bs-interval="1000">
                     <Carousel.Item>
-                        <Row className='justify-content-center'>
+                        <Row className='rowCar justify-content-center'>
                             <Col className='col3'>
                                 <Card className='card'>
                                     <div className="image-container">
                                         <Card.Img variant="top" src={pic1} className='img' />
-                                        <div>
+                                        <div className="nameTag">
                                             <Card.Title className="cardTitle">Mónica Zimmermann</Card.Title>
                                             <p className="edad">56 años</p>
                                         </div>
@@ -37,7 +37,7 @@ const CarouselReviews = () => {
                                 <Card >
                                     <div className="image-container">
                                         <Card.Img variant="top" src={pic2} className='img' />
-                                        <div>
+                                        <div className="nameTag">
                                             <Card.Title className="cardTitle">Nara Penerbosa</Card.Title>
                                             <p className="edad">33 años</p>
                                         </div>
@@ -55,7 +55,7 @@ const CarouselReviews = () => {
                                 <Card >
                                     <div className="image-container">
                                         <Card.Img variant="top" src={pic3} className='img' />
-                                        <div>
+                                        <div className="nameTag">
                                             <Card.Title className="cardTitle">Camila Strack</Card.Title>
                                             <p className="edad">30 años</p>
                                         </div>
@@ -73,12 +73,12 @@ const CarouselReviews = () => {
                         </Row>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <Row className='justify-content-center'>
+                        <Row className='rowCar justify-content-center'>
                             <Col className='col3'>
                                 <Card >
                                     <div className="image-container">
                                         <Card.Img variant="top" src={pic4} className='img' />
-                                        <div>
+                                        <div className="nameTag">
                                             <Card.Title className="cardTitle">Andrea Truszkowski</Card.Title>
                                             <p className="edad">47 años</p>
                                         </div>
@@ -111,8 +111,8 @@ const CarouselReviews = () => {
                                 <Card >
                                     <div className="image-container">
                                         <Card.Img variant="top" src={pic6} className='img' />
-                                        <div>
-                                            <Card.Title className="cardTitle">María Inés Padula</Card.Title>
+                                        <div className="nameTag">
+                                            <Card.Title className="cardTitle">María Padula</Card.Title>
                                             <p className="edad">58 años</p>
                                         </div>
                                     </div>
