@@ -338,9 +338,10 @@
 @media (max-width: 480px) {
     .bg {
         background-color: #90C2E9;
+        width: 100vw;
     }
     .containerContacto{
-        width: 480px;
+        width: 100vw;
         height: 100%;
         margin: 0px;
         background-image: url(../../assets/images/Paws\ -\ up.jpg);
@@ -367,7 +368,7 @@
     
     .rs{
         background-color:  #fef2e6;
-        width: 437px;
+        width: 91vw;
         height: 560px;
         display: flex;
         align-items: center;
@@ -406,7 +407,7 @@
 
     }
     .escribinos{
-        width: 332px;
+        width: 69.16vw;
         height: 152px;
         display: flex;
         flex-direction: column;
@@ -453,19 +454,21 @@
     }
     
     .redesSociales{
-        width: 332px;
+        width: 69.16vw;
         height: 206px;
+        margin: 0px;
         display: flex;
         flex-direction: column;
-        flex:start;
-        margin-right: 18px;
+        align-items: flex-start;
+       justify-content: center;
     }
     
     .rSociales{
-        width: 158px;
+        width: 32.9166vw;
         height: 48px;
+        margin: 24px 15vw 10px;
         margin-top: 24px;
-        align-items:  center;
+        align-items: center;
         flex-direction: row;
     }
     
@@ -481,7 +484,7 @@
     }
     
     .ubicacion{
-        width: 437px;
+        width: 91.04vw;
         height: 437px;
         margin-top: 27px;
         margin-bottom: 28px;
@@ -505,7 +508,7 @@
         flex-direction: column;
     }
     .MAP {
-        width: 437px;
+        width: 91.0416vw;
         height: 298.5px;
     }
     .ubicacion h3{
