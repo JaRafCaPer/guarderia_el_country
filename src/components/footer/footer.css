@@ -212,7 +212,7 @@
     border:0;
 }
   .footerContainer {
-    width: 480px;
+    width:auto;
     height: 114px;
     background: rgba(244, 220, 193, 1);
     font-family: 'Libre Baskerville', serif;
@@ -223,7 +223,7 @@
   
   /* Estilos para la columna de contLogo */
   .contLogo {
-    width: 480px;
+    width: fit-content;
     height: 57px;
     display: flex;
     align-items: center;
@@ -238,7 +238,7 @@
     height: 48px;
   }
   .redes{
-    width: 480px;
+    width: fit-content;
     height: 57px;
     display: flex;
     align-items: center;

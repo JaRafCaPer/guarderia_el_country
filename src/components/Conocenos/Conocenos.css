@@ -291,17 +291,21 @@
         padding:0;
         border:0;
     }
+    .bgC {
+        width: 100%;
+    }
     .sec3{
-        width: 480px;
+        width: auto;
         height: 630px;
         display: flex;
         flex-direction: column;
         margin-left: 0px;
+        align-items: center;
         
     }
     
     .contPrinc {
-        width: 480px;
+        width: auto;
         height: 267px;
         display: flex;
         flex-direction: column;
@@ -311,7 +315,7 @@
         width: 124px;
         height: 25px;
         margin-top: 40px;
-        margin-left: 160px;
+        margin-left: 100px;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -334,7 +338,7 @@
     }
     .carrouselFotosContainer{
         display: flex;
-        width: 480px;
+        width: auto;
         height: 178.3px;
         flex-direction: column;
         justify-content: center;
@@ -415,7 +419,7 @@
         width: 166px;
         height: 24px;
         justify-content: center;
-        margin: 27px 160px 27px;
+        margin: 27px 100px 27px;
         text-align: center;
         font-family: 'Libre Baskerville';
         font-style: normal;
@@ -430,7 +434,7 @@
     }
     .carrouselReviews{
         display: flex;
-        width:  fit-content;
+        width:  auto;
         height: 188px;
         flex-direction: row;
         align-items: center;

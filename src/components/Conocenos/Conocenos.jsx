@@ -17,7 +17,7 @@ const Conocenos = () => {
 
     return (
         <>
-        <div className='bg'>
+        <div className='bgC'>
         <div className='sec3'>
             <div className='contPrinc'>
                 <div className='cabeza'>

@@ -211,24 +211,23 @@
 
 @media (max-width: 480px) {
     .nav1{
-        width: 480px;
+        width:auto;
         height: 56px;
-        display: grid;
-        grid-template-rows: 1fr;
-        grid-template-columns: 1fr 2fr;
+        display: flex;
+        flex-direction: row;
     }
     
     .logoT{
-        width: 480px;
+        width: 100%;
         height: 56px;
     }
     .containerRow{
-        width: 480px;
+        width: auto;
         height: 56px;
         align-items: center;
     }
     .logos {
-        width: 480px;
+        width: max-content;
         margin-top: 20px;
     }
     .lDog{
