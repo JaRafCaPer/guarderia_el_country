@@ -15,21 +15,24 @@
     flex-direction: column;
     margin-left: 150px;
     background-color: white;
+    align-items: center;
+    
 }
 
 .contPrinc {
-    width: 1323px;
+    width: 1320px;
     height: 480px;
-    margin: 10px 149px 52px;
+    margin: 10px 0px 52px;
     display: flex;
     flex-direction: column;
+    
     
 }
 .cabeza{
     width: 375px;
     height: 68px;
     margin-top: 82px;
-    margin-left: 420px;
+    margin-left: 535px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -55,6 +58,7 @@
     width: 1323px;
     height: 389px;
     margin-top: 40px;
+    margin-left: 120px;
    
 }
 .carrouselFotos{
