@@ -15,27 +15,24 @@
     flex-direction: column;
     margin-left: 150px;
     background-color: white;
-    align-items: center;
-    
 }
 
 .contPrinc {
-    width: 1320px;
+    width: 1323px;
     height: 480px;
-    margin: 10px 0px 52px;
+    margin: 10px 149px 52px;
     display: flex;
     flex-direction: column;
-    
     
 }
 .cabeza{
     width: 375px;
     height: 68px;
     margin-top: 82px;
-    margin-left: 535px;
+    margin-left: 480px;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
 }
 .lperroAzul{
     width: 107px;
@@ -57,13 +54,14 @@
 .carrouselFotosContainer{
     width: 1323px;
     height: 389px;
-    margin-top: 40px;
-    margin-left: 120px;
-   
+    margin: 40px 60px;
 }
 .carrouselFotos{
- display: flex;
- gap: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    gap: 8px;
 }
 .slide2{
     margin: 0px;
@@ -135,12 +133,12 @@
     display: none;
 }
 .carrouselReviews{
-    display: flex;
-    width: 1335px;
+    width: fit-content;
     height: 360px;
-    padding: 90px 0px 39px 7px;
-    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
     align-items: center;
+   margin: auto;
 }
 
 
