@@ -172,7 +172,7 @@
         margin-left: 317px;
         display: flex;
         flex-direction: row;
-        align-items: flex-start;
+        align-items: center;
     }
     .lperroAzul{
         width: 63px;
@@ -277,12 +277,12 @@
         line-height: 30px;
     }
     .carrouselReviews{
-        display: flex;
-        width: 800px;
+        width: fit-content;
         height: 360px;
-        padding: 111px 0px 0px 55px;
-        justify-content: flex-end;
+        display: flex;
+        flex-direction: row;
         align-items: center;
+        margin: auto;
     }
 }
 @media (max-width: 480px){
@@ -311,10 +311,10 @@
         width: 124px;
         height: 25px;
         margin-top: 40px;
-        margin-left: 118px;
+        margin-left: 160px;
         display: flex;
         flex-direction: row;
-        align-items: flex-start;
+        align-items: center;
     }
     .lperroAzul{
         width: 39.4px;
@@ -415,7 +415,7 @@
         width: 166px;
         height: 24px;
         justify-content: center;
-        margin: 27px 100px 27px;
+        margin: 27px 160px 27px;
         text-align: center;
         font-family: 'Libre Baskerville';
         font-style: normal;
@@ -430,11 +430,11 @@
     }
     .carrouselReviews{
         display: flex;
-        width: 480px;
+        width:  fit-content;
         height: 188px;
-        padding-bottom: 56px;
-        justify-content: flex-start;
+        flex-direction: row;
         align-items: center;
+        margin: auto;
         
     }
 }
