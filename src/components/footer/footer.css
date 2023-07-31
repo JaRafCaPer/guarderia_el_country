@@ -35,17 +35,18 @@
 .redes{
   width: max-content;
   height: 282px;
+  display: flex;
+  align-items: center;
 }
 .contRedes {
   width: 483px;
   height: 80px;
-  margin-top: 99px;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  display: flex;
+  flex-direction: row;
+  flex: center;
   gap: 10px; /* Espacio entre las cajasRedes */
-  align-items: center;
-  
-  
+  align-items: end;
+  margin:50px 30px 0px 40px;
 }
 .cajaRedes{
   width: 87px;
@@ -134,10 +135,10 @@
     width: 340px;
     height: 54px;
     margin: 0px;
-    margin-top: 59px;
+    margin-top: 39px;
     padding-top: 0px;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr); /* Sistema de grids con una fila y 5 columnas */
+    display: flex;
+    flex-direction: row;
     gap: 1px; /* Espacio entre las cajasRedes */
     align-items: center;
     
@@ -173,7 +174,7 @@
     flex-direction: column;
     width: fit-content;
     height: 172px;
-    
+    margin-left: 30px;
   }
   
   .listFila {
@@ -252,9 +253,7 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr); /* Sistema de grids con una fila y 5 columnas */
     gap: 1px; /* Espacio entre las cajasRedes */
-    align-items: center;
-    
-    
+    align-items: center;    
   }
   .cajaRedes{
     width: 24px;
