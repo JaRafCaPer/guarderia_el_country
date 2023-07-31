@@ -211,7 +211,7 @@
 
 @media (max-width: 480px) {
     .nav1{
-        width:auto;
+        width:100%;
         height: 56px;
         display: flex;
         flex-direction: row;
