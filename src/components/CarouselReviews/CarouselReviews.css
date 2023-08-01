@@ -112,12 +112,12 @@ div .col3 {
         overflow-inline:scroll ;
     }
     .card{
-        width: fit-content;
-        height: fit-content;
+        width: 135px;
+        height: 185px;
         text-overflow: clip;
     }
     .cardText{
-        width: fit-content;
+        width: 110px;
         height: fit-content;
         font-size: xx-small;
         text-overflow: unset;
