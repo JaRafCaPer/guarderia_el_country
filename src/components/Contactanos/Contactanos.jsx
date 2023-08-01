@@ -35,11 +35,11 @@ const Contactanos = () => {
                                 </a>
                                 <a className="rSociales" href="https://www.facebook.com/profile.php?id=100089201654528&mibextid=LQQJ4d" target="_blank">
                                     <img src={facebookAzul} alt="" className="imgAzul"/>
-                                    <h3>Facebook</h3>
+                                    <h3>Facebook&#160;</h3>
                                 </a>
                                 <a className="rSociales" href="https://www.tiktok.com/@guarderiacaninaelcountry" target="_blank">
                                     <img src={tiktokAzul} alt="" className="imgAzul"/>
-                                    <h3>TikTok</h3>
+                                    <h3>TikTok&#160;&#160;&#160;&#160;&#160;</h3>
                                 </a>
                         </div>
                     </div>
