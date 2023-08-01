@@ -735,7 +735,9 @@
         height: 100%;
         align-content: start;
         justify-items: start;
-        grid-auto-columns: 480px; 
+        display: flex;
+        flex-direction: column;
+        /* grid-auto-columns: 480px; 
         grid-template-columns: 480px ; 
         grid-template-rows: 420px 450px 550px 450px 450px 450px;
         grid-gap: 10px;
@@ -745,7 +747,8 @@
         "cColBri"
         "cColEsp"
         "cColTraer"
-        "cColAdapT";
+        "cColAdapT"; */
+
     }
     .cCol,
     .cColRer,
@@ -757,22 +760,22 @@
         grid-column: 1;
     }
     .cCol {
-        width: 340px ;
+        width: 94.44vw ;
         flex-direction: column;
         justify-content: center;
         grid-area: cCol;
     }
     
     .cColRer{
-        width: 340px;
+        width: 94.44vw;
         flex-direction: column;
         justify-content: center;
         grid-area: cColRer;
     }
     
     .cColBri{
-        width: 340px;
-        height: 420px;
+        width: 94.44vw;
+        height: auto;
         flex-direction: column;
         grid-area: cColBri;
     }
@@ -782,23 +785,23 @@
     }
     
     .cColEsp{
-        width: 340px;
-        height: 500px;
+        width: 94.44vw;
+        height: auto;
         flex-direction: column;
         grid-area: cColEsp;
     }
     
     .cColTraer{
-        width: 340px;
-        height: 500px;
+        width: 94.44vw;
+        height: auto;
         display: flex;
         flex-direction: column; 
         grid-area: cColTraer;
     }
     
     .cColAdapT{
-        width: 340px;
-        height: 420px;
+        width: 94.44vw;
+        height: auto;
         flex-direction: column;
         grid-area: cColAdapT;
     }
@@ -807,30 +810,31 @@
     }
 
     .perroTablet{
-        width: 230px;
-        height: 219px;
+        width: 63.89vw;
+        height: auto;
     }
 
     .perroPhone{
         display: block;
-        width: 230px;
-        height: 219px;
+        width: 63.89vw;
+        height: auto;
     }
     .perroPhoneBeige{
         display: block;
-        width: 240px;
-        height: 300px;
+        width: 66.67vw;
+        height: auto;
         margin-left: 40px ;
     }
     .info {
-        width: 350px;
-        height: 400px;
+        width: 97.2vw;
+        height: auto;
         margin-bottom: 10px;
+        margin-top: 0px;
     }
     
     .info p{
-        width: 328px;
-        height: 120px;
+        width: 91.11vw;
+        height: auto;
         font-size: 12px;
         text-align: center;
         margin: 0;
@@ -838,28 +842,29 @@
     }
     
     .info h2{
-        width: 194px;
-        height: 30px;
+        width: 53.89vw;
+        height: auto;
         font-size: 18px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         margin-top: 25px;
     }
     .info2 {
-        width: 350px;
-        height: 450px;
+        width: 97.22vw;
+        height: auto;
         margin-left: 0px;
-        margin-bottom: 10px;  
+        margin-top: 0px;
+        margin-bottom: 0px;  
     }
     
     .info2 p{
-        width: 260px;
-        height: 120px;
+        width: 72.22vw;
+        height: auto;
         font-size: 12px;
         margin-top: 8px;
     }
     
     .info2 h2{
-        width: 200px;
+        width: 55.56vw;
         height: 30px;
         font-size: 18px;
         margin-bottom: 20px;
@@ -867,11 +872,11 @@
         padding-left: 0px;
     }
     .info3 {
-        width: 360px;
-        height: 483px;
+        width: 100vw;
+        height: auto;
         background-color: white;
         margin-left: 0px;
-        margin-top: 0px;
+        margin-top: 30px;
         padding: 0px, 0px, 0px, 0px;
         display: flex;
         align-items: center;
@@ -879,15 +884,15 @@
     }
     
     .info3 p{
-        width: 328px;
-        height: 100px;
+        width: 91.11vw;
+        height: auto;
         font-size: 14px;
         text-align: center;
         margin-top: 20px;
     }
     
     .info3 h2{
-        width: 250px;
+        width: 69.44vw;
         height: 30px;
         font-size: 22px;
         text-align: center;
@@ -897,11 +902,11 @@
     }
     
     .info4 {
-        width: 360px;
-        height: 483px;
+        width: 100vw;
+        height: auto;
         background-color: white;
         margin-left: 0px;
-        margin-top: 0px;
+        margin-top: 20px;
         padding: 0px;
         display: flex;
         align-items: center;
@@ -909,15 +914,15 @@
     }
     
     .info4 p{
-        width: 340px;
-        height: 220px;
+        width: 94.44vw;
+        height: auto;
         font-size: 12px;
         margin: 0;
         margin-top: 10px;
     }
     
     .info4 h2{
-        width: 190px;
+        width: 52.78vw;
         height: 30px;
         font-size: 18px;
         margin-bottom: 20px;
@@ -926,21 +931,21 @@
     }
     
     .infoUl{
-        width: 360px;
-        height: 530px;
+        width: 100vw;
+        height: auto;
     }
     
     .infoUl .divUl ul{
-        width: 340px;
-        height: 200px;
+        width: 94.44vw;
+        height: auto;
         font-size: 12px;
         list-style-type: disc;
         margin: 5px;
     }
     
     .infoUl h2{
-        width: 194px;
-        height: 30px;
+        width: 53.89vw;
+        height: auto;
         font-size: 18px;
         text-align: center;
         margin-bottom: 20px;
@@ -948,21 +953,23 @@
     }
     
     .info5 {
-        width: 360px;
-        height: 400px;
+        width: 100vw;
+        height: auto;
         display: flex;
+        margin-top: 30px;
+        margin-bottom: 40px;
     }
     
     .info5 p{
-        width: 340px;
-        height: 207px;
+        width: 94.44vw;
+        height: auto;
         font-size: 12px;
         margin: 0;
         margin-top: 10px;
     }
     
     .info5 h2{
-        width: 190px;
+        width: 52.78vw;
         height: 30px;
         font-size: 18px;
         margin-bottom: 30px;
