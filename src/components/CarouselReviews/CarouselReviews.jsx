@@ -7,9 +7,34 @@ import pic4 from '../../assets/images/pic4.png';
 import pic5 from '../../assets/images/pic5.png';
 import pic6 from '../../assets/images/pic6.png';
 import Card from 'react-bootstrap/Card';
-import { Carousel, Row, Col} from 'react-bootstrap';
+import { Carousel, Row, Col } from 'react-bootstrap';
+import { useState, useEffect } from 'react';
+
 
 const CarouselReviews = () => {
+
+
+    const [mediaQuery, setmediaQuery] = useState(false);
+
+    useEffect(() => {
+        const adaptar = () => {
+            if (window.innerWidth <= 480) {
+                console.log("funciona");
+                setmediaQuery(true);
+            } else {
+                console.log("es mayor a 480");
+                setmediaQuery(false);
+            }
+        };
+
+        window.addEventListener('mq', adaptar);
+        adaptar();
+
+        return () => {
+            window.removeEventListener('mq', adaptar);
+        };
+    }, []);
+
     return (
         <>
             <div className='carrusel'>
@@ -17,7 +42,7 @@ const CarouselReviews = () => {
                     <Carousel.Item>
                         <Row className='rowCar justify-content-center'>
                             <Col className='col3'>
-                                <Card className='card'>
+                                <Card >
                                     <div className="image-container">
                                         <Card.Img variant="top" src={pic1} className='img' />
                                         <div className="nameTag">
@@ -33,12 +58,13 @@ const CarouselReviews = () => {
                                     </Card.Body>
                                 </Card>
                             </Col>
+
                             <Col className='col3'>
                                 <Card >
                                     <div className="image-container">
                                         <Card.Img variant="top" src={pic2} className='img' />
                                         <div className="nameTag">
-                                            <Card.Title className="cardTitle">Nara Penerbosa</Card.Title>
+                                            <Card.Title className="cardTitle">Nara Penerbosa </Card.Title>
                                             <p className="edad">33 años</p>
                                         </div>
                                     </div>
@@ -51,8 +77,10 @@ const CarouselReviews = () => {
                                     </Card.Body>
                                 </Card>
                             </Col>
-                            <Col className='col3'>
-                                <Card >
+
+                            <Col  >
+                            {/* AQUI LA CLASE CAMBIA SI ES LA PANTALLA ES > O < A 480 */}
+                                <Card className={!mediaQuery ? 'card' : 'ocultar'} >
                                     <div className="image-container">
                                         <Card.Img variant="top" src={pic3} className='img' />
                                         <div className="nameTag">
@@ -64,7 +92,7 @@ const CarouselReviews = () => {
                                         <Card.Text className="cardText">
                                             “Haber dejado a China con las chicas fue lo mejor que hicimos. Además recibimos consejos sobre la
                                             conducta que las chicas veían día a día y nos permitió mejorar como papás de Chinita.
-                                            Super recomendables. Encima China las ama! “
+                                            Super recomendables. Encima China las ama!“
                                         </Card.Text>
                                     </Card.Body>
                                 </Card>
@@ -75,7 +103,7 @@ const CarouselReviews = () => {
                     <Carousel.Item>
                         <Row className='rowCar justify-content-center'>
                             <Col className='col3'>
-                                <Card >
+                                <Card className='card'>
                                     <div className="image-container">
                                         <Card.Img variant="top" src={pic4} className='img' />
                                         <div className="nameTag">
@@ -107,6 +135,48 @@ const CarouselReviews = () => {
                                     </Card.Body>
                                 </Card>
                             </Col>
+                            <Col >
+                            {/* AQUI LA CLASE CAMBIA SI ES LA PANTALLA ES > O < A 480 */}
+                                <Card className={!mediaQuery ? 'card' : 'ocultar'}>
+                                    <div className="image-container">
+                                        <Card.Img variant="top" src={pic6} className='img' />
+                                        <div className="nameTag">
+                                            <Card.Title className="cardTitle">María Padula</Card.Title>
+                                            <p className="edad">58 años</p>
+                                        </div>
+                                    </div>
+                                    <Card.Body>
+                                        <Card.Text className="cardText">
+                                            “Fue la primera vez de Paris, nuestra frenchie, de pasar unos dias fuera de casa. Se adapto muy fácilmente. Diariamente nos enviaban fotos y videos. Estoy muy agradecida!! es grato saber que podemos contar con la guardería.”
+                                        </Card.Text>
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+                        </Row>
+                    </Carousel.Item>
+
+{/* SI MEDIAQUERY ES TRUE SE MUESTRA ESTO, SI NO, NO  */}
+                    {mediaQuery && 
+                    <Carousel.Item className={mediaQuery ? 'ocultar' : ''}>
+                        <Row className='rowCar justify-content-center'>
+                        <Col className='col3' >
+                                <Card >
+                                    <div className="image-container">
+                                        <Card.Img variant="top" src={pic3} className='img' />
+                                        <div className="nameTag">
+                                            <Card.Title className="cardTitle">Camila Strack</Card.Title>
+                                            <p className="edad">30 años</p>
+                                        </div>
+                                    </div>
+                                    <Card.Body>
+                                        <Card.Text className="cardText">
+                                            “Haber dejado a China con las chicas fue lo mejor que hicimos. Además recibimos consejos sobre la
+                                            conducta que las chicas veían día a día y nos permitió mejorar como papás de Chinita.
+                                            Super recomendables. Encima China las ama! “
+                                        </Card.Text>
+                                    </Card.Body>
+                                </Card>
+                            </Col>
                             <Col className='col3'>
                                 <Card >
                                     <div className="image-container">
@@ -124,7 +194,8 @@ const CarouselReviews = () => {
                                 </Card>
                             </Col>
                         </Row>
-                    </Carousel.Item>
+                    </Carousel.Item>}
+
                 </Carousel>
             </div>
         </>
