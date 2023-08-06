@@ -23,7 +23,7 @@ body {
 }
 .card{
     width: 21.51vw;
-    height: 70vh;
+    height: 420px;
     border-radius: 25px;
     background-color: white;
 
@@ -138,7 +138,7 @@ text-align: left;
 }
 .card{
     width: 30.51vw;
-    height: 90vh;
+    height: 370px;
     border-radius: 25px;
     background-color: white;
 
@@ -225,7 +225,7 @@ text-align: left;
 
 @media (max-width: 480px){
     .body {
-    height: 100hv;
+    height: 500px;
     width: 100vw;
     align-items: center;
     justify-content: center;
@@ -233,7 +233,7 @@ text-align: left;
 .slideCont{
     max-width: 83.9vw;
     width: 100%;
-    height: 40vh;
+    height: 380px;
     padding: 0px 0;
 
 }
@@ -242,7 +242,7 @@ text-align: left;
 }
 .card{
     width: 31vw;
-    height: 35vh;
+    height: 350px;
     border-radius: 25px;
     background-color: white;
 
