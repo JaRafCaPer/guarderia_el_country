@@ -7,8 +7,8 @@
 }
 
 .footerContainer {
-  width: 1920px;
-  max-width: 1920px;
+  width: 100vw;
+  max-width: 100vw;
   height: 100%;
   max-height: 282px;
   background: rgba(244, 220, 193, 1);
@@ -39,7 +39,7 @@
   align-items: center;
 }
 .contRedes {
-  width: 483px;
+  width: 25.15625vw;
   height: 80px;
   display: flex;
   flex-direction: row;
@@ -76,13 +76,13 @@
 .listPag {
   display: flex;
   flex-direction: column;
-  width: 700px;
+  width: 36.45833vw;
   height: 282px;
   
 }
 
 .listFila {
-  width: 184px;
+  width: 9,583333333333333vw;
   height: 180px;
   display: flex;
   flex-direction: column;
@@ -94,7 +94,7 @@
 }
 
 .listNav {
-  width: 184px;
+  width: 9,583333333333333vw;
   height: 23.38px;
   padding: 0px;
   margin: 0px;
@@ -108,12 +108,12 @@
 /* Media query for tablet devices */
 @media (max-width: 768px) {
   .footerContainer {
-    width: 800px;
+    width: 100vw;
     height: 100%;
     max-height: 172px;
     background: rgba(244, 220, 193, 1);
     font-family: 'Libre Baskerville', serif;
-    font-size: 12px;
+    font-size: 9px;
   }
   
   /* Estilos para la columna de contLogo */
@@ -124,7 +124,7 @@
   .logo{
     margin-top: 48px;
     margin-left: 28px;
-    width: 132px;
+    width: 17.1875vw;
     height: 53px;
   }
   .redes{
@@ -132,7 +132,7 @@
     height: 172px;
   }
   .contRedes {
-    width: 340px;
+    width: 44.2708vw;
     height: 54px;
     margin: 0px;
     margin-top: 39px;
@@ -145,7 +145,7 @@
     
   }
   .cajaRedes{
-    width: 66px;
+    width: 8.59375vw;
     height: 54px;
     
   }
@@ -154,16 +154,16 @@
     
   }
   .iconosRedes {
-    width: 29.333332061767578px;
-    height: 29.333332061767578px;
-    margin: 0px 19.5px 8px 19.5px;
+    width: 3.8194vw;
+    height: 3.8194vw;
+    margin: 0px 1.5vh 8px 1.5vh;
   }
   .nombreRedes{
-    width: 66px;
+    width: 8.59375vw;
     height: 20px;
     font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0.10000000149011612px;
+    line-height: 10px;
+    letter-spacing: 0;
     text-align: center;
     color: black;
     text-decoration: none;
@@ -174,7 +174,7 @@
     flex-direction: column;
     width: fit-content;
     height: 172px;
-    margin-left: 30px;
+    margin-left: 0px;
   }
   
   .listFila {
@@ -184,13 +184,13 @@
     align-items: left;
     margin-top: 28px;
     font-size: 12px;
-    width: 133px;
+    width: 17.3177vw;
     height: 150px;
-    margin-left: 45px;
+    margin-left: 25px;
   }
   
   .listNav {
-    width: 113px;
+    width: 14.7135vw;
     height: 20px;
     padding: 0px;
     margin-bottom: 12px;
@@ -212,7 +212,7 @@
     border:0;
 }
   .footerContainer {
-    width: 100%;
+    width: 100vw;
     height: 114px;
     background: rgba(244, 220, 193, 1);
     font-family: 'Libre Baskerville', serif;
@@ -233,8 +233,7 @@
     margin: 0px;
     display: flex;
     align-items: center;
-    
-    width: 221px;
+    width: 28.7760vw;
     height: 48px;
   }
   .redes{
@@ -246,7 +245,7 @@
   
   }
   .contRedes {
-    width: 212px;
+    width: 44.1667vw;
     height: 24px;
     padding: 0px;
     margin: 0px;

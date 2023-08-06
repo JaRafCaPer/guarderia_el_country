@@ -1,157 +1,332 @@
-.carrusel{
-    display: flex;
-    justify-content: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Belleza';
-    text-align: left;
-
+    
 }
-
-.slide{
-    width: 1200px;
-    height: 300px;
-    margin-top: 20px ;
-    margin-bottom: 20px;
-    display: flex;
+body {
+    min-height: 100hv;
+    min-width: 100vw;
     align-items: center;
+    justify-content: center;
 }
+.slideCont{
+    max-width: 83.9vw;
+    width: 100%;
+    
+    padding: 40px 0;
 
-div .col3 {
-    width: 113px !important;
-    height: 300px;
-    grid-gap: 10px;
 }
-
-.colCard{
-    width: 290px;
+.slideContent{
+    margin: 0 10px ;
 }
 .card{
-    width: 350px;
-    height: 290px;
-    border-radius: 30px ;
-}
+    width: 21.51vw;
+    border-radius: 25px;
+    background-color: white;
 
-.image-container {
+}
+.imageContent,
+.cardContent{
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
 }
-
-.cardTitle{
-    margin: 10px;
-    margin-top: 32px;
+.imageContent{
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
 }
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(244, 220, 193, 1);
+    border-radius: 25px 25px 0 25px;
 
-.edad{
-    color: #CF8433;
-    margin: 10px;
-    height: 21px;
-    font-weight: 700;
 }
-
-.img {
-    width: 73px;
+.overlay::before,
+.overlay::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background: rgba(244, 220, 193, 1);
+    
+}
+.overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: white;
+}
+.cardImage{
+    position: relative;
+    width: auto;
     height: auto;
-    margin: 15px;
+    border-radius: 50%;
+    background: white;
+    padding: 3px;
 }
-
-.cardText{
-    width: 310px;
-    height: 185px;
-    margin-bottom: 3px;
+.cardImage .cardImg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
 }
-
-.carousel-control-prev,
-.carousel-control-next {
-    width: 30px;
-    height: 30px;
-    color: black;
+.name{
+    font-family: 'Libre Baskerville';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
 }
-
+.edad{
+    color:rgba(207, 132, 51, 1);
+    font-family: 'Libre Baskerville';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: justified;
+}
+.description{
+font-family: 'Belleza';
+font-size: 20px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+}
+.button2{
+    border: none;
+    font-size: 16px;
+    color:white;
+    padding: 8px 16px;
+    background-color: blue;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+.button2:hover{
+    background: lightseagreen;
+}
 /* Media query for tablets */
 @media (max-width: 768px){
-.carrusel{
-    width: 800px;
+   body {
+    min-height: 100hv;
+    min-width: 100vw;
+    align-items: center;
+    justify-content: center;
 }
-.colCard{
-    width: 250px;
-    height: 300px;
+.slideCont{
+    max-width: 83.9vw;
+    width: 100%;
+    
+    padding: 40px 0;
+
+}
+.slideContent{
+    margin: 0 10px ;
 }
 .card{
-    width: 250px;
-    height: 300px;
-}
-.cardText{
-    width: 232px;
-    height: 171px;
-    font-size: 15px;
-}
-.image-container {
-    display: flex;
-    justify-content: flex-start;
-}
+    width: 30.51vw;
+    border-radius: 25px;
+    background-color: white;
 
-.cardTitle{
-    font-size: 15px;
+}
+.imageContent,
+.cardContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+.imageContent{
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(244, 220, 193, 1);
+    border-radius: 25px 25px 0 25px;
+
+}
+.overlay::before,
+.overlay::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 10px;
+    background: rgba(244, 220, 193, 1);
+    
+}
+.overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: white;
+}
+.cardImage{
+    position: relative;
+    height: auto;
+    height: auto;
+    border-radius: 50%;
+    background: white;
+    padding: 3px;
+}
+.cardImage .cardImg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.name{
+    font-family: 'Libre Baskerville';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 .edad{
-    margin: 8px;
-    height: 20px;
+    color:rgba(207, 132, 51, 1);
+    font-family: 'Libre Baskerville';
     font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: justified;
 }
-.carousel-indicators{
-    display: none;
+.description{
+font-family: 'Belleza';
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
 }
+
 }
 
 @media (max-width: 480px){
-    .carrusel{
-        width: 100vw;
-        height: 250px;
-        overflow-x:scroll;
-        overflow-y: scroll;
-        overflow-wrap: normal;
-        overflow-inline:scroll ;
-    }
-    .card{
-        width: fit-content;
-        height: fit-content;
-        text-overflow: clip;
-    }
-    .cardText{
-        width: fit-content;
-        height: fit-content;
-        font-size: xx-small;
-        text-overflow: unset;
-    }
-    .image-container {
-        width: 30px;
-        height: 30px;
-        display: flex;
-        justify-content: flex-start;
-    }
-    .img {
-        width: 32px;
-        height: 32px;
-        margin: 8px 0px 6px 10px;
-    }
-    .nameTag{
-        width: 70px;
-        height: 58px;
-    }
-    .cardTitle{
-        font-size: 10px;
-        margin: 0px;
-        margin-top: 6px;
-        margin-left: 10px;
-    }
+    body {
+    height: 100hv;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+.slideCont{
+    max-width: 83.9vw;
+    width: 100%;
+    height: 65vh;
+    padding: 0px 0;
 
-    .edad{
-        height: 20px;
-        font-size: 8px;
-        margin: 2px 10px;
-        white-space: nowrap;
-        
-    }
-    .carousel-indicators{
-        display: none;
-    }
+}
+.slideContent{
+    margin: 0 3% ;
+}
+.card{
+    width: 31vw;
+    height: 43%;
+    border-radius: 25px;
+    background-color: white;
+
+}
+.imageContent,
+.cardContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+    
+}
+.imageContent{
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(244, 220, 193, 1);
+    border-radius: 25px 25px 0 25px;
+
+}
+.overlay::before,
+.overlay::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 10px;
+    background: rgba(244, 220, 193, 1);
+    
+}
+.overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: white;
+}
+.cardImage{
+    position: relative;
+    width: 48px;
+    height: auto;
+    border-radius: 50%;
+    background: white;
+    padding: 3px;
+}
+.cardImage .cardImg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.cardContent{
+    text-overflow: ellipsis;
+}
+.name{
+    font-family: 'Libre Baskerville';
+    font-size: 8px;
+    font-weight: 700;
+    line-height: 8px;
+    letter-spacing: 0em;
+    text-align: left;
+    white-space:normal;
+    width: 100%;
+    height: 100%;
+}
+.edad{
+    color:rgba(207, 132, 51, 1);
+    font-family: 'Libre Baskerville';
+    font-size: 8px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align:justify;
+    margin: 0;
+}
+.description{
+    font-family: 'Belleza';
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
 }
