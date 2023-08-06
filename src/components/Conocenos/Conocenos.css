@@ -307,7 +307,7 @@
     }
     .sec3{
         width: 100vw;
-        height: 100%;
+        height: 80vh;
         display: flex;
         flex-direction: column;
         margin-left: 0px;
@@ -319,6 +319,7 @@
         width: 100vw;
         height: 60%;
         display: flex;
+        justify-items: flex-start;
         flex-direction: column;
         margin: 0px;
     }
@@ -431,7 +432,7 @@
         width: 34.58vw;
         height: 5vw;
         justify-content: center;
-        margin: 12.625vw 10.83vw 6vw;
+        margin: 2.625vw 10.83vw 6vw;
         text-align: center;
         font-family: 'Libre Baskerville';
         font-style: normal;
@@ -446,8 +447,8 @@
     }
     .carrouselReviews{
         display: flex;
+        height: auto;
         width:  100vw;
-        height: 80vh;
         align-items: flex-start;
         margin: 0;
         
