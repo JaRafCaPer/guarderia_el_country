@@ -7,7 +7,7 @@ import pic4 from '../../assets/images/pic4.png';
 import pic5 from '../../assets/images/pic5.png';
 import pic6 from '../../assets/images/pic6.png';
 
-import React, { useRef, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -23,6 +23,29 @@ import { Autoplay, FreeMode, Pagination } from 'swiper/modules';
 
 
 const CarouselReviews = () => {
+
+
+    const [mediaQuery, setmediaQuery] = useState(false);
+
+    useEffect(() => {
+        const adaptar = () => {
+            if (window.innerWidth <= 480) {
+                console.log("funciona");
+                setmediaQuery(true);
+            } else {
+                console.log("es mayor a 480");
+                setmediaQuery(false);
+            }
+        };
+
+        window.addEventListener('mq', adaptar);
+        adaptar();
+
+        return () => {
+            window.removeEventListener('mq', adaptar);
+        };
+    }, []);
+
     return (
         <>
 

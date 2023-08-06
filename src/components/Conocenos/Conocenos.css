@@ -326,7 +326,7 @@
         width: 100vw;
         height: 25px;
         margin: 0px;
-        margin-bottom: 30px;
+        margin: 30px;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -431,7 +431,7 @@
         width: 34.58vw;
         height: 5vw;
         justify-content: center;
-        margin: 12.625vw 20.83vw 0px;
+        margin: 12.625vw 10.83vw 6vw;
         text-align: center;
         font-family: 'Libre Baskerville';
         font-style: normal;
@@ -447,7 +447,7 @@
     .carrouselReviews{
         display: flex;
         width:  100vw;
-        height: 100vw;
+        height: 80vh;
         align-items: flex-start;
         margin: 0;
         

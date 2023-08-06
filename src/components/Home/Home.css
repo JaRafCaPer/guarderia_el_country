@@ -336,12 +336,12 @@
         width: 100%;
         height: 100%;
         margin-top: 33px;
-        margin-left: 16px;
+        margin-left: 0px;
         gap: 12px;
         align-items: center;
     }
     .innerCont{
-        width: 100%; 
+        width: 100vw; 
         height: 100%; 
         margin: 0px;
         display: flex;
@@ -358,6 +358,7 @@
         height: 100%;
         margin: 0px;
         margin-top: 0px;
+        margin-left: 0px;
         align-items: center;
         flex-direction: column;
         justify-content: center;
@@ -390,7 +391,7 @@
     }
     .contButton{
         width: 100vw;
-        align-items: center;
+        align-items: flex-start;
         margin: 0px 0px 0px;
         
     }
@@ -422,12 +423,12 @@
     /* Lowering the shadow */
     }
     .col2 {
-        width: 100%;
-        height: 30vh;
+        width: 80vw;
+        height: 50vh;
         margin: 0px;
         position: relative;
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         margin-left: 0px;
 
     }
@@ -440,13 +441,14 @@
         height: 46.842vw;
         margin: 0px;
         margin-left: 10px;
-        margin-top: 0px;
+        margin-top: 73px;
     }
     
     .imgPerro{
         width: 60vw;
         height: 55vw;
         margin: 0px;
+        margin-top: 27px;
         object-fit: cover; /* Ajusta el tamaño de la imagen para que cubra el contenedor */
         position: absolute;
         align-items: center;
@@ -467,7 +469,7 @@
     
     .testCards{
         width: 100%;
-        height: 100%;
+        height: 80vh;
         margin: 0px;
         margin-bottom: 0px;
         
