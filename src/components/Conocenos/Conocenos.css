@@ -10,7 +10,7 @@
 }
 .sec3{
     width: 84.375vw;
-    height: 980px;
+    height: 100vw;
     display: flex;
     flex-direction: column;
     margin-left: 150px;
@@ -20,7 +20,7 @@
 .contPrinc {
     width: 68.906vw;
     height: 480px;
-    margin: 10px 149px 52px;
+    margin: 10px 7.5vw 52px;
     display: flex;
     flex-direction: column;
     
@@ -29,7 +29,7 @@
     width: 19.53125vw;
     height: 68px;
     margin-top: 82px;
-    margin-left: 480px;
+    margin-left: 35%;
     display: flex;
     flex-direction: row;
     align-items: center;
