@@ -28,7 +28,7 @@
 }
 
 .cColBri{
-    height: 100%;
+    height: 700px;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
@@ -44,15 +44,15 @@
 }
 
 .cColTraer{
-    height: 57.083vw;
+    height: 47.083vw;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
 }
 
 .cColAdapT{
-    height: 80.73vw;
-    height:60vw;
+    /* height: 65.73vw; */
+    height:55vw;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -407,15 +407,15 @@
 }
 
 .infoUl .divUl ul {
-    width: 29.22vw;
-    height: 48.76vw;
+    width: 35.22vw;
+    height: 42.76vw;
     font-size: 26px;
     list-style-type: disc;
 }
 
 .infoUl h2 {
     width: 26.04vw;
-    height: 7.34vw;
+    height: 5.34vw;
     font-size: 45px;
     text-align: center;
     margin-bottom: 1.04vw;
