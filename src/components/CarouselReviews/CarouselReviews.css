@@ -233,7 +233,7 @@ text-align: left;
 .slideCont{
     max-width: 83.9vw;
     width: 100%;
-    height: 380px;
+    height: 420px;
     padding: 0px 0;
 
 }
@@ -242,7 +242,7 @@ text-align: left;
 }
 .card{
     width: 31vw;
-    height: 350px;
+    height: 380px;
     border-radius: 25px;
     background-color: white;
 
