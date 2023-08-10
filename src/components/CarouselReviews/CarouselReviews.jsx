@@ -189,7 +189,7 @@ const CarouselReviews = () => {
                                 </div>
                             </div>
                             <div className="cardContent">
-                                 <h2 className="name">María Padula</h2>
+                                 <h2 className="name">María Ines Padula</h2>
                                  <p className="edad">58 años</p>
                                  <p className="description"> “Fue la primera vez de Paris, nuestra frenchie, de pasar unos dias fuera de casa. Se adapto muy fácilmente. Diariamente nos enviaban fotos y videos. Estoy muy agradecida!! es grato saber que podemos contar con la guardería.”</p>                    </div>
                             

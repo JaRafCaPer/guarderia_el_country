@@ -361,20 +361,20 @@
         
     }
     .carrouselFotos{
-     display: flex;
-     gap: 4px;
-     margin-left: 5px;
-     width: 60vw;
+        display: flex;
+        gap: 4px;
+        margin-left: 5px;
+        width: 60vw;
     }
     .slide2{
         margin: 0px;
         width: 100vw;
         height: 130px;
     }
-  
+
     .imgCar{
         width: 58vw;
-        height: 129px;
+        height: 145px;
         flex-shrink: 0;
         border-radius: 20.253px;
         border-radius: 35.93764877319336px;

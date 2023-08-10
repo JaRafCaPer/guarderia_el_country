@@ -14,7 +14,7 @@ const Contactanos = () => {
                 <h1 className="cTitulo">Contáctanos</h1>
                 <div className="rs">
                     <div className="colRs">
-                            <h2>Escribenos vía</h2>
+                            <h2> <strong>Escribenos vía</strong></h2>
                             <div className="escribinos">
                                 <a className="wsp" href="https://wa.me/541168057707" target="_blank">
                                     <img src={whatsAppAzul} alt="" className="imgAzul" />
@@ -27,7 +27,7 @@ const Contactanos = () => {
                             </div>
                     </div>
                     <div className="colRs">
-                            <h2>Nuestras redes Sociales</h2>
+                            <h2> <strong>Nuestras Redes Sociales</strong></h2>
                             <div className="redesSociales">
                                 <a className="rSociales" href="https://instagram.com/guarderia.elcountry?igshid=MmIzYWVlNDQ5Yg==" target="_blank">
                                     <img src={instagramAzul} alt="" className="imgAzul"/>
@@ -45,7 +45,7 @@ const Contactanos = () => {
                     </div>
                 </div>
                 <div className="ubicacion">
-                    <h2>Nos encontramos en:</h2>
+                    <h2> <strong>Nos encontramos en:</strong></h2>
                     <div className="ubiTab">
                     <img src={MAP} alt="" className="MAP"/>
                     <h3>Canning, Buenos Aires, Argentina.</h3>
