@@ -61,7 +61,7 @@
     flex-direction: row;
     align-items: center;
     margin: auto;
-    gap: 8px;
+    gap: 4px;
 }
 .slide2{
     margin: 0px;
@@ -71,14 +71,14 @@
 
 .imgCar{
     max-width: 27.3437vw;
-    height: 350px;
+    height: 36.7vh;
     border-radius: 30px;
     overflow: hidden;
 }
 
 .colCar{
     width: 6.5104vw; 
-    height: 350px;
+    height: 36.7vh;
     overflow: hidden;
     position: relative;
     border-radius: 75px;
@@ -88,7 +88,7 @@
 
 .colCar1{
     width: 9.6354vw; 
-    height: 350px;
+    height: 36.7vh;
     flex-shrink: 0;
     border-radius: 55px;
     background: #FFF;
@@ -97,7 +97,7 @@
 }
 .colCar2{
     width: 9.6354vw; 
-    height: 350px;
+    height: 36.7vh;
     flex-shrink: 0;
     border-radius: 55px;
     background: #FFF;
@@ -106,7 +106,7 @@
 }
 .colCar3{
     width: 9.6354vw; 
-    height: 350px;
+    height: 36.7vh;
     flex-shrink: 0;
     border-radius: 55px;
     background: #FFF;
@@ -115,7 +115,7 @@
 }
 .colCar4{
     width: 6.5104vw; 
-    height: 350px;
+    height: 36.7vh;
     overflow: hidden;
     position: relative;
     border-radius: 75px;
@@ -123,8 +123,8 @@
     transition: all 0.7s ease; 
 }
 .colCarT {
-    width: 27.3437vw;
-    height: 350px;
+    width: 26.11vw;
+    height: 36.7vh;
     border-radius: 55px;
     background: #FFF;
     transition: all 0.7s ease; 
