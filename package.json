@@ -17,6 +17,7 @@
     "swiper": "^10.1.0",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://guarderiaelcountry.com/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

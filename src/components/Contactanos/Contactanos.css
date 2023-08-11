@@ -83,7 +83,7 @@
 
 .gmail h3{
     font-size: 24px;
-    margin-top: 0.78vw;
+    margin-top: 1.04vw;
 }
 
 .redesSociales{
@@ -95,14 +95,13 @@
 }
 
 .rSociales{
-    width: 5.2vw;
+    width: fit-content;
     height: 6.875vw;
     margin-left: 2.08vw;
     margin-right: 2.08vw;
     margin-bottom: 1.04vw;
     margin-top: 2.08vw;
     display: flex;
-    align-items:  center;
     flex-direction: column;
     text-decoration: none;
 }
@@ -110,7 +109,6 @@
 .rSociales h3{
     font-size: 24px;
     margin-top: 1.04vw;
-    
     color: black;
 }
 

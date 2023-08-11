@@ -3,6 +3,7 @@ import './Home.css';
 import perroNaranja from '../../assets/images/Perro - Naranja.png'
 import { Image } from 'react-bootstrap';
 import CarouselReviews from '../CarouselReviews/CarouselReviews';
+import { Link } from "react-router-dom";
 
 const Home = () => {
     return (
@@ -16,13 +17,15 @@ const Home = () => {
 
                                     <h1 className='titulo'> El Country </h1>
                                     <p className='pText'>Alojamiento para perros compuesto por dos educadoras caninas y tres perritas las cuales acompañarán a tu pequeño mientras debas ausentarte.</p>
-                                    <p className='pText'>Conocenos e infórmate sobre nuestro servicio brindado con la mejor calidad y cuidado para tu perro, ¡se sentirá como en casa en todo momento!</p>
+                                    <p className='pText'>Conócenos e infórmate sobre nuestro servicio brindado con la mejor calidad y cuidado para tu perro, ¡se sentirá como en casa en todo momento!</p>
                                     <div className='contButton'>
-                                    <a className='anchor' href="/contactanos">
-                                        <button className="button">
-                                            Contactanos
-                                        </button>
-                                    </a>
+                                    
+                                        <Link className="" to="contactanos" >
+                                            <button className="button">
+                                                Contáctanos
+                                            </button>
+                                        </Link>
+                                    
                                     </div>
                                 </div>
                             </div>

@@ -14,7 +14,7 @@ const Contactanos = () => {
                 <h1 className="cTitulo">Contáctanos</h1>
                 <div className="rs">
                     <div className="colRs">
-                            <h2> <strong>Escribenos vía</strong></h2>
+                            <h2> <strong>Escribinos vía</strong></h2>
                             <div className="escribinos">
                                 <a className="wsp" href="https://wa.me/541168057707" target="_blank">
                                     <img src={whatsAppAzul} alt="" className="imgAzul" />
@@ -35,11 +35,11 @@ const Contactanos = () => {
                                 </a>
                                 <a className="rSociales" href="https://www.facebook.com/profile.php?id=100089201654528&mibextid=LQQJ4d" target="_blank">
                                     <img src={facebookAzul} alt="" className="imgAzul"/>
-                                    <h3>Facebook&#160;</h3>
+                                    <h3>Facebook</h3>
                                 </a>
                                 <a className="rSociales" href="https://www.tiktok.com/@guarderiacaninaelcountry" target="_blank">
                                     <img src={tiktokAzul} alt="" className="imgAzul"/>
-                                    <h3>TikTok&#160;&#160;&#160;&#160;&#160;</h3>
+                                    <h3>&#160;&#160;TikTok&#160;&#160;</h3>
                                 </a>
                         </div>
                     </div>
