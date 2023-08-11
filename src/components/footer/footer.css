@@ -70,7 +70,7 @@
   letter-spacing: 0.10000000149011612px;
   text-align: center;
   color: black;
-  text-decoration: none;
+  
 }
 
 .listPag {
@@ -91,6 +91,7 @@
   font-size: 18px;
   padding-bottom: 17px;
   margin-left: 290px;
+  
 }
 
 .listNav {
@@ -103,6 +104,7 @@
   line-height: 17px;
   letter-spacing: 0em;
   text-align: left;
+  text-decoration: none;
 }
 
 /* Media query for tablet devices */

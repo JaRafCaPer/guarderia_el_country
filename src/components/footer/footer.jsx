@@ -8,6 +8,7 @@ import logoInstagram from '../../assets/images/Instagram.png'
 import logoCorreo from '../../assets/images/Gmail.png'
 import logoTiktok from '../../assets/images/Tiktok.png'
 import logoFacebook from '../../assets/images/Facebook.png'
+import { Link } from "react-router-dom";
 
 
 
@@ -56,10 +57,12 @@ const Footer = () => {
         </div>
         <div className='listPag'>
         <Nav defaultActiveKey="/home" className="listFila ">
-              <Nav.Link className='listNav text-dark' href="/" >Inicio</Nav.Link>
-              <Nav.Link className='listNav text-dark' href="/nosotras"  >Sobre Nosotras</Nav.Link>
-              <Nav.Link className='listNav text-dark' href="/conocenos" >Conócenos</Nav.Link>
-              <Nav.Link className='listNav text-dark' href="/contactanos" >Contáctanos</Nav.Link>
+              
+              <Link className="listNav text-dark" to="/" >Inicio</Link>
+              <Link className="listNav text-dark" to="nosotras" >Sobre Nosotras</Link>
+              <Link className="listNav text-dark" to="conocenos" >Conócenos</Link>
+              <Link className="listNav text-dark" to="contactanos" >Contáctanos</Link>
+            
             </Nav>
           </div>
       </div>
